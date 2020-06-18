@@ -8,7 +8,7 @@
             &copy; <strong><span>Lce-ci</span></strong>. 2020
         </div>
         <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
         </div>
 

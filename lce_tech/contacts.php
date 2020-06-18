@@ -2,7 +2,7 @@
 
 <main id="main">
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title">

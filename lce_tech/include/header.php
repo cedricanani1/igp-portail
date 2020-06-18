@@ -49,7 +49,7 @@
                             <li>
                                 <div class="mail">
                                     <i class="fa fa-envelope" style="color:white;"></i>
-                                    <a href="mailto:locomotive@gmail.com" style="color:white;"><b>locomotivesarl@gmail.com</b></a>
+                                    <a href="mailto:hotline@lce-ci.com" style="color:white;"><b>hotline@lce-ci.com</b></a>
                                 </div>
                             </li>
                         </ul>
