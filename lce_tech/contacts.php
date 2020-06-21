@@ -28,7 +28,7 @@
                 <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-envelope"></i>
                   <h3>Email</h3>
-                  <p>locomotivesarl@gmail.com</p>
+                  <p>hotline@lce-ci.com</p>
                 </div>
               </div>
               <div class="col-md-6">
