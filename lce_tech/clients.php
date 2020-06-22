@@ -8,39 +8,39 @@
             </div>
 
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up">
-            <div class="col-lg-6">        
-                <h4>Opérateurs économiques.</h4>
-            </div>
-            <div class="col-lg-6">
-                <h4>Institutions étatiques</h4>
-            </div>
+                <div class="col-lg-6">
+                    <h3>Opérateurs économiques.</h3>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <h3>Institutions étatiques</h3>
+                </div>
             </div>
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6">
-                    <h4>Institutions internationales</h4>
+                    <h3>Institutions internationales</h3>
                 </div>
-                <div class="col-lg-6">
-                    <h4>Organisations non gouvernementales</h4>
+                <div class="col-lg-6 text-right">
+                    <h3>Organisations non gouvernementales</h3>
                 </div>
             </div>       
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6">
-                    <h4>Etablissements Financiers</h4>
+                    <h3>Etablissements Financiers</h3>
                 </div>
-                <div class="col-lg-6">
-                    <h4>Equipementiers</h4>
+                <div class="col-lg-6 text-right">
+                    <h3>Equipementiers</h3>
                 </div>
             </div>      
             <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-lg-6">
-                    <h4>            
+                    <h3>
                     Entreprises de prestation de service
-                    </h4>
+                    </h3>
                 </div>
-                <div class="col-lg-6">
-                    <h4>            
+                <div class="col-lg-6 text-right">
+                    <h3>
                         Tout acteur de la chaine des valeurs
-                    </h4>
+                    </h3>
                 </div>
             </div>        
         </div>
@@ -93,5 +93,19 @@
     </section> -->
 
 <br><br>
+
+<div class="container mb-3">
+    <div class="row">
+        <div class="pull-left left-text">
+            <h3>Pour toutes vos questions</h3>
+        </div>
+        <div class="bx-pull-right">
+            <a type="button" class="btn btn-outline-primary"
+               href="contacts.php"
+            >Contactez - Nous</a>
+        </div>
+    </div>
+</div>
+<br>
 
 <?php include_once('include/footer.php') ?>

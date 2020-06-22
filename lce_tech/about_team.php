@@ -75,4 +75,18 @@
 
 <br><br>
 
+<div class="container mb-3">
+    <div class="row">
+        <div class="pull-left left-text">
+            <h3>Pour toutes vos questions</h3>
+        </div>
+        <div class="bx-pull-right">
+            <a type="button" class="btn btn-outline-primary"
+               href="contacts.php"
+            >Contactez - Nous</a>
+        </div>
+    </div>
+</div>
+<br>
+
 <?php include_once('include/footer.php') ?>

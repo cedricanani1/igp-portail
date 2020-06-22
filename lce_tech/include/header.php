@@ -78,8 +78,20 @@
           </li>       
           <li><a href="clients.php"><b>Clients & partenaires</b></a></li>
           <li><a href="contacts.php"><b>Contactez nous</b></a></li>
+            <li class="my-2 ml-2" style="cursor: pointer"><img src="../assets/img/lang/en.png" width="30" height="30" alt="en"></li>
+            <li class="my-2 ml-1" style="cursor: pointer"><img src="../assets/img/lang/fr.png" width="30" height="30" alt="fr"></li>
         </ul>
-      </nav><!-- .nav-menu -->
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Right</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
       
     </div>
     <hr style="width:100%;text-align:center">

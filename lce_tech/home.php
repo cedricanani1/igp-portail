@@ -12,14 +12,12 @@
             <div class="carousel-item active">
                 <img src="../assets/img/home/home1.jpg" width="1000" height="560" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h2>Notre device</h2>
                     <h3><span style="font-weight: bold">Nous innovons, Vous Performez.</span></h3>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="../assets/img/home/home2.jpg" width="1000" height="560" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
-                    <h2>Notre Mission</h2>
                     <h3>
                         <span style="color: red;font-weight: bold">Innover</span> le domaine du service pour
                         <span style="color: red;font-weight: bold">moins d’efforts</span>, une
@@ -31,11 +29,10 @@
             <div class="carousel-item">
                 <img src="../assets/img/home/home3.jpg" width="1000" height="560" class="d-block w-100" alt="Slide 3">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
-                    <h2>Nous concevons sur mesure</h2>
                     <h3>
                     <span style="font-weight: bold">
                         Nous vous aidons à mieux comprendre vos besoins
-                        afin d'obtenir un produit meilleur.
+                        afin d'obtenir un meilleur produit.
                     </span>
                     </h3>
                 </div>
@@ -43,7 +40,6 @@
             <div class="carousel-item">
                 <img src="../assets/img/home/home4.jpg" width="1000" height="560" class="d-block w-100" alt="Slide 4">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
-                    <h2>Notre méthode de travail</h2>
                     <h3>
                     <span style="font-weight: bold">
                         Un respect stricte du framework SCRUM pour une meilleure rentabilité sur nos
@@ -154,7 +150,7 @@
 
 </section>
 
-<section id="contact" class="contact section-bg">
+<section class="submit_project section-bg">
     <div class="container">
 
         <div class="section-title">
@@ -164,7 +160,7 @@
         <div class="row">
 
             <div class="col-lg-12">
-                <form action="" method="post" role="form" class="php-email-form" data-aos="fade-up">
+                <form action="functions/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
                     <div class="form-row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Entrer votre nom"
@@ -229,4 +225,5 @@
     </div>
 </div>
 <br>
+
 <?php include_once('include/footer.php') ?>

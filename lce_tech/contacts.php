@@ -43,7 +43,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="" method="post" role="form" class="php-email-form" data-aos="fade-up">
+            <form action="functions/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Entrer votre nom" 

@@ -71,8 +71,59 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+  </section><!-- End Services Section -->
+    <section id="about" class="about section-bg">
+        <div class="container">
+            <div class="row">
+                <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+
+                </div>
+                <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+                    <div class="content d-flex flex-column justify-content-center">
+                        <p data-aos="fade-in" class="aos-init aos-animate">
+                            En plus des développement informatique, nous aidons
+                            nos partenaires et clients à adopter une meilleure stratégie.
+
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 icon-box aos-init" data-aos="fade-up">
+                                <i class="bx bx-receipt"></i>
+                                <h4><a href="#">Formations</a></h4>
+                            </div>
+                            <div class="col-md-6 icon-box aos-init" data-aos="fade-up" data-aos-delay="100">
+                                <i class="bx bx-cube-alt"></i>
+                                <h4><a href="#">Audits</a></h4>
+                            </div>
+                            <div class="col-md-6 icon-box aos-init" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bx bx-images"></i>
+                                <h4><a href="#">Conseils</a></h4>
+                            </div>
+                            <div class="col-md-6 icon-box aos-init" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bx bx-shield"></i>
+                                <h4><a href="#">Assistance à la réalisation</a></h4>
+                            </div>
+                        </div>
+                    </div><!-- End .content-->
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 <br><br>
+
+<div class="container mb-3">
+    <div class="row">
+        <div class="pull-left left-text">
+            <h3>Pour toutes vos questions</h3>
+        </div>
+        <div class="bx-pull-right">
+            <a type="button" class="btn btn-outline-primary"
+               href="contacts.php"
+            >Contactez - Nous</a>
+        </div>
+    </div>
+</div>
+<br>
 
 <?php include_once('include/footer.php') ?>
