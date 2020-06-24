@@ -69,13 +69,7 @@
         <ul>
           <li class="active"><a href="home.php"><b>Accueil</b></a></li>
           <li><a href="services.php"><b>Offres & Services</b></a></li>
-          <li class="drop-down"><a href=""><b>A propos</b></a>
-            <ul>
-              
-              <li><a href="about_us.php"><b>Qui sommes nous ?</b></a></li>
-              <li><a href="about_team.php"><b>Notre équipe</b></a></li>
-            </ul>
-          </li>       
+          <li><a href="about_us.php"><b>A propos</b></a></li>
           <li><a href="clients.php"><b>Clients & partenaires</b></a></li>
           <li><a href="contacts.php"><b>Contactez nous</b></a></li>
             <li class="my-2 ml-2" style="cursor: pointer"><img src="../assets/img/lang/en.png" width="30" height="30" alt="en"></li>

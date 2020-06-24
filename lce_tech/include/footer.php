@@ -6,9 +6,9 @@
         <div class="copyright">
             &copy; <strong><span>Lce-ci</span></strong>. 2020
         </div>
-        <div class="credits">
+      <!--  <div class="credits">
             <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        </div>-->
         </div>
 
         <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>

@@ -150,7 +150,7 @@
 
 </section>
 
-<section class="submit_project section-bg">
+<section class="submit_project section-bg" id="project_submit">
     <div class="container">
 
         <div class="section-title">
@@ -160,15 +160,15 @@
         <div class="row">
 
             <div class="col-lg-12">
-                <form action="functions/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
+                <form action="functions/submit_project.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
                     <div class="form-row">
                         <div class="col-md-6 form-group">
-                            <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Entrer votre nom"
+                            <input type="text" name="nom" class="form-control" id="firstname" placeholder="Entrer votre nom"
                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validate"></div>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Entrer votre prénom"
+                            <input type="text" name="prenom" class="form-control" id="lastname" placeholder="Entrer votre prénom"
                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validate"></div>
                         </div>
@@ -176,23 +176,24 @@
                     <div class="form-row">
                         <div class="col-md-6 form-group">
                             <input type="email" class="form-control" name="email" id="email"
-                                   placeholder="Entrer votre email" data-rule="email" data-msg="Please enter a valid phone number" />
+                                   placeholder="Entrer votre email" data-rule="email"
+                                   data-msg="Please enter a valid email"/>
                             <div class="validate"></div>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" name="phone" id="phone"
-                                   placeholder="Entrer votre téléphone" data-rule="minlen:4" data-msg="Please enter a valid phone number" />
+                            <input type="text" class="form-control" name="telephone" id="phone"
+                                   placeholder="Entrer votre téléphone" data-rule="minlen:8" data-msg="Please enter a valid phone number" />
                             <div class="validate"></div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject"
+                        <input type="text" class="form-control" name="intitule" id="subject"
                                placeholder="Intitulé" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" data-rule="required"
-                          data-msg="Please write something for us" placeholder="Quels détails sur votre projet">Quels détails sur votre projet</textarea>
+                        <textarea class="form-control" name="details" rows="5" data-rule="required"
+                          data-msg="Please write something for us" placeholder="Quels détails sur votre projet"></textarea>
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
