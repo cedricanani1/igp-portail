@@ -43,7 +43,10 @@
                             <li>
                                 <div class="phone">
                                     <i class="fa fa-phone" style="color:rgb(92, 63, 63);"></i>
-                                  <a href="#" style="color:rgb(255, 255, 255);"><b> +225 46 66 77 66</b></a>
+                                  <a href="#" style="color:rgb(255, 255, 255);">
+                                      <b> +225 46 66 77 66 / +225 07 96 96 72</b>
+                                      <b> </b>
+                                  </a>
                                 </div>
                             </li>
                             <li>
@@ -72,19 +75,14 @@
           <li><a href="about_us.php"><b>A propos</b></a></li>
           <li><a href="clients.php"><b>Clients & partenaires</b></a></li>
           <li><a href="contacts.php"><b>Contactez nous</b></a></li>
-            <li class="my-2 ml-2" style="cursor: pointer"><img src="../assets/img/lang/en.png" width="30" height="30" alt="en"></li>
-            <li class="my-2 ml-1" style="cursor: pointer"><img src="../assets/img/lang/fr.png" width="30" height="30" alt="fr"></li>
+
+            <li class="ml-2 mt-2">
+                <select class="form-control form-control-sm">
+                    <option style="cursor: pointer;">Fr</option>
+                    <option style="cursor: pointer;">En</option>
+                </select>
+            </li>
         </ul>
-          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Right</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                  </li>
-              </ul>
-          </div>
       </nav>
       
     </div>

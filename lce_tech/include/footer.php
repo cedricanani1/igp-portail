@@ -3,12 +3,30 @@
 ?>
     <footer id="footer">
         <div class="container footer-bottom clearfix">
-        <div class="copyright">
-            &copy; <strong><span>Lce-ci</span></strong>. 2020
+            <div class="copyright">
+                &copy; <strong><span>Lce-ci</span></strong>. 2020
+            </div>
+
+
         </div>
-      <!--  <div class="credits">
-            <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>-->
+        <div class="row">
+            <div>
+                <a href="#" style="text-decoration: none">
+                    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="Icon linkedln">
+                </a>
+                <a href="#" style="text-decoration: none">
+                    <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Icon Facebook"/>
+                </a>
+                <a href="#" style="text-decoration: none">
+                    <img src="https://img.icons8.com/color/48/000000/twitter-squared.png" alt="Icon Twitter">
+                </a>
+                <a href="#" style="text-decoration: none">
+                    <img src="https://img.icons8.com/color/48/000000/youtube-squared.png" alt="Icon Youtube">
+                </a>
+                <a href="#" style="text-decoration: none">
+                    <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Icon Instagram">
+                </a>
+            </div>
         </div>
 
         <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
