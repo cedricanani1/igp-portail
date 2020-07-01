@@ -71,12 +71,12 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
             <li class="active"><a href="home.php"><b>Accueil</b></a></li>
-            <li class="drop-down"><a href=""><b>Telecoms</b></a>
+            <li class="drop-down"><a href="telecoms.php"><b>Telecoms</b></a>
                 <ul>
-                    <li class=""><a href="#">Think</a></li>
-                    <li class=""><a href="#">Build</a></li>
-                    <li><a href="#">Operate</a></li>
-                    <li><a href="">Support</a></li>
+                    <li class=""><a href="telecoms.php#thinks">Think</a></li>
+                    <li class=""><a href="telecoms.php#build">Build</a></li>
+                    <li><a href="telecoms.php#operate">Operate</a></li>
+                    <li><a href="telecoms.php#support">Support</a></li>
                 </ul>
             </li>
             <li class="drop-down"><a href="solutions.php"><b>Solutions</b></a>
