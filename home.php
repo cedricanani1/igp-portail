@@ -1,6 +1,6 @@
 <?php include_once('include/header.php'); ?>
 
-<section class="py-0">
+<section class="py-0" > 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -10,13 +10,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/home/home1.jpg" width="1366" height="560" class="d-block w-100" alt="Slide 1">
+                <img src="assets/img/home/home8.jpg" width="1350" height="600" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
                     <h3><span style="font-weight: bold">Nous innovons, Vous Performez.</span></h3>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/home/home2.jpg" width="1366" height="560" class="d-block w-100" alt="Slide 2">
+                <img src="assets/img/home/home7.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
                     <h3>
                         <span style="color: red;font-weight: bold">Innover</span> le domaine du service pour
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/home/home3.jpg" width="1366" height="560" class="d-block w-100" alt="Slide 3">
+                <img src="assets/img/home/home3.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 3">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
                     <h3>
                     <span style="font-weight: bold">
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/home/home4.jpg" width="1366" height="560" class="d-block w-100" alt="Slide 4">
+                <img src="assets/img/home/home4.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 4">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
                     <h3>
                     <span style="font-weight: bold">
