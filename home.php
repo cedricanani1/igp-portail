@@ -70,7 +70,7 @@
                 <div class="container aos-init aos-animate" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
                     <p class="text-justify interligne">
                         Nous sommes une entreprise de services d'assistance, de conseils,
-                        et divers autres produits et services informatiques et télécom.
+                        et divers autres produits et services informatiques et télécom. A travers notre équipe d'experts, nous écoutons, analysons et proposons des solutions adaptées aux besoins de ...
                     </p>
                     <p class="text-center pt-4">
                         <a href="about_lce.php" class="btn btn-outline-secondary">En savoir plus</a>    </p>
