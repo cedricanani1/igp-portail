@@ -73,20 +73,10 @@
             <li class="active"><a href="home.php"><b>Accueil</b></a></li>
             <li class="drop-down"><a href=""><b>Telecoms</b></a>
                 <ul>
-                    <li class="drop-down"><a href="#">Internet Of Things</a>
-                        <ul>
-                            <li><a href="#">RFID</a></li>
-                            <li><a href="#">NFC</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="drop-down"><a href="#">Artifical Intelligence</a>
-                        <ul>
-                            <li><a href="#">Big data analytics solution</a></li>
-                            <li><a href="#">Correlation</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Virtual Reality</a></li>
+                    <li class=""><a href="#">Think</a></li>
+                    <li class=""><a href="#">Build</a></li>
+                    <li><a href="#">Operate</a></li>
+                    <li><a href="">Support</a></li>
                 </ul>
             </li>
             <li class="drop-down"><a href="solutions.php"><b>Solutions</b></a>
@@ -99,7 +89,7 @@
                             <li><a href="solutions.php#digit_trans">All digital</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="solutions.php#soft_dev">Software development</a>
+                    <li><a href="solutions.php#soft_dev">Software development</a></li>
                    <!-- <li class="drop-down"><a href="#">Software development</a>
                         <ul>
                             <li><a href="solutions.php#soft_dev">Web</a></li>
@@ -107,7 +97,7 @@
                             <li><a href="solutions.php#soft_dev">Mobile</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="solutions.php#services_">Services</a>
+                    <li><a href="solutions.php#services_">Services</a></li>
                    <!-- <li class="drop-down"><a href="solutions.php#services_">Services</a>
                         <ul>
                             <li><a href="solutions">Cloud computing</a></li>
@@ -118,6 +108,9 @@
                         </ul>
                     </li>-->
                     <li><a href="solutions.php#security">Security</a></li>
+                    <li><a href="solutions.php">Internet Of Things</a></li>
+                    <li><a href="solutions.php">Artificial Intelligence</a></li>
+                    <li><a href="solutions.php">Vitual Reality</a></li>
                     <!--<li class="drop-down"><a href="#">Security</a>
                         <ul>
                             <li><a href="#">Cyber security</a></li>
@@ -125,7 +118,7 @@
                             <li><a href="#">Tracking</a></li>
                         </ul>
                     </li>-->
-                    <li ><a href="solutions.php#consumptiom">Consumption</a>
+                    <li><a href="solutions.php#consumptiom">Consumption</a>
                    <!-- <li class="drop-down"><a href="#">Consumption</a>
                         <ul>
                             <li><a href="#">IPTV</a></li>
@@ -134,6 +127,8 @@
                             <li><a href="#">Wifi booster</a></li>
                         </ul>
                     </li>-->
+                    </li>
+
                 </ul>
             </li>
             <li class="drop-down"><a href="#"><b>About us</b></a>

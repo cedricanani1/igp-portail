@@ -73,7 +73,7 @@
                         et divers autres produits et services informatiques et télécom.
                     </p>
                     <p class="text-center pt-4">
-                        <a href="#" class="btn btn-outline-secondary">En savoir plus</a>    </p>
+                        <a href="about_lce.php" class="btn btn-outline-secondary">En savoir plus</a>    </p>
                 </div>
             </div>
         </div>
@@ -133,73 +133,84 @@
     </div>
     <div class="row content">
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/software_dev.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Développement logiciel</a></h4>
-                    </p>
+            <a href="solutions#soft_dev">
+                <div class="card">
+                    <img src="assets/img/services/software_dev.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Développement logiciel</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Cyber security</a></h4>
-                    </p>
+            <a href="solutions#security">
+                <div class="card">
+                    <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Cyber security</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image vidéo surveillance">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Video surveillance</a></h4>
-                    </p>
+            <a href="solutions#security">
+                <div class="card">
+                    <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image vidéo surveillance">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Video surveillance</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <br>
     <div class="row content">
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/software_dev.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Cloud Computing</a></h4>
-                    </p>
+            <a href="solutions.php#cloud-computing">    
+                <div class="card">
+                    <img src="assets/img/home/cloud-computing.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Cloud Computing</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Business Coach</a></h4>
-                    </p>
+            <a href="solutions.php#business-coach">
+                <div class="card">
+                    <img src="assets/img/home/business-coach.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Business Coach</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image vidéo surveillance">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Digital transformation</a></h4>
-                    </p>
+            <a href="solutions.php#digit_trans"> 
+                <div class="card">
+                    <img src="assets/img/home/transformation-digital.jpg" width="420" height="281" class="card-img-top" alt="Image vidéo surveillance">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <h4 class="text-center">Digital transformation</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <!--<div class="container">
