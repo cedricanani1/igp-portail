@@ -38,7 +38,9 @@
             <div class="col-md-12 col-sm-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
                 <h2 class="text-left" style="color: #222;font-size: 44px;" data-aos="fade-up">Find a partner</h2>
                 <p style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;" data-aos="fade-up">
-
+                    Notre stratégie consiste à déployer une équipe qui effectuera des enquêtes dans
+                    différents domaines d'activité en Côte d'Ivoire dans but de les organiser dans
+                    une poule sur notre plateforme.
                 </p>
             </div>
         </div>
@@ -52,7 +54,8 @@
                 <h2 data-aos="fade-up" class="text-left" style="color: #222;font-size: 44px;">Become a partner</h2>
                 <p data-aos="fade-up" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
 
-
+                    A travers notre plateforme, nous élaborons des spécifiques pour nos partners
+                    en fonction de leurs domaines, afin de faire la promotion de leurs images.
 
                 </p>
             </div>
@@ -67,7 +70,9 @@
                 <h2 class="text-left" style="color: #222;font-size: 44px;">Partner programs</h2>
                 <p data-aos="fade-up" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
 
-
+                    Notre objectif consiste à créer une fusion avec nos parténaires
+                    afin de les aider à mieux s'orienter dans le domaine des services,
+                    en répondant à toute les questions qu'il faut au bon moment.
 
                 </p>
             </div>

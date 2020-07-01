@@ -1,6 +1,6 @@
 <?php include_once('include/header.php');?>
 
-<section id="news" class="news section-bg">
+<!--<section id="news" class="news section-bg">
     <div class="container">
         <div class="section-title">
             <h2 data-aos="fade-in" class="aos-init">News</h2>
@@ -22,7 +22,7 @@
 
         </div>
     </div>
-</section>
+</section>-->
 
 <section id="gallery" class="portfolio section-bg gallery">
     <div class="container">
