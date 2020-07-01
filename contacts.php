@@ -35,7 +35,7 @@
                 <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-phone-call"></i>
                   <h3>Téléphone</h3>
-                  <p>+225 46 66 77 66 <br> +225 07 96 96 72</p>
+                  <p>+225 46 66 77 66 / +225 07 96 96 72</p>
                 </div>
               </div>
             </div>
