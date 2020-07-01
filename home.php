@@ -5,14 +5,14 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+           <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/home/home8.jpg" width="1350" height="600" class="d-block w-100" alt="Slide 1">
+                <img src="assets/img/home/home9.jpg" width="1350" height="600" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3><span style="font-weight: bold">Nous innovons, Vous Performez.</span></h3>
+                    <h3><span style="font-weight: bold;">Nous innovons, Vous Performez.</span></h3>
                 </div>
             </div>
             <div class="carousel-item">
@@ -26,8 +26,8 @@
                     </h3>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="assets/img/home/home3.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 3">
+          <!--  <div class="carousel-item">
+                <img src="assets/img/home/img4.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 3">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
                     <h3>
                     <span style="font-weight: bold">
@@ -36,7 +36,7 @@
                     </span>
                     </h3>
                 </div>
-            </div>
+            </div>-->
             <div class="carousel-item">
                 <img src="assets/img/home/home4.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 4">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
@@ -129,7 +129,7 @@
 
 <section class="container p-t-3">
     <div class="section-title">
-        <h2 data-aos="fade-in" class="aos-init">Nos solutions</h2>
+        <h2 data-aos="fade-in" class="aos-init">Services & solutions</h2>
     </div>
     <div class="row content">
         <div class="col-md-4 icon-box aos-init">
@@ -161,6 +161,42 @@
                 <div class="card-body">
                     <p class="card-text">
                     <h4 class="text-center"><a href="#">Video surveillance</a></h4>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row content">
+        <div class="col-md-4 icon-box aos-init">
+            <div class="card">
+                <img src="assets/img/services/software_dev.jpg" width="420" height="281"
+                     class="card-img-top" alt="Image cyber-security">
+                <div class="card-body">
+                    <p class="card-text">
+                    <h4 class="text-center"><a href="#">Cloud Computing</a></h4>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 icon-box aos-init">
+            <div class="card">
+                <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
+                     class="card-img-top" alt="Image cyber-security">
+                <div class="card-body">
+                    <p class="card-text">
+                    <h4 class="text-center"><a href="#">Business Coach</a></h4>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 icon-box aos-init">
+            <div class="card">
+                <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
+                     class="card-img-top" alt="Image vidéo surveillance">
+                <div class="card-body">
+                    <p class="card-text">
+                    <h4 class="text-center"><a href="#">Digital transformation</a></h4>
                     </p>
                 </div>
             </div>

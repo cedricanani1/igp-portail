@@ -71,7 +71,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
             <li class="active"><a href="home.php"><b>Accueil</b></a></li>
-            <li class="drop-down"><a href=""><b>Technology</b></a>
+            <li class="drop-down"><a href=""><b>Telecoms</b></a>
                 <ul>
                     <li class="drop-down"><a href="#">Internet Of Things</a>
                         <ul>
@@ -89,7 +89,7 @@
                     <li><a href="#">Virtual Reality</a></li>
                 </ul>
             </li>
-            <li class="drop-down"><a href="about_us.php"><b>Solutions</b></a>
+            <li class="drop-down"><a href="solutions.php"><b>Solutions</b></a>
                 <ul>
                     <li><a href="solutions.php#digit_trans">Digital transformation</a></li>
                    <!-- <li class="drop-down"><a href="#">Digital transformation</a>
@@ -158,7 +158,9 @@
                             <li><a href="#">Partner programs</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="press_events.php">Press & Events</a>
+                    <li><a href="portals.php">Portals</a></li>
+
+                    <li><a href="press_events.php">Gallery</a>
                     <!--<li class="drop-down"><a href="#">Press & Events</a>
                         <ul>
                             <li><a href="press_events.php#news">News</a></li>
@@ -166,7 +168,6 @@
                             <li><a href="press_events.php#gallery">Photo Gallery</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="portals.php">Portals</a></li>
                    <!-- <li class="drop-down"><a href="#">Portals</a>
                         <ul>
                             <li><a href="#">Careers</a></li>
@@ -180,7 +181,7 @@
                 </ul>
             </li>
 
-            <li class="ml-auto ml-2 mt-2">
+            <li class="ml-auto ml-2 mt-2" style="right:-32px">
                 <select class="form-control form-control-sm right">
                     <option style="cursor: pointer;">Fr</option>
                     <option style="cursor: pointer;">En</option>
