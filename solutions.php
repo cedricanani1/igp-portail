@@ -58,7 +58,7 @@
         <div class="section-title">
             <h2 data-aos="fade-in" class="aos-init">Services</h2>
         </div>
-        <div class="row content">
+        <div class="row content" id="cloud-computing">
             <div class="col-md-5 aos-init" data-aos="fade-right">
                 <img src="assets/img/services/cloud_computing.jpg" alt="Image cloud computing" class="img-fluid img-thumbnail">
             </div>
@@ -90,7 +90,7 @@
             </div>
         </div>
 
-        <div class="row content" id="">
+        <div class="row content" id="business-coach">
             <div class="col-md-5 aos-init" data-aos="fade-right">
                 <img src="assets/img/services/business_coaching.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">
             </div>
