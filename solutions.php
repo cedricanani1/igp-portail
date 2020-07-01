@@ -62,7 +62,7 @@
             <div class="col-md-5 aos-init" data-aos="fade-right">
                 <img src="assets/img/services/cloud_computing.jpg" alt="Image cloud computing" class="img-fluid img-thumbnail">
             </div>
-            <div class="col-md-7 pt-4 aos-init aos-animate" data-aos="fade-left">
+            <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
                 <h3>Cloud computing</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Le Cloud Computing est la nouvelle forme de stockage de données du 21ème siècle.
@@ -125,7 +125,111 @@
         </div>
     </div>
 </section>
+<section id="iot" class="iot section-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2 data-aos="fade-in" class="aos-init">Internet of thing</h2>
+        </div>
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/RFID2.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
+                <h3>RFID</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    La radio-identification, le plus souvent désignée par le sigle RFID, est une méthode pour
+                    mémoriser et récupérer des données à distance en utilisant des marqueurs appelés « radio-étiquettes »
+                    La Radio Frequency Identification est utilisée dans de nombreux secteurs d'activité et s'applique
+                    à bon nombre de situations telles que la gestion des stocks,
+                    le contrôle d'accès ou encore l'identification automatique d'équipements industriels.
+                </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Nous vous aidons à implémenter ces différentes solutions.
+                </p>
+            </div>
 
+        </div>
+        <div class="row content mt-3" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/NFC2.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
+                <h3>NFC</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    La technologie NFC – Near Field Communication – permet à un smartphone de se connecter et
+                    d’échanger des données à courte distance avec un autre dispositif (smartphone, produit…) équipé de la même technologie.
+                </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Nous aidons les entreprises à déployer des objets connectés en privilégiant la protection des données à caractère personnel.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="ai" class="ai section-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2 data-aos="fade-in" class="aos-init">Artifical Intelligence</h2>
+        </div>
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/machine-learning.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-1 aos-init" data-aos="fade-left">
+                <h3>Machine learning</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    L'apprentissage automatique, apprentissage artificiel ou apprentissage statistique est un
+                    champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques.
+                    Nous proposons divers solutions dans ces différents domaines.
+                </p>
+            </div>
+        </div>
+        <div class="row mt-3 content">
+            <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/Big-Data-2.jpg" alt="Image cloud computing" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
+                <h3>Big data analytics solution</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Les données sont l'élément vital de toute entreprise, quelle que soit leur taille.
+                    Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers
+                    de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations
+                    comprennent cette importance de la collecte de données et le font.
+                </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Nous aidons nos partenaires à mieux gérer leur données en leur proposant les solutions adéquates de gestion de données.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row mb-4 content">
+            <div class="col-md-12 pt-5 order-2 order-md-1 aos-init" data-aos="fade-right">
+                <h3>Correlation</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Au moment des mégadonnées, l'analyse de corrélation a attiré beaucoup d'attention pour
+                    sa grande efficacité dans l'analyse des relations inhérentes aux choses,
+                    et a été appliquée efficacement à de nombreux domaines, y compris le système de recommandation,
+                    l'analyse commerciale, l'administration publique et le diagnostic médical.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/call-center-solution.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-1 aos-init" data-aos="fade-left">
+                <h3>Call center solution</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Nous déployons des solutions pour call center pour l'automatisation des tâches courantes.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="security" class="security">
     <div class="container">
         <div class="section-title">
@@ -168,7 +272,6 @@
         </div>
     </div>
 </section>
-
 <section id="consumptiom" class="consumptiom">
     <div class="container">
         <div class="section-title">
