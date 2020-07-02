@@ -133,10 +133,21 @@
   <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="./assets/vendor/venobox/venobox.min.js"></script>
   <script src="./assets/vendor/aos/aos.js"></script>
+  <script src="./assets/js/typed.js"></script>
 
   <!-- Template Main JS File -->
   <script src="./assets/js/main.js"></script>
 
-
+    <script>
+        $(".kouame").each(function()
+                        {
+                            var $this = $(this);
+                            $this.typed({
+                            strings: $this.attr('data-elements').split(','),
+                            typeSpeed: 100, // typing speed
+                            backDelay: 300 // pause before backspacing
+                            });
+                        });
+    </script>
 </body>
 </html>
