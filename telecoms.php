@@ -62,12 +62,10 @@
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
                 <h3>NOC/FLM/NPM</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. 
-                Mais comme les entreprises investissent massivement pour créer une densité de réseau plus élevée, ajouter du spectre et mettre à niveau l'équipement actif, 
-                elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme. 
+                La gestion de l'expertise technique en interne peut être difficile, en particulier lorsque l'information réside dans de multiples outils de surveillance.
+                Chez la LCE, nous vous aidons à centraliser toutes vos performances, la configuration et l'état de santé de tous les actifs informatiques tout en identifiant en permanence les opportunités d'optimisation. 
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous vous aiderons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.                </p>
             </div>
 
         </div>

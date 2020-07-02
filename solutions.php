@@ -3,7 +3,7 @@
 <section id="soft_dev" class="soft_dev section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">Software development</h2>
+            <h2 data-aos="fade-in" class="aos-init">SAAS</h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
