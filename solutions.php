@@ -22,14 +22,14 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/services/software_dev.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/SAAS.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/services/software_dev.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/SAAS1.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
@@ -91,14 +91,14 @@
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/digit_trans.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/transformation-digitale.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/digit_trans.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/transformation-digitale2.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
@@ -212,7 +212,7 @@
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/entreprise_network.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/enterprise-networking.jpeg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
