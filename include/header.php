@@ -70,72 +70,37 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-            <li class="active"><a href="home.php"><b>Accueil</b></a></li>
-            <li class="drop-down"><a href=""><b>Telecoms</b></a>
+            <li class=""><a href="home.php"><b>Accueil</b></a></li>
+            <li class="drop-down"><a href="solutions.php"><b>Nos Solutions</b></a>
                 <ul>
-                    <li class="drop-down"><a href="#">Internet Of Things</a>
+                    <li class="drop-down"><a href="">IT</a>
                         <ul>
-                            <li><a href="#">RFID</a></li>
-                            <li><a href="#">NFC</a></li>
+                            <li><a href="solutions.php#digit_trans">Digital transformation</a></li>
+                
+                            <li><a href="solutions.php#soft_dev">SAAS</a></li>
+                            <li><a href="solutions.php#services_">Cloud computing</a></li>
+                            <li><a href="solutions.php#services_">Enterprise networking</a></li>
+                            <li><a href="solutions.php#services_">Business Coach</a></li>           
+                            <li><a href="solutions.php#security">Cyber Security</a></li>
+                            <li><a href="solutions.php">IoT / AI</a></li>
+                            <li><a href="solutions.php">Vitual Reality</a></li>
+                            <!--<li><a href="solutions.php#consumptiom">Consumption</a>-->
                         </ul>
                     </li>
-
-                    <li class="drop-down"><a href="#">Artifical Intelligence</a>
+                    <li class="drop-down"><a href="">Télécom</a>
                         <ul>
-                            <li><a href="#">Big data analytics solution</a></li>
-                            <li><a href="#">Correlation</a></li>
+                            <li class=""><a href="telecoms.php#thinks">Think</a></li>
+                            <li class=""><a href="telecoms.php#build">Build</a></li>
+                            <li><a href="telecoms.php#operate">Operate</a></li>
+                            <li><a href="telecoms.php#support">Support</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Virtual Reality</a></li>
+                    <li><a href="">Logistique</a></li>
+                    <li><a href="">BTP</a></li>
+                    <li><a href="">Formations</a></li>
                 </ul>
             </li>
-            <li class="drop-down"><a href="solutions.php"><b>Solutions</b></a>
-                <ul>
-                    <li><a href="solutions.php#digit_trans">Digital transformation</a></li>
-                   <!-- <li class="drop-down"><a href="#">Digital transformation</a>
-                        <ul>
-                            <li><a href="solutions.php#digit_trans">Business admin</a></li>
-                            <li><a href="solutions.php#digit_trans">Process digitalization</a></li>
-                            <li><a href="solutions.php#digit_trans">All digital</a></li>
-                        </ul>
-                    </li>-->
-                    <li><a href="solutions.php#soft_dev">Software development</a>
-                   <!-- <li class="drop-down"><a href="#">Software development</a>
-                        <ul>
-                            <li><a href="solutions.php#soft_dev">Web</a></li>
-                            <li><a href="solutions.php#soft_dev">Desktop</a></li>
-                            <li><a href="solutions.php#soft_dev">Mobile</a></li>
-                        </ul>
-                    </li>-->
-                    <li><a href="solutions.php#services_">Services</a>
-                   <!-- <li class="drop-down"><a href="solutions.php#services_">Services</a>
-                        <ul>
-                            <li><a href="solutions">Cloud computing</a></li>
-                            <li><a href="#">Entreprise network</a></li>
-                            <li><a href="#">Business Coach</a></li>
-                            <li><a href="#">VAS</a></li>
-                            <li><a href="#">Learning service</a></li>
-                        </ul>
-                    </li>-->
-                    <li><a href="solutions.php#security">Security</a></li>
-                    <!--<li class="drop-down"><a href="#">Security</a>
-                        <ul>
-                            <li><a href="#">Cyber security</a></li>
-                            <li><a href="#">Video surveillance</a></li>
-                            <li><a href="#">Tracking</a></li>
-                        </ul>
-                    </li>-->
-                    <li ><a href="solutions.php#consumptiom">Consumption</a>
-                   <!-- <li class="drop-down"><a href="#">Consumption</a>
-                        <ul>
-                            <li><a href="#">IPTV</a></li>
-                            <li><a href="#">Fiber Accessories</a></li>
-                            <li><a href="#">Developpers</a></li>
-                            <li><a href="#">Wifi booster</a></li>
-                        </ul>
-                    </li>-->
-                </ul>
-            </li>
+            <li class=""><a href="#"><b>Boutique</b></a></li>
             <li class="drop-down"><a href="#"><b>About us</b></a>
                 <ul>
                     <li><a href="about_lce.php">About LCE</a></li>

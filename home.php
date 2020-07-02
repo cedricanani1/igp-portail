@@ -5,25 +5,22 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/home/home9.jpg" width="1350" height="600" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3><span style="font-weight: bold;">Nous innovons, Vous Performez.</span></h3>
+                    <h3><span class="kouame" data-elements="NOUS INNOVONS,VOUS PERFORMEZ" style="font-weight: bold; font-size: 65px; color:#b4461b"></span></h3>
                 </div>
+                
             </div>
             <div class="carousel-item">
                 <img src="assets/img/home/home7.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
-                    <h3>
-                        <span style="color: red;font-weight: bold">Innover</span> le domaine du service pour
-                        <span style="color: red;font-weight: bold">moins d’efforts</span>, une
-                        <span style="color: red;font-weight: bold">meilleure productivité</span> et
-                        <span style="color: red;font-weight: bold">plus de rentabilité</span>.
-                    </h3>
+                    <h1>
+                      <b>IoT</b>  >>>>> <b class="kouame" data-elements="Le Futur c'est Maintenant !"></b> 
+                    </h1>
                 </div>
             </div>
           <!--  <div class="carousel-item">
@@ -37,17 +34,7 @@
                     </h3>
                 </div>
             </div>-->
-            <div class="carousel-item">
-                <img src="assets/img/home/home4.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 4">
-                <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
-                    <h3>
-                    <span style="font-weight: bold">
-                        Un respect stricte du framework SCRUM pour une meilleure rentabilité sur nos
-                        différents projets !
-                    </span>
-                    </h3>
-                </div>
-            </div>
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -70,10 +57,10 @@
                 <div class="container aos-init aos-animate" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
                     <p class="text-justify interligne">
                         Nous sommes une entreprise de services d'assistance, de conseils,
-                        et divers autres produits et services informatiques et télécom.
+                        et divers autres produits et services informatiques et télécom. A travers notre équipe d'experts,Nous écoutons, analysons et proposons des solutions adaptées aux besoins de ...
                     </p>
                     <p class="text-center pt-4">
-                        <a href="#" class="btn btn-outline-secondary">En savoir plus</a>    </p>
+                        <a href="about_lce.php" class="btn btn-outline-secondary">En savoir plus</a>    </p>
                 </div>
             </div>
         </div>
@@ -133,73 +120,84 @@
     </div>
     <div class="row content">
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/software_dev.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Développement logiciel</a></h4>
-                    </p>
+            <a href="solutions#soft_dev">
+                <div class="card">
+                    <img src="assets/img/services/software_dev.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Développement logiciel</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Cyber security</a></h4>
-                    </p>
+            <a href="solutions#security">
+                <div class="card">
+                    <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Cyber security</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image vidéo surveillance">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Video surveillance</a></h4>
-                    </p>
+            <a href="solutions#security">
+                <div class="card">
+                    <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image vidéo surveillance">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Video surveillance</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <br>
     <div class="row content">
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/software_dev.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Cloud Computing</a></h4>
-                    </p>
+            <a href="solutions.php#cloud-computing">    
+                <div class="card">
+                    <img src="assets/img/home/cloud-computing.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Cloud Computing</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image cyber-security">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Business Coach</a></h4>
-                    </p>
+            <a href="solutions.php#business-coach">
+                <div class="card">
+                    <img src="assets/img/home/business-coach.jpg" width="420" height="281"
+                        class="card-img-top" alt="Image cyber-security">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h4 class="text-center">Business Coach</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <div class="card">
-                <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
-                     class="card-img-top" alt="Image vidéo surveillance">
-                <div class="card-body">
-                    <p class="card-text">
-                    <h4 class="text-center"><a href="#">Digital transformation</a></h4>
-                    </p>
+            <a href="solutions.php#digit_trans"> 
+                <div class="card">
+                    <img src="assets/img/home/transformation-digital.jpg" width="420" height="281" class="card-img-top" alt="Image vidéo surveillance">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <h4 class="text-center">Digital transformation</h4>
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <!--<div class="container">

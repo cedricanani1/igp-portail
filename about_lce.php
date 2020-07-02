@@ -6,9 +6,9 @@
             <div class="col-md-12 col-sm-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
                 <h2 class="text-left" style=" color: white;font-size: 44px;" data-aos="fade-up">Qui sommes nous ?</h2>
                 <p data-aos="fade-up" style=" color: white; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
-                    La locomotive a été créée en septembre 2018.
-                    C'est une entreprise de services d'assistance, de conseils,
-                    et divers autres produits et services informatiques et télécom.
+                    La Locomotive Sarl est une entreprise de services d'assistance, de conseils,
+                    et divers autres produits et services informatiques et télécom. Créée en septembre 2018, Elle accompagne, les entreprise à accroitre leurs productivité, rentabilité et Compétitivité. A travers une équipe dynamique et expérimentée, nous proposons des solutions 
+                    innovantes afin reduire l'effort physique. Nous écoutons, analysons et proposons des solutions adaptées aux besoins de nos clients et/ou partenaires. 
                 </p>
             </div>
         </div>
