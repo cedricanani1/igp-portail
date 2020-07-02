@@ -28,7 +28,7 @@ print_r($_FILES);
              if (move_uploaded_file($_FILES['cv']['tmp_name'], 'job_file/' .$_POST['name'].'_'.
                  basename($_FILES['cv']['name']).'_'.$resultDate)) {
 
-                 include_once '../../config/db.php';
+                 include_once '../config/db.php';
 
                  $req = $bdd->prepare('INSERT INTO job (poste, nom,
                      cv, date_envoi) VALUES(:poste,:nom, :cv, NOW())');

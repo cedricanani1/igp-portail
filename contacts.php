@@ -1,7 +1,6 @@
 <?php include_once('include/header.php'); ?>
 
 <main id="main">
-        <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
       <div class="container">
 
@@ -78,6 +77,17 @@
         </div>
 
       </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.0269371233812!2d-3.9572721922949174!3d5.400551896827808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1933d4b2186d5%3A0xf64a1036251b83a4!2sCHU%20d&#39;Angr%C3%A9!5e0!3m2!1sfr!2sci!4v1593678771978!5m2!1sfr!2sci"
+                            width="1110" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
     </section><!-- End Contact Section -->
 
 </main>

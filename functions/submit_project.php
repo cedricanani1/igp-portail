@@ -1,6 +1,6 @@
 <?php
   if (isset($_POST['email']) && isset($_POST['details'])) {
-    include_once '../../config/db.php';
+    include_once '../config/db.php';
     $req = $bdd->prepare('INSERT INTO projets(nom, prenom,
                         email, telephone, intitule, details) 
                         VALUES (:nom,:prenom, :email, :telephone, :intitule, :details)');
