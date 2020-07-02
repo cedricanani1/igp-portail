@@ -70,7 +70,7 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-            <li class="active"><a href="home.php"><b>Accueil</b></a></li>
+            <li class=""><a href="home.php"><b>Accueil</b></a></li>
             <li class="drop-down"><a href="solutions.php"><b>Nos Solutions</b></a>
                 <ul>
                     <li class="drop-down"><a href="">IT</a>
