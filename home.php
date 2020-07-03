@@ -1,7 +1,7 @@
 <?php include_once('include/header.php'); ?>
 
 <section class="py-0" > 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="15000">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -9,9 +9,9 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/home/home9.jpg" width="1350" height="600" class="d-block w-100" alt="Slide 1">
+                <img src="assets/img/home/home14.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3><span class="kouame" data-elements="NOUS INNOVONS,VOUS PERFORMEZ" style="font-weight: bold; font-size: 65px; color:#b4461b"></span></h3>
+                    <h3><span class="kouame" data-elements="NOUS INNOVONS >>> VOUS PERFORMEZ" style="font-weight: bold; font-size: 65px; color:white"></span></h3>
                 </div>
                 
             </div>
@@ -56,8 +56,7 @@
             <div class="col-md-12 col-sm-12 canvas-box magin30 text-center wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
                 <div class="container aos-init aos-animate" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
                     <p class="text-justify interligne">
-                        Nous sommes une entreprise de services d'assistance, de conseils,
-                        et divers autres produits et services informatiques et télécom. A travers notre équipe d'experts,Nous écoutons, analysons et proposons des solutions adaptées aux besoins de ...
+                    Nous fournissons des services intègres allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée. La Locomotive est formée par un groupe de professionnels dans le domaine des télécommunications, IT, RH, Logistique ayant une expertise reconnue dans ces perimètres d’activités...   
                     </p>
                     <p class="text-center pt-4">
                         <a href="about_lce.php" class="btn btn-outline-secondary">En savoir plus</a>    </p>
@@ -95,6 +94,9 @@
                     <li><i class="bx bx-check"></i> Carrier</li>
                     <li><i class="bx bx-check"></i> PME</li>
                     <li><i class="bx bx-check"></i> Secteur tertiaire</li>
+                    <li><i class="bx bx-check"></i> ISP</li>
+
+                   
                 </ul>
             </div>
 
@@ -103,7 +105,7 @@
                 <h4><span>Business to Enterprise</span></h4>
                 <ul>
                     <li><i class="bx bx-check"></i> Public administration</li>
-                    <li><i class="bx bx-check"></i> Emphasies</li>
+                    <li><i class="bx bx-check"></i> Embasies</li>
                     <li><i class="bx bx-check"></i> NGOs</li>
                     <li><i class="bx bx-check"></i> Mutuelles</li>
                 </ul>
@@ -122,11 +124,11 @@
         <div class="col-md-4 icon-box aos-init">
             <a href="solutions#soft_dev">
                 <div class="card">
-                    <img src="assets/img/services/software_dev.jpg" width="420" height="281"
+                    <img src="assets/img/home/DevOps.jpg" width="420" height="281"
                         class="card-img-top" alt="Image cyber-security">
                     <div class="card-body">
                         <p class="card-text">
-                        <h4 class="text-center">Développement logiciel</h4>
+                        <h4 class="text-center">DevOps</h4>
                         </p>
                     </div>
                 </div>

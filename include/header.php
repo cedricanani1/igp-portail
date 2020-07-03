@@ -75,12 +75,13 @@
                 <ul>
                     <li class="drop-down"><a href="">IT</a>
                         <ul>
+                            <li><a href="solutions.php#digit_trans">Web Master</a></li>
                             <li><a href="solutions.php#digit_trans">Digital transformation</a></li>
                 
                             <li><a href="solutions.php#soft_dev">SAAS</a></li>
                             <li><a href="solutions.php#services_">Cloud computing</a></li>
                             <li><a href="solutions.php#services_">Enterprise networking</a></li>
-                            <li><a href="solutions.php#services_">Business Coach</a></li>           
+                            <li><a href="solutions.php#services_">Business Intelligence</a></li>           
                             <li><a href="solutions.php#security">Cyber Security</a></li>
                             <li><a href="solutions.php">IoT / AI</a></li>
                             <li><a href="solutions.php">Vitual Reality</a></li>
@@ -93,6 +94,7 @@
                             <li class=""><a href="telecoms.php#build">Build</a></li>
                             <li><a href="telecoms.php#operate">Operate</a></li>
                             <li><a href="telecoms.php#support">Support</a></li>
+                            <li><a href="telecoms.php#support">Develop</a></li>
                         </ul>
                     </li>
                     <li><a href="">Logistique</a></li>

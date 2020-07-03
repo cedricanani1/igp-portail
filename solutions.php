@@ -81,21 +81,48 @@
                         <li data-target="#carouselExampleCaptions1" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions1" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
+
+
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/digit_trans.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
+                            <img src="assets/img/services/digital-transformation.png" height="300px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/transformation-digitale.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/transformation-digitale.jpg" height="300px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/digital-transformation1.png" height="300px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/digit-transt.jpg" height="300px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/5G.jpg" height="300px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                         <div class="carousel-item">
                         <img src="assets/img/services/transformation-digitale2.jpg" class="d-block w-100" alt="...">

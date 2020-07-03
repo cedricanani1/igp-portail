@@ -144,8 +144,8 @@
                             var $this = $(this);
                             $this.typed({
                             strings: $this.attr('data-elements').split(','),
-                            typeSpeed: 100, // typing speed
-                            backDelay: 300 // pause before backspacing
+                            typeSpeed: 250, // typing speed
+                            backDelay: 1500 // pause before backspacing
                             });
                         });
     </script>
