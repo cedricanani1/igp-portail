@@ -40,8 +40,25 @@
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
-                                    <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
-                                    <input type="file" data-rule="required" class="form-control-file" name="cvfile">
+                                    <input type="text" name="phone" class="form-control" id="phone" data-rule="required"
+                                           placeholder="Téléphone"
+                                           data-rule="minlen:8" data-msg="Please enter at least 4 chars" />
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12 form-group">
+                                    <label for="cv">CV</label>
+                                    <input type="hidden" name="MAX_FILE_SIZE_CV" value="1000000" />
+                                    <input type="file" id="cv" data-rule="required" class="form-control-file" name="cvfile">
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12 form-group">
+                                    <label for="lm">Lettre de motivation</label>
+                                    <input type="hidden" name="MAX_FILE_SIZE_CV" value="1000000" />
+                                    <input type="file" id="lm" class="form-control-file" name="lmfile">
                                     <div class="validate"></div>
                                 </div>
                             </div>
