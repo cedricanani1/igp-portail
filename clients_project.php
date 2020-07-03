@@ -3,7 +3,7 @@
     <div class="container">
 
         <div class="section-title">
-            <h2 data-aos="fade-in">Vous avez un projet à nous confier</h2>
+            <h2 data-aos="fade-in">Vous avez une demande ou un besoin, nos experts sont à votre écoute.</h2>
         </div>
 
         <div class="row">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" name="details" rows="5" data-rule="required"
-                                  data-msg="Please write something for us" placeholder="Quels détails sur votre projet"></textarea>
+                                  data-msg="Please write something for us" placeholder="Quels détails sur votre demande"></textarea>
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
