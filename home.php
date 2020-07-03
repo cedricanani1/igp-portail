@@ -288,7 +288,7 @@
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-primary"
                href="clients_project.php"
-            >Avez-vous un projet ?</a>
+            >Avez-vous un besoin ?</a>
         </div>
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-primary"

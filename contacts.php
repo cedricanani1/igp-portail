@@ -55,6 +55,11 @@
                   <div class="validate"></div>
                 </div>
               </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="phone" id="phone"
+                           placeholder="Téléphone" data-rule="minlen:8" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validate"></div>
+                </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" 
                         placeholder="Objet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />

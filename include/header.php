@@ -82,8 +82,8 @@
                             <li><a href="solutions.php#services_">Enterprise networking</a></li>
                             <li><a href="solutions.php#services_">Business Coach</a></li>           
                             <li><a href="solutions.php#security">Cyber Security</a></li>
-                            <li><a href="solutions.php">IoT / AI</a></li>
-                            <li><a href="solutions.php">Vitual Reality</a></li>
+                            <li><a href="solutions.php#iot">IoT / AI</a></li>
+                            <li><a href="solutions.php#ai">Vitual Reality</a></li>
                             <!--<li><a href="solutions.php#consumptiom">Consumption</a>-->
                         </ul>
                     </li>
