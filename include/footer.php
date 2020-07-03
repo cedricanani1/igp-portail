@@ -145,7 +145,7 @@
                             $this.typed({
                             strings: $this.attr('data-elements').split(','),
                             typeSpeed: 250, // typing speed
-                            backDelay: 1500 // pause before backspacing
+                            backDelay: 3500 // pause before backspacing
                             });
                         });
     </script>

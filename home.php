@@ -19,7 +19,7 @@
                 <img src="assets/img/home/home7.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
                     <h1>
-                      <b>IoT</b>  >>>>> <b class="kouame" data-elements="Le Futur c'est Maintenant !"></b> 
+                      <b>IoT</b>  >>> <b class="kouame" data-elements="Le Futur c'est Maintenant !"></b> 
                     </h1>
                 </div>
             </div>
