@@ -56,7 +56,7 @@
             <div class="col-md-12 col-sm-12 canvas-box magin30 text-center wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
                 <div class="container aos-init aos-animate" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
                     <p class="text-justify interligne">
-                    Nous fournissons des services integres allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée. La Locomotive est formée par un groupe de professionnels dans le domaine des télécommunications, IT, RH, Logistique ayant une expertise reconnue dans ces perimètres d’activités...
+                    Nous fournissons des services intégrés allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée. La Locomotive est formée par un groupe de professionnels dans le domaine des télécommunications, IT, RH, Logistique ayant une expertise reconnue dans ces perimètres d’activités...
                     </p>
                     <p class="text-center pt-4">
                         <a href="about_lce.php" class="btn btn-outline-secondary">En savoir plus</a>    </p>
