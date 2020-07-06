@@ -1,11 +1,11 @@
 <?php
 var_dump($_FILES);
-if ( (!isset($_FILES['cvfile']) || UPLOAD_ERR_NO_FILE == $_FILES['cvfile']['error']))
+if ( (isset($_FILES['cvfile']) || UPLOAD_ERR_NO_FILE == $_FILES['cvfile']['error']))
 {
     echo 'Voici quelques informations de débogage :';
 
 }
-die($_POST['cvfile']);
+
 print_r($_FILES);
 
 

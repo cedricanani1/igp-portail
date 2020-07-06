@@ -32,6 +32,7 @@
 
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
+                                    <label for="name">Votre nom</label>
                                     <input type="text" name="name" class="form-control" id="name" data-rule="required"
                                            placeholder="Entrer votre nom"
                                            data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -40,8 +41,26 @@
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
+                                    <label for="phone">Votre téléphone</label>
+                                    <input type="text" name="phone" class="form-control" id="phone" data-rule="required"
+                                           placeholder="Entrer votre téléphone"
+                                           data-rule="minlen:8" data-msg="Please enter at least 8 chars" />
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12 form-group">
                                     <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
-                                    <input type="file" data-rule="required" class="form-control-file" name="cvfile">
+                                    <label for="cv">CV</label>
+                                    <input type="file" id="cv" data-rule="required" class="form-control-file" name="cvfile">
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12 form-group">
+                                    <input type="hidden" name="MAX_FILE_SIZE_LM" value="1000000" />
+                                    <label for="lm">Lettre de motivation</label>
+                                    <input type="file" id="lm" data-rule="required" class="form-control-file" name="lmfile">
                                     <div class="validate"></div>
                                 </div>
                             </div>

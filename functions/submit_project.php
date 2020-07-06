@@ -15,22 +15,17 @@
       $sendEmailClient->sendMailLce();
 
       include_once '../config/db.php';
-
       try {
-
-
-          $req = $bdd->prepare('INSERT INTO projets(nom,prenom,
-                        email, telephone, intitule, details, date_envoi) 
-                        VALUES (:nom, prenom, :email, :telephone, :intitule, :details, NOW())');
+          $req = $bdd->prepare('INSERT INTO projets(nom,prenom,email,
+                  telephone, intitule, details, date_envoi) VALUES(:nom,:prenom, :email, :telephone, :intitule, :details, NOW())');
           $req->execute(array(
-              'nom' => $_POST['nom'],
-              'prenom' => $_POST['prenom'],
-              'email' => $_POST['email'],
-              'telephone' => $_POST['telephone'],
-              'intitule' => $_POST['intitule'],
-              'details' => $_POST['details']
+              'nom' => $nameClient,
+              'prenom' => $lastNameClient,
+              'email' => $emailClient,
+              'telephone' => $telephoneClient,
+              'intitule' => $subjectClient,
+              'details' => $messageClient
           ));
-
           die('Message envoyé avec succès !');
       } catch (Exception $e) {
           die('Impossible d\'enregistrer les données');

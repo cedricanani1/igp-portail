@@ -8,11 +8,13 @@ require_once "../vendor/autoload.php";
 class sendContact {
 
     private $nameClient;
+    private $lastNameClient;
     private $emailClient;
     private $telephoneClient;
     private $subjectClient;
     private $messageClient;
     private $mailSend;
+    private $clientMailSend;
     private $mailHeaders;
 
     /**
@@ -36,11 +38,11 @@ class sendContact {
         //Enable SMTP debugging.
         //$mailSend->SMTPDebug = 3;
         $this->mailSend->isSMTP();
-        $this->mailSend->Host = "smtp.gmail.com";
+        $this->mailSend->Host = "mail41.lwspanel.com";
         $this->mailSend->WordWrap = 50;
         $this->mailSend->SMTPAuth = true;
-        $this->mailSend->Username = "diakitesoumaila182@gmail.com";
-        $this->mailSend->Password = "Ds56058826";
+        $this->mailSend->Username = "hotline@lce-ci.com";
+        $this->mailSend->Password = "pX6*vSkRm@";
         $this->mailSend->SMTPSecure = "tls";
         $this->mailSend->Port = 587;
         $this->mailSend->SMTPOptions = array(
@@ -60,6 +62,35 @@ class sendContact {
         $this->mailSend->addEmbeddedImage('../assets/img/images_mails/Welcome_Email.png', 'welcome');
         $this->mailSend->addEmbeddedImage('../assets/img/images_mails/white_down.png', 'white');
         $this->mailSend->addEmbeddedImage('../assets/img/images_mails/youtube2x.png', 'youtube');
+
+        //For customers
+        $this->clientMailSend = new PHPMailer(true);
+        //Enable SMTP debugging.
+        //$mailSend->SMTPDebug = 3;
+        $this->clientMailSend->isSMTP();
+        $this->clientMailSend->Host = "mail41.lwspanel.com";
+        $this->clientMailSend->WordWrap = 50;
+        $this->clientMailSend->SMTPAuth = true;
+        $this->clientMailSend->Username = "hotline@lce-ci.com";
+        $this->clientMailSend->Password = "pX6*vSkRm@";
+        $this->clientMailSend->Port = 587;
+        $this->clientMailSend->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
+
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/logo_lce.png', 'logo');//logo-fb-insta-linked-twit-up-welcome-white-youtube
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/facebook2x.png', 'fb');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/instagram2x.png', 'insta');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/linkedin2x.png', 'linked');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/twitter2x.png', 'twit');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/Up_pink.png', 'up');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/Welcome_Email.png', 'welcome');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/white_down.png', 'white');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/youtube2x.png', 'youtube');
     }
 
     /**
@@ -143,13 +174,16 @@ class sendContact {
     }
 
     public function sendMailLce() {
-        $this->mailSend->From = $this->emailClient;
+        $this->mailSend->From = 'hotline@lce-ci.com';
         $this->mailSend->FromName = $this->nameClient;
+        $this->mailSend->addReplyTo($this->emailClient, $this->getNameClient());
         //L'email qui reçoit
         $this->mailSend->addAddress('assita.sow@lce-ci.com', 'ASSITA SOW');
         $this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
         $this->mailSend->addAddress(' lonan.coulibaly@lce-ci.com', 'LONAN COULIBALY');
         $this->mailSend->addAddress('olivier.traore@lce-ci.com', 'TRAORE OLIVIER');
+        $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');
+        //$this->mailSend->addAddress('diakite.soumaila@lce-ci.com', 'DIAKITE SOUMAILA');
         $this->mailSend->isHTML(true);
         $this->mailSend->Subject = "Demande de service";
         $this->constructHtmlLCE();
@@ -162,18 +196,17 @@ class sendContact {
     }
 
     public function sendMailCustomer() {
-
-        $this->mailSend->From = 'hotline@lce-ci.com';
-        $this->mailSend->FromName = 'La LOCOMOTIVE';
+        $this->clientMailSend->From = 'hotline@lce-ci.com';
+        $this->clientMailSend->FromName = 'La LOCOMOTIVE';
         //L'email qui reçoit
-        $this->mailSend->addAddress($this->emailClient, $this->nameClient);
-        $this->mailSend->isHTML(true);
-        $this->mailSend->Subject = "Demande de service Lce-ci";
+        $this->clientMailSend->addAddress($this->emailClient, $this->nameClient);
+        $this->clientMailSend->isHTML(true);
+        $this->clientMailSend->Subject = "Demande de service Lce-ci";
 
         $this->constructHtmlCustomer();
 
         try {
-            $this->mailSend->send();
+            $this->clientMailSend->send();
         } catch (Exception $e) {
             die("Mailer Error: " . $this->mailSend->ErrorInfo);
         }
@@ -191,6 +224,7 @@ class sendContact {
 <meta content=\"width=device-width\" name=\"viewport\"/>
 <!--[if !mso]><!-->
 <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/>
+<meta charset=\"utf-8\"/>
 <!--<![endif]-->
 <title></title>
 <!--[if !mso]><!-->
@@ -660,7 +694,7 @@ class sendContact {
 
     private function constructHtmlCustomer() {
         //  src="cid:logo logo-fb-insta-linked-twit-up-welcome-white-youtube"
-        $this->mailSend->Body = "
+        $this->clientMailSend->Body = "
             <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional //EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:v=\"urn:schemas-microsoft-com:vml\">
 <head>
@@ -669,6 +703,7 @@ class sendContact {
 <meta content=\"width=device-width\" name=\"viewport\"/>
 <!--[if !mso]><!-->
 <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/>
+<meta charset=\"utf-8\"/>
 <!--<![endif]-->
 <title></title>
 <!--[if !mso]><!-->

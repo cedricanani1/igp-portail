@@ -12,7 +12,7 @@
   <title>Lce-ci</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-
+    <meta charset="utf-8">
   <!-- Favicons -->
   <link href="./assets/img/fac.ico" rel="icon">
   <link href="./assets/img/fac.ico" rel="apple-touch-icon">
@@ -44,7 +44,7 @@
                                 <div class="phone">
                                     <i class="fa fa-phone" style="color:rgb(92, 63, 63);"></i>
                                   <a href="#" style="color:rgb(255, 255, 255);">
-                                      <b> +225 46 66 77 66 / +225 07 96 96 72</b>
+                                      <b>+225 07 96 96 72</b>
                                       <b> </b>
                                   </a>
                                 </div>

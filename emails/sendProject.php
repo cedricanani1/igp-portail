@@ -13,6 +13,7 @@ class sendProject {
     private $subjectClient;
     private $messageClient;
     private $mailSend;
+    private $clientMailSend;
     private $mailHeaders;
 
     /**
@@ -34,35 +35,7 @@ class sendProject {
         $this->messageClient = $messageClient;
         $this->mailHeaders = "From: " . $this->nameClient . "<". $this->emailClient .">\r\n";
 
-        $this->mailSend = new PHPMailer(true);
-        //Enable SMTP debugging.
-        //$mailSend->SMTPDebug = 3;
-        $this->mailSend->isSMTP();
-        $this->mailSend->Host = "smtp.gmail.com";
-        $this->mailSend->WordWrap = 50;
-        $this->mailSend->SMTPAuth = true;
-        $this->mailSend->Username = "diakitesoumaila182@gmail.com";
-        $this->mailSend->Password = "Ds56058826";
-        $this->mailSend->SMTPSecure = "tls";
-        $this->mailSend->Port = 587;
-        $this->mailSend->SMTPOptions = array(
-            'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
-        );
-
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/logo_lce.png', 'logo');//logo-fb-insta-linked-twit-up-welcome-white-youtube
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/facebook2x.png', 'fb');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/instagram2x.png', 'insta');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/linkedin2x.png', 'linked');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/twitter2x.png', 'twit');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/Up_pink.png', 'up');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/Welcome_Email.png', 'welcome');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/white_down.png', 'white');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/youtube2x.png', 'youtube');
-        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/Step_1_1.png', 'step');
+        $this->initSMTPServe();
     }
 
     /**
@@ -162,14 +135,15 @@ class sendProject {
         $this->messageClient = $messageClient;
     }
 
-
     public function sendMailLce() {
-        $this->mailSend->From = $this->emailClient;
+        $this->mailSend->From = 'hotline@lce-ci.com';
         $this->mailSend->FromName = $this->nameClient;
         //L'email qui reçoit
+        $this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
         $this->mailSend->addAddress('assita.sow@lce-ci.com', 'ASSITA SOW');
         $this->mailSend->addAddress(' lonan.coulibaly@lce-ci.com', 'LONAN COULIBALY');
         $this->mailSend->addAddress('olivier.traore@lce-ci.com', 'TRAORE OLIVIER');
+        $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');
         $this->mailSend->isHTML(true);
         $this->mailSend->Subject = "Demande de collaboration";
         $this->constructHtmlLCE();
@@ -183,35 +157,35 @@ class sendProject {
 
     public function sendMailCustomer() {
 
-        $this->mailSend->From = 'hotline@lce-ci.com';
-        $this->mailSend->FromName = 'La LOCOMOTIVE';
+        $this->clientMailSend->From = 'hotline@lce-ci.com';
+        $this->clientMailSend->FromName = 'La LOCOMOTIVE';
         //L'email qui reçoit
-        $this->mailSend->addAddress($this->emailClient, $this->nameClient);
-        $this->mailSend->isHTML(true);
-        $this->mailSend->Subject = "Demande de collaboration Lce-ci";
+        $this->clientMailSend->addAddress($this->emailClient, $this->nameClient);
+        $this->clientMailSend->isHTML(true);
+        $this->clientMailSend->Subject = "Demande de collaboration Lce-ci";
 
         $this->constructHtmlCustomer();
 
         try {
-            $this->mailSend->send();
+            $this->clientMailSend->send();
         } catch (Exception $e) {
-            die("Mailer Error: " . $this->mailSend->ErrorInfo);
+            die("Mailer Error: " . $this->clientMailSend->ErrorInfo);
         }
     }
 
     private function constructHtmlLCE() {
         //  src="cid:logo logo-fb-insta-linked-twit-up-welcome-white-youtube"
         $this->mailSend->Body = "
-    
-    <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional //EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+            <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional //EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
 
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:v=\"urn:schemas-microsoft-com:vml\">
 <head>
 <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
-<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/>
+<meta content=\"text/html\" http-equiv=\"Content-Type\"/>
 <meta content=\"width=device-width\" name=\"viewport\"/>
 <!--[if !mso]><!-->
 <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/>
+<meta charset=\"utf-8\"/>
 <!--<![endif]-->
 <title></title>
 <!--[if !mso]><!-->
@@ -456,7 +430,7 @@ class sendProject {
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 40px; padding-left: 40px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
 <div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.5;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;\">
 <div style=\"line-height: 1.5; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 18px;\">
-<p style=\"font-size: 16px; line-height: 1.5; text-align: center; word-break: break-word; mso-line-height-alt: 24px; margin: 0;\"><strong><span style=\"font-size: 38px;\">Projet client</span></strong></p>
+<p style=\"font-size: 16px; line-height: 1.5; text-align: center; word-break: break-word; mso-line-height-alt: 24px; margin: 0;\"><u><strong><span style=\"font-size: 38px;\">Projet client</span></strong></u></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
@@ -476,50 +450,50 @@ class sendProject {
 </tbody>
 </table>
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<div style=\"color:#191919;font-family:sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919; mso-line-height-alt: 14px;\">
 <p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Nom : ".$this->getNameClient()."</span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<div style=\"color:#191919;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919;mso-line-height-alt: 14px;\">
 <p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Prénom(s) : ".$this->getLastNameClient()."</span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<div style=\"color:#191919;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919;mso-line-height-alt: 14px;\">
 <p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Email : ".$this->getEmailClient()."</span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<div style=\"color:#191919;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919;mso-line-height-alt: 14px;\">
 <p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Téléphone : ".$this->getTelephoneClient()."</span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<div style=\"color:#191919;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919; mso-line-height-alt: 14px;\">
 <p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Objet : ".$this->getSubjectClient()."</span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
-<p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Détails demande : </span></strong></p>
+<div style=\"color:#191919;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919; mso-line-height-alt: 14px;\">
+<p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: left; mso-line-height-alt: 17px; margin: 0;\"><strong><span style=\"font-size: 22px;\">Détails demande :</span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#191919;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
-<div style=\"line-height: 1.2; font-size: 12px; color: #191919; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<div style=\"color:#191919;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #191919; mso-line-height-alt: 14px;\">
 <p style=\"font-size: 22px; line-height: 1.2; word-break: break-word; text-align: justify; mso-line-height-alt: 26px; margin: 0;\"><span style=\"font-size: 22px;\">".$this->getMessageClient()."</span></p>
 </div>
 </div>
@@ -600,9 +574,7 @@ class sendProject {
 <td style=\"word-break: break-word; vertical-align: top; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;\" valign=\"top\">
 <table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"social_table\" role=\"presentation\" style=\"table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-tspace: 0; mso-table-rspace: 0; mso-table-bspace: 0; mso-table-lspace: 0;\" valign=\"top\">
 <tbody>
-    
 ".$this->footer()."
-
 </tbody>
 </table>
 </td>
@@ -611,7 +583,7 @@ class sendProject {
 </table>
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 40px; padding-left: 40px; padding-top: 0px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
 <div style=\"color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:2;padding-top:0px;padding-right:40px;padding-bottom:10px;padding-left:40px;\">
-<div style=\"line-height: 2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 24px;\">
+<div style=\"line-height: 2; font-size: 12px; color: #555555; mso-line-height-alt: 24px;\">
 <p style=\"font-size: 14px; line-height: 2; word-break: break-word; text-align: center; mso-line-height-alt: 28px; margin: 0;\"><strong>Nous innovons, vous performez</strong></p>
 </div>
 </div>
@@ -685,23 +657,22 @@ class sendProject {
 <!--[if (IE)]></div><![endif]-->
 </body>
 </html>
-
-
         ";
     }
 
     private function constructHtmlCustomer() {
         //  src="cid:logo logo-fb-insta-linked-twit-up-welcome-white-youtube"
-        $this->mailSend->Body = "
+        $this->clientMailSend->Body = "
         <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional //EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
 
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:v=\"urn:schemas-microsoft-com:vml\">
 <head>
 <!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
-<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\"/>
+<meta content=\"text/html;\" http-equiv=\"Content-Type\"/>
 <meta content=\"width=device-width\" name=\"viewport\"/>
 <!--[if !mso]><!-->
 <meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\"/>
+<meta charset=\"utf-8\"/>
 <!--<![endif]-->
 <title></title>
 <!--[if !mso]><!-->
@@ -1027,90 +998,6 @@ class sendProject {
 </div>
 </div>
 <div style=\"background-color:transparent;\">
-<div class=\"block-grid mixed-two-up\" style=\"Margin: 0 auto; min-width: 320px; max-width: 700px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #ffffff;\">
-<div style=\"border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;\">
-<!--[if (mso)|(IE)]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:transparent;\"><tr><td align=\"center\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width:700px\"><tr class=\"layout-full-width\" style=\"background-color:#ffffff\"><![endif]-->
-<!--[if (mso)|(IE)]><td align=\"center\" width=\"466\" style=\"background-color:#ffffff;width:466px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;\" valign=\"top\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;\"><![endif]-->
-<div class=\"col num8\" style=\"display: table-cell; vertical-align: top; min-width: 320px; max-width: 464px; width: 466px;\">
-<div style=\"width:100% !important;\">
-<!--[if (!mso)&(!IE)]><!-->
-<div style=\"border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;\">
-<!--<![endif]-->
-<div class=\"mobile_hide\">
-<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"divider\" role=\"presentation\" style=\"table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\" width=\"100%\">
-<tbody>
-<tr style=\"vertical-align: top;\" valign=\"top\">
-<td class=\"divider_inner\" style=\"word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 15px;\" valign=\"top\">
-<table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"divider_content\" height=\"0\" role=\"presentation\" style=\"table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-top: 5px solid transparent; height: 0px; width: 15%;\" valign=\"top\" width=\"15%\">
-<tbody>
-<tr style=\"vertical-align: top;\" valign=\"top\">
-<td height=\"0\" style=\"word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"><span></span></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<!--[if !mso]><!-->
-<div class=\"desktop_hide\" style=\"mso-hide: all; display: none; max-height: 0px; overflow: hidden;\">
-<!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 30px; padding-left: 40px; padding-top: 0px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:2;padding-top:0px;padding-right:30px;padding-bottom:10px;padding-left:40px;\">
-<div style=\"line-height: 2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 24px;\">
-<p style=\"line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Madame, Mademoiselle, Monsieur,</span></p>
-<p style=\"line-height: 2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Nous  accusons réception de votre offre de collaboration et nous vous remercions de l’intérêt que vous portez à la société La <strong>Locomotive</strong>.</span></p>
-<p style=\"line-height: 2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Votre dossier sera traité dans les plus brefs délais.</span></p>
-<p style=\"line-height: 2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Cependant, si vous n’avez pas de nouvelles de notre part dans les trois semaines qui suivent ce courrier, veuillez considérer que nous ne sommes pas en mesure de répondre favorablement à votre candidature.</span></p>
-<p style=\"line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Nous vous prions d’agréer, Madame, Mademoiselle, Monsieur, nos salutations les meilleures.</span></p>
-</div>
-</div>
-<!--[if mso]></td></tr></table><![endif]-->
-</div>
-<!--<![endif]-->
-<!--[if !mso]><!-->
-<div class=\"desktop_hide\" style=\"mso-hide: all; display: none; max-height: 0px; overflow: hidden;\">
-<!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 30px; padding-left: 40px; padding-top: 0px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
-<div style=\"color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:2;padding-top:0px;padding-right:30px;padding-bottom:10px;padding-left:40px;\">
-<div style=\"line-height: 2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 24px;\">
-<p style=\"text-align: center; line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Salutations</span></p>
-<p style=\"text-align: center; line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Madame / Monsieur ".$this->getNameClient()."</span></p>
-<p style=\"text-align: center; line-height: 2; word-break: break-word; font-size: 14px; mso-line-height-alt: 28px; margin: 0;\"><span style=\"font-size: 14px;\">Partner Management Office</span></p>
-</div>
-</div>
-<!--[if mso]></td></tr></table><![endif]-->
-</div>
-<!--<![endif]-->
-<!--[if (!mso)&(!IE)]><!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-<!--[if (mso)|(IE)]></td><td align=\"center\" width=\"233\" style=\"background-color:#ffffff;width:233px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;\" valign=\"top\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;\"><![endif]-->
-<div class=\"col num4\" style=\"display: table-cell; vertical-align: top; max-width: 320px; min-width: 232px; width: 233px;\">
-<div style=\"width:100% !important;\">
-<!--[if (!mso)&(!IE)]><!-->
-<div style=\"border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;\">
-<!--<![endif]-->
-<div align=\"center\" class=\"img-container center fixedwidth\" style=\"padding-right: 40px;padding-left: 0px;\">
-<!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr style=\"line-height:0px\"><td style=\"padding-right: 40px;padding-left: 0px;\" align=\"center\"><![endif]--><img align=\"center\" alt=\"I'm an image\" border=\"0\" class=\"center fixedwidth\" src=\"cid:step\" style=\"text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 193px; display: block;\" title=\"I'm an image\" width=\"193\"/>
-<!--[if mso]></td></tr></table><![endif]-->
-</div>
-<!--[if (!mso)&(!IE)]><!-->
-</div>
-<!--<![endif]-->
-</div>
-</div>
-<!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-<!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
-</div>
-</div>
-</div>
-<div style=\"background-color:transparent;\">
 <div class=\"block-grid\" style=\"Margin: 0 auto; min-width: 320px; max-width: 700px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #ffffff;\">
 <div style=\"border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;\">
 <!--[if (mso)|(IE)]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:transparent;\"><tr><td align=\"center\"><table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width:700px\"><tr class=\"layout-full-width\" style=\"background-color:#ffffff\"><![endif]-->
@@ -1120,21 +1007,38 @@ class sendProject {
 <!--[if (!mso)&(!IE)]><!-->
 <div style=\"border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;\">
 <!--<![endif]-->
-<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"divider\" role=\"presentation\" style=\"table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\" width=\"100%\">
-<tbody>
-<tr style=\"vertical-align: top;\" valign=\"top\">
-<td class=\"divider_inner\" style=\"word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;\" valign=\"top\">
-<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"divider_content\" height=\"15\" role=\"presentation\" style=\"table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-top: 0px solid transparent; height: 15px; width: 100%;\" valign=\"top\" width=\"100%\">
-<tbody>
-<tr style=\"vertical-align: top;\" valign=\"top\">
-<td height=\"15\" style=\"word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;\" valign=\"top\"><span></span></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
+<!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
+<div style=\"color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">          </span></p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">           Madame, Mademoiselle, Monsieur,</span></p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">Nous  accusons réception de votre offre de collaboration et nous vous remercions de l’intérêt que vous portez à la société La Locomotive.</span></p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">Votre dossier sera traité dans les plus brefs délais.</span></p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">Cependant, si vous n’avez pas de nouvelles de notre part dans les trois semaines qui suivent ce courrier, veuillez considérer que nous ne sommes pas en mesure de répondre favorablement à votre candidature.</span></p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; font-size: 16px; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">Nous vous prions d’agréer, Madame, Mademoiselle, Monsieur, nos salutations les meilleures.</span></p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+<p style=\"text-align: justify; line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+<!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
+<div style=\"color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;\">
+<div style=\"line-height: 1.2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
+<p style=\"font-size: 16px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">           </span></p>
+<p style=\"font-size: 16px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">Salutations Madame / Monsieur <nom et=\"\" prénom=\"\"></nom></span></p>
+<p style=\"font-size: 16px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 19px; margin: 0;\"><span style=\"font-size: 16px;\">Partner Management Office</span></p>
+<p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;\"> </p>
+<p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;\"> </p>
+<p style=\"font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;\"> </p>
+</div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
 <!--[if (!mso)&(!IE)]><!-->
 </div>
 <!--<![endif]-->
@@ -1221,7 +1125,7 @@ class sendProject {
 <table align=\"center\" cellpadding=\"0\" cellspacing=\"0\" class=\"social_table\" role=\"presentation\" style=\"table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-tspace: 0; mso-table-rspace: 0; mso-table-bspace: 0; mso-table-lspace: 0;\" valign=\"top\">
 <tbody>
 ".$this->footer()."
-    </tbody>
+</tbody>
 </table>
 </td>
 </tr>
@@ -1368,6 +1272,66 @@ class sendProject {
         ";
     }
 
+    private function initSMTPServe() {
+        //For Lce
+        $this->mailSend = new PHPMailer(true);
+        //Enable SMTP debugging.
+        //$mailSend->SMTPDebug = 3;
+        $this->mailSend->isSMTP();
+        $this->mailSend->Host = "mail41.lwspanel.com";
+        $this->mailSend->WordWrap = 50;
+        $this->mailSend->SMTPAuth = true;
+        $this->mailSend->Username = "hotline@lce-ci.com";
+        $this->mailSend->Password = "pX6*vSkRm@";
+        $this->mailSend->SMTPSecure = "tls";
+        $this->mailSend->Port = 587;
+        $this->mailSend->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
 
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/logo_lce.png', 'logo');//logo-fb-insta-linked-twit-up-welcome-white-youtube
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/facebook2x.png', 'fb');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/instagram2x.png', 'insta');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/linkedin2x.png', 'linked');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/twitter2x.png', 'twit');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/Up_pink.png', 'up');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/Welcome_Email.png', 'welcome');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/white_down.png', 'white');
+        $this->mailSend->addEmbeddedImage('../assets/img/images_mails/youtube2x.png', 'youtube');
+
+
+        //For customers
+        $this->clientMailSend = new PHPMailer(true);
+        //Enable SMTP debugging.
+        //$mailSend->SMTPDebug = 3;
+        $this->clientMailSend->isSMTP();
+        $this->clientMailSend->Host = "mail41.lwspanel.com";
+        $this->clientMailSend->WordWrap = 50;
+        $this->clientMailSend->SMTPAuth = true;
+        $this->clientMailSend->Username = "hotline@lce-ci.com";
+        $this->clientMailSend->Password = "pX6*vSkRm@";
+        $this->clientMailSend->Port = 587;
+        $this->clientMailSend->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
+
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/logo_lce.png', 'logo');//logo-fb-insta-linked-twit-up-welcome-white-youtube
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/facebook2x.png', 'fb');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/instagram2x.png', 'insta');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/linkedin2x.png', 'linked');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/twitter2x.png', 'twit');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/Up_pink.png', 'up');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/Welcome_Email.png', 'welcome');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/white_down.png', 'white');
+        $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/youtube2x.png', 'youtube');
+    }
 }
     
