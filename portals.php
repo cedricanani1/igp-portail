@@ -50,8 +50,8 @@
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
-                                    <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
                                     <label for="cv">CV</label>
+                                    <input type="hidden" name="MAX_FILE_SIZE_CV" value="1000000" />
                                     <input type="file" id="cv" data-rule="required" class="form-control-file" name="cvfile">
                                     <div class="validate"></div>
                                 </div>
@@ -76,7 +76,6 @@
                                     </div>
                                 </div>
                             </div>
-
 
                         </form>
                         </p>

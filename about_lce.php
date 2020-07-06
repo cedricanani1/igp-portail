@@ -52,6 +52,32 @@
     </div>
 </section>
 
+<section class="cor_gov" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeIn about_block_head animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeIn;">
+                <h2 data-aos="fade-up" class="text-left" style="color: #222;font-size: 44px;">Nos Valeurs</h2>
+
+                <ul data-aos="fade-up" style="list-style-type: none;">
+                    <li data-aos="fade-up" class="text-left" style="font-size: 35px;" >&hearts; <u>Approche orientée client</u></li> <br>
+                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Nous respectons le caractère unique de chaque client quel que soit sa taille, ses besoins et son budget.  Ainsi nous lui apportons des solutions sur mesure.</p>
+                    <li data-aos="fade-up" class="text-left" style="font-size: 35px;" >&hearts; <u>Agilite & Innovation </u>  </li>
+                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Penser et  faire sortir de la boîte en fixant l'esprit libre. Nous cherchons également des possibilités non révélées, cachées dans des réactions et des suggestions des clients et des collègues de travail pour en faire des produits qui s’identifient a tout acteur de la chaine des valeurs.</p>
+
+                    <li data-aos="fade-up" class="text-left" style="font-size: 35px;" >&hearts; <u>Culture de travail dans la transparence </u>  </li>
+                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Nos paroles et nos actions vont toujours main dans la main. Nous préservons fermement  la transparence pour être correcte du point de vue éthique, juridique et social.</p>
+
+                    <li data-aos="fade-up" class="text-left" style="font-size: 35px;" >&hearts; <u>Orienté résultat </u>   </li>
+                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> En fixant des objectifs clairs, définir les priorités, organiser les ressources et le suivi rigoureux de l’évolution de chaque projet.</p>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <br><br>
 
 <div class="container mb-3">
@@ -59,7 +85,7 @@
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-primary"
                href="clients_project.php"
-            >Avez-vous un projet ?</a>
+            >Avez-vous un besoin ?</a>
         </div>
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-secondary"
