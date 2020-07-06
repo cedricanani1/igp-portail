@@ -16,8 +16,6 @@
                         <p>
                         <form enctype="multipart/form-data"
                               action="functions/job.php" method="POST" role="form"
-                              class="php-email-form" data-aos="fade-up"
-
                         >
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
@@ -52,7 +50,7 @@
                                 <div class="col-md-12 form-group">
                                     <label for="cv">CV</label>
                                     <input type="hidden" name="MAX_FILE_SIZE_CV" value="1000000" />
-                                    <input type="file" id="cv" data-rule="required" class="form-control-file" name="cvfile">
+                                    <input type="file" name="cvfile"/>
                                     <div class="validate"></div>
                                 </div>
                             </div>
@@ -60,19 +58,14 @@
                                 <div class="col-md-12 form-group">
                                     <input type="hidden" name="MAX_FILE_SIZE_LM" value="1000000" />
                                     <label for="lm">Lettre de motivation</label>
-                                    <input type="file" id="lm" data-rule="required" class="form-control-file" name="lmfile">
+                                    <input type="file" id="lm" class="form-control-file" name="lmfile">
                                     <div class="validate"></div>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12 mb-3 form-group">
-                                    <div class="mb-3">
-                                        <div class="loading">Loading</div>
-                                        <div class="error-message"></div>
-                                        <div class="sent-message">Votre message a été envoyé avec succès !</div>
-                                    </div>
                                     <div class="text-center">
-                                        <button type="submit" class="btn btn-outline-secondary btn-lg btn-block">Envoyer</button>
+                                        <button type="submit" class="btn btn-secondary btn-lg btn-block">Envoyer</button>
                                     </div>
                                 </div>
                             </div>
@@ -85,9 +78,6 @@
         </div>
     </section>
 </div>
-
-
-
 
 <br><br>
 
@@ -108,4 +98,4 @@
 
 <br>
 
-<?php include_once('include/footer.php') ?>
+<?php include_once('include/footer.php')?>

@@ -140,9 +140,12 @@ class sendProject {
         $this->mailSend->FromName = $this->nameClient;
         //L'email qui reçoit
         $this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
+        $this->mailSend->addAddress('assitadiall@gmail.com', 'ASSITA SOW');
+        $this->mailSend->addAddress('assitabercy@gmail.com', 'ASSITA SOW');
         $this->mailSend->addAddress('assita.sow@lce-ci.com', 'ASSITA SOW');
-        $this->mailSend->addAddress(' lonan.coulibaly@lce-ci.com', 'LONAN COULIBALY');
+        $this->mailSend->addAddress('lonan.coulibaly@lce-ci.com', 'LONAN COULIBALY');
         $this->mailSend->addAddress('olivier.traore@lce-ci.com', 'TRAORE OLIVIER');
+        $this->mailSend->addAddress('gnouwietchatr@gmail.com', 'TRAORE OLIVIER');
         $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');
         $this->mailSend->isHTML(true);
         $this->mailSend->Subject = "Demande de collaboration";

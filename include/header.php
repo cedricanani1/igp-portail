@@ -125,7 +125,7 @@
                             <li><a href="#">Partner programs</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="portals.php">Portals</a></li>
+                    <li><a href="portals.php">Carrière</a></li>
 
                     <li><a href="press_events.php">Gallery</a>
                     <!--<li class="drop-down"><a href="#">Press & Events</a>
