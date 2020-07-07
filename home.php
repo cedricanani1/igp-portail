@@ -11,7 +11,7 @@
             <div class="carousel-item active">
                 <img src="assets/img/home/home14.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3><span class="kouame" data-elements="NOUS INNOVONS >>> VOUS PERFORMEZ" style="font-weight: bold; font-size: 65px; color:white"></span></h3>
+                    <h3><span class="kouame" data-elements="NOUS INNOVONS >>> VOUS PERFORMEZ" style="font-weight: bold; font-size: 50px; color:white"></span></h3>
                 </div>
                 
             </div>
