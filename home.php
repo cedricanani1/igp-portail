@@ -9,14 +9,14 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/home/home14.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 1">
+                <img src="assets/img/home/home14.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-md-block">
                     <h3><span class="kouame" data-elements="NOUS INNOVONS >>> VOUS PERFORMEZ" style="font-weight: bold; font-size: 2.4vw; color:white"></span></h3>
                 </div>
                 
             </div>
             <div class="carousel-item">
-                <img src="assets/img/home/home7.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 2">
+                <img src="assets/img/home/home7.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
                       <b>IoT</b>  >>> <b class="kouame" data-elements="Le Futur c'est Maintenant !"></b> 
