@@ -39,8 +39,7 @@
                 <h2 class="text-left" style="color: #222;font-size: 44px;" data-aos="fade-up">Find a partner</h2>
                 <p style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;" data-aos="fade-up">
                     Notre stratégie consiste à déployer une équipe qui effectuera des enquêtes dans
-                    différents domaines d'activité en Côte d'Ivoire dans but de les organiser dans
-                    une poule sur notre plateforme.
+                    différents domaines d'activité en Côte d'Ivoire dans le but de les organiser en pool sur notre plateforme.
                 </p>
             </div>
         </div>
