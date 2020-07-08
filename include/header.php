@@ -97,7 +97,7 @@
                             <li><a href="telecoms.php#support">Develop</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Logistique</a></li>
+                    <li><a href="404.php">Logistique</a></li>
                     <li><a href="">BTP</a></li>
                     <li><a href="">Formations</a></li>
                 </ul>
