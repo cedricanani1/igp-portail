@@ -44,13 +44,13 @@
                         style=" list-style-type: '-';font-size: 20px; text-align: left;
                     text-decoration: none;">
                         <li data-aos="fade-up">
-                            <a href="./clients.php">Solution partners</a>
+                            <a href="partners.php">Solution partners</a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="./clients_become.php">Channel partners</a>
+                            <a href="partners.php">Channel partners</a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="./clients_programs.php">Services partners</a>
+                            <a href="partners.php">Services partners</a>
                         </li>
                     </ul>
 

@@ -7,7 +7,7 @@
         <div class="section-title">
           <h2 data-aos="fade-in">Contacts</h2>
           <p data-aos="fade-in">
-              Remplissez notre formulaire de contact en nous faisons part de vos besoins.
+            Soumettez nous votre besoin, notre équipe se chargera de traiter votre demande dans un bref delai.
           </p>
         </div>
 
