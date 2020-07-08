@@ -3,7 +3,7 @@
 <section id="soft_dev" class="soft_dev section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">SAAS</h2>
+            <h2 data-aos="fade-in" class="aos-init">Web Master</h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
@@ -15,24 +15,24 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/img/services/software_dev.jpg" class="d-block w-100" alt="...">
+                            <img src="assets/img/services/site-internet-responsif.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Service Web</h5>
-                            <p>Notre espace web regroupe plusieurs solutions pour aider votre business.</p>
+                            <h5></h5>
+                            <p>Développement de site web attrayant</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/services/SAAS.jpg" class="d-block w-100" alt="...">
+                            <img src="assets/img/services/site-internet.jpeg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p></p>
+                            <p>Sites Responsifs</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/services/SAAS1.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p></p>
+                            <p>Toujours à votre écoute </p>
                         </div>
                     </div>
                 </div>
@@ -49,20 +49,84 @@
             <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
         </div>
         <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-            <h3>Développement d'application web, mobile et desktop</h3>
+            <h3>Conception, Réalisation & Maintenance de Sites Web</h3>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Pour avoir une image de marque, toute entreprise a besoin d'être vu sur le net.
-                Nous aidons, les clients à se faire une bonne image en les aidant à
-                mieux spécifier leurs besoins. Ainsi nous obtenons des produits de qualité.
+                Créer vous une identité digitale.
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous vous aidons à avoir accès à toutes les plateformes pour être opérationnel.
+               Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identé digitale.
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Vous n'avez pas de personne ressource en interne pour gérer votre site web ?
-                Vous êtes au bon endroit !
+                Notre équipe d'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, nous vous accompagnons et vous conseillons. Contectez-nous <a href="clients_project.php">ici</a>.               
             </p>
         </div>
+
+        </div>
+        <!-- Start Web Master Service   -->
+
+        </div>
+    </div>
+</section>
+
+<section id="soft_dev_1" class="soft_dev section-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2 data-aos="fade-in" class="aos-init">SAAS</h2>
+        </div>
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/services/software.jpeg" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/logiciel-gestion.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/gestion.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
+                <h3>Nos Logiciels Metier</h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.
+                </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    Des logiciels de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>
+                </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                Nous nous occupons de l'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu.
+                </p>
+            </div>
 
         </div>
     </div>

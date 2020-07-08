@@ -6,6 +6,13 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> 
+ 
+
+
+        
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -24,7 +31,31 @@
                 </div>
             </div>
             <div class="carousel-item">
+                <img src="assets/img/home/performance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-md-block" style="font-weight: bold;">
+                    <h1 style="font-size: 2.4vw;">
+                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                    </h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/home/digital.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-md-block" style="font-weight: bold;">
+                    <h1 style="font-size: 2.4vw;">
+                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                    </h1>
+                </div>
+            </div>
+            <div class="carousel-item">
                 <img src="assets/img/home/blockchain.jpeg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-md-block" style="font-weight: bold;">
+                    <h1 style="font-size: 2.4vw;">
+                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                    </h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/home/croissance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
                       <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
