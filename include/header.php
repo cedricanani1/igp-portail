@@ -34,7 +34,7 @@
 
 <body>
   <header id="header">
-    <div class="header-bottom" style="background: #b4461b">
+    <div class="header-bottom" style="background: #f36400">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -127,7 +127,7 @@
                     </li>-->
                     <li><a href="portals.php">Carrière</a></li>
 
-                    <li><a href="press_events.php">Gallery</a>
+                    <li><a href="#">Gallery</a>
                     <!--<li class="drop-down"><a href="#">Press & Events</a>
                         <ul>
                             <li><a href="press_events.php#news">News</a></li>
