@@ -210,7 +210,7 @@
                  <!--<img src="assets/img/services/digit_trans.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>Business admin, process digitalization and All digitalization</h3>
+                <h3>All Online, Automatisation & Intelligence</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     La transformation digitale, parfois appelée transformation numérique,
                     désigne le processus qui consiste, pour une organisation, à intégrer pleinement
@@ -237,28 +237,30 @@
                         <li data-target="#carouselExampleCaptions2" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions2" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions2" data-slide-to="2"></li>
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/Cloud_computing.png" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/Cloud_computing.png" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/cloud_computing.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/cloud_computing.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Exporter Vos Données Sur des serveurs distants</h5>
                             <p>Nous Vous accompagnons, Conseillons.</p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/Cloud-computing.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/Cloud-computing.jpg" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
-                        </div>
+                       
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -293,28 +295,37 @@
                         <li data-target="#carouselExampleCaptions3" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions3" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions3" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions3" data-slide-to="3"></li>
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/entreprise_network.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/entreprise_network.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/enterprise-networking.jpeg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/enterprise-networking1.jpeg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/entreprise_network.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/Enterprise-Networking.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/operate.png" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions3" role="button" data-slide="prev">
@@ -347,28 +358,30 @@
                         <li data-target="#carouselExampleCaptions4" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions4" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner"> <br> <br>
                         <div class="carousel-item active">
-                        <img src="assets/img/services/business_coaching.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                        </div>
-                        <div class="carousel-item">
-                        <img src="assets/img/services/business_coaching.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
+                            <img src="assets/img/services/business-coaching.jpg" style="height: 330px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/business_coaching.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/business-coach.png" style="height: 330px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/business_coaching.jpg" style="height: 330px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                     
+                       
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions4" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -396,19 +409,47 @@
     </div>
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-6 pt-6 aos-init" data-aos="fade-left">
-                <h3>VAS</h3>
+        <div class="col-md-5 aos-init" data-aos="fade-right">
+
+<div id="carouselExampleCaptions14" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions14" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="assets/img/services/sav.png" style="height: 300px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+        </div>
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions14" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions14" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+<!-- <img src="assets/img/services/business_coaching.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">-->
+</div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br> <br> <br> <br>
+                <h3>Service à Valeur Ajoutée(SVA)</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Après réalisation des différents projets, nous accompagnons nos différents
-                    clients à l'utilisation des différents supports que nous leur avons fournit.
+                    clients dans l'utilisation des différents supports.
                 </p>
             </div>
-            <div class="col-md-6 pt-6 aos-init" data-aos="fade-left">
+
+           <!-- <div class="col-md-6 pt-6 aos-init" data-aos="fade-left">
                 <h3>Learning Services</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons nos clients à s'adapter au nouvelles technologies.
+                    La Locomotive accompagne ces clients à s'adapter aux nouvelles technologies.
                 </p>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
@@ -426,28 +467,46 @@
                         <li data-target="#carouselExampleCaptions5" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions5" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions5" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions5" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions5" data-slide-to="4"></li>
+
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/RFID2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/rfid.png" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/RFID2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
+                            <img src="assets/img/services/RFID2.jpg" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/RFID2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/RFID3.png"  style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/RFID4.png" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/RFID5.png" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions5" role="button" data-slide="prev">
@@ -472,7 +531,7 @@
                     le contrôle d'accès ou encore l'identification automatique d'équipements industriels.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons à implémenter ces différentes solutions.
+                    La Locomotive vous aide à implémenter ces différentes solutions.
                 </p>
             </div>
 
@@ -487,21 +546,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/NFC2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/NFC2.jpg" style="height: 250px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/NFC2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/NFC3.png" style="height: 250px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/NFC2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/NFC4.png" style="height: 250px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
@@ -526,7 +585,7 @@
                     d’échanger des données à courte distance avec un autre dispositif (smartphone, produit…) équipé de la même technologie.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons les entreprises à déployer des objets connectés en privilégiant la protection des données à caractère personnel.
+                    La Locomotive accompagne les entreprises pour le déployement d'objets connectés en privilégiant la protection des données à caractère personnel.
                 </p>
             </div>
 
@@ -571,7 +630,10 @@
         </div>
 
         <div class="row mb-4 content">
-            <div class="col-md-12 pt-5 order-2 order-md-1 aos-init" data-aos="fade-right">
+        <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/correlation.png" alt="Image business_coaching" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-1  aos-init" data-aos="fade-right">
                 <h3>Correlation</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Au moment des mégadonnées, l'analyse de corrélation a attiré beaucoup d'attention pour
