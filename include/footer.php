@@ -120,7 +120,7 @@
         <div class="container">
             <div class="row" >
                 <div class="col-12" >
-                    <center><p class="crp" ><a style="color:white;">© Copyrights 2020 Lce-ci.com</a></p></center>
+                    <center><p class="crp" ><a style="color:white;">© Copyrights 2020 LCE-CI</a></p></center>
                 </div>
             </div>
         </div>
