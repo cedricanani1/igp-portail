@@ -13,7 +13,6 @@
                     <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
-
             </div>
         </div>
         <div class="footer-bottom container">

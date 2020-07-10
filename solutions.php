@@ -18,21 +18,18 @@
                             <img src="assets/img/services/site-internet-responsif.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>Développement de site web attrayant</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                             <img src="assets/img/services/site-internet.jpeg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>Sites Responsifs</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/services/SAAS1.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>Toujours à votre écoute </p>
                         </div>
                     </div>
                 </div>
@@ -51,13 +48,13 @@
         <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
             <h3>Conception, Réalisation & Maintenance de Sites Web</h3>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Créer vous une identité digitale.
+                Créez vous une identité digitale.
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-               Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identé digitale.
+               Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identité digitale.
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Notre équipe d'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, nous vous accompagnons et vous conseillons. Contectez-nous <a href="clients_project.php">ici</a>.               
+                Notre équipe d'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.               
             </p>
         </div>
 
@@ -119,12 +116,11 @@
                 <h3>Nos Logiciels Metier</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                 Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                Des logiciels “cle en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Des logiciels de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>
-                </p>
-                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous nous occupons de l'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu.
+                Nous nous occupons de l'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu
                 </p>
             </div>
 
@@ -217,7 +213,7 @@
                     les technologies digitales dans l’ensemble de ses activités.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons à mettre en place les différentes plateformes pouvant vous rendre plus opérationnel sur le marché.
+                    La Locomotive met en place les différentes plateformes pouvant vous rendre plus opérationnel sur le marché.
                 </p>
             </div>
 
@@ -276,12 +272,11 @@
             <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
                 <h3>Cloud computing</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Le Cloud Computing est la nouvelle forme de stockage de données du 21ème siècle.
-                    Cette technologie permet aux entreprises d’acheter des ressources informatiques sous
+                    Nouvelle forme de stockage de données du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous
                     la forme de service.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.
+                    Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.
                 </p>
 
             </div>
@@ -344,7 +339,7 @@
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Nous vous aidons à déterminer le type de réseau le mieux adapté à vos besoins.
                     Nos techniciens vous conseillent sur le choix de votre architecture réseau et des équipements : réseau câblé ou réseau sans fil.
-                    Nous mettons en place une protection de votre réseau afin de sécuriser vos données.
+                    Nous assurons la protection de votre réseau afin de sécuriser vos données.
                 </p>
             </div>
         </div>
@@ -397,12 +392,9 @@
             <div class="col-md-7 pt-5 aos-init" data-aos="fade-left">
                 <h3>Business Coach</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Le coaching ou accompagnement est un accompagnement personnalisé cherchant à améliorer les compétences
-                    et la performance d'un individu, d'un groupe ou d'une organisation, grâce à l'amélioration des connaissances,
-                    l'optimisation des processus et des méthodes d'organisation et de contrôle.
+                Notre coaching vous propose un accompagnement personnalisé qui vous aidera à mettre en oeuvre vos projets de transformation et les rendre pérennes.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons les personnes à mieux gérer les business à travers un coaching.
                 </p>
             </div>
         </div>
@@ -524,14 +516,11 @@
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
                 <h3>RFID</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La radio-identification, le plus souvent désignée par le sigle RFID, est une méthode pour
-                    mémoriser et récupérer des données à distance en utilisant des marqueurs appelés « radio-étiquettes »
-                    La Radio Frequency Identification est utilisée dans de nombreux secteurs d'activité et s'applique
-                    à bon nombre de situations telles que la gestion des stocks,
-                    le contrôle d'accès ou encore l'identification automatique d'équipements industriels.
+                L’identification par radio fréquence est une technologie utilisée pour stocker et récupérer des données à distance en utilisant des balises métalliques, les « Tags RFID » qui permettent egalement d’automatiser certaines procédures, voire, de les simplifier. 
+                Elle est utilisée dans de nombreux secteurs d'activité telles que la gestion des stocks, l’identification des personnes, les contrôles d'accès ou encore la traçabilité logistique.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La Locomotive vous aide à implémenter ces différentes solutions.
+                La Locomotive vous  aide à implémenter ces différentes solutions qui amelioreront les performances de votre entreprise.
                 </p>
             </div>
 
@@ -604,9 +593,7 @@
             <div class="col-md-7 pt-1 aos-init" data-aos="fade-left">
                 <h3>Machine learning</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    L'apprentissage automatique, apprentissage artificiel ou apprentissage statistique est un
-                    champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques.
-                    Nous proposons divers solutions dans ces différents domaines.
+                La Locomotive developpe des solutions basées sur l'intelligence artificielle fonde sur des approches mathématiques et statistiques qui optimise ainsi votre temps de travail et simplifie votre quotidien.
                 </p>
             </div>
         </div>
@@ -617,13 +604,11 @@
             <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
                 <h3>Big data analytics solution</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Les données sont l'élément vital de toute entreprise, quelle que soit leur taille.
-                    Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers
-                    de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations
-                    comprennent cette importance de la collecte de données et le font.
+                Les données sont l'élément vital de toute entreprise, quelle que soit leur taille. Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations comprennent cette importance de la collecte de données et le font.
+
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons nos partenaires à mieux gérer leur données en leur proposant les solutions adéquates de gestion de données.
+                Nous aidons nos partenaires à mieux gérer leurs données en leur proposant les solutions adéquates de traitement de données.
                 </p>
 
             </div>

@@ -12,12 +12,10 @@
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
                 <h3>Design/Engineering</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide et une planification compétente, stratégique et minutieuse est nécessaire pour prendre aujourd'hui les décisions qui amélioreront la fiabilité, l'efficacité et la durabilité des services de données et de télécommunications.
-                C'est pourquoi notre équipe d'experts se charge d'élaborer des plans créatifs et adptés aux besoins pour le bonheur de nos clients.
-                    </p>
-                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nos design Télécom sont innovants et adptés aux besoins.
+                Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide et, une planification compétente, stratégique et minutieuse est nécessaire pour prendre aujourd'hui les décisions qui amélioreront la fiabilité, l'efficacité et la 
+                pérénnité des services. C'est pourquoi, notre équipe d'experts se charge d'élaborer des plans, innovants, créatifs et adaptés aux besoins pour la satisfaction de nos clients.
                 </p>
+           
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                    Pour tous travaux de <b>Design</b> de Plan Réseaux, Contactez nous <a href="contacts.php">ici</a>.
                 </p>
