@@ -3,7 +3,7 @@
 <section id="soft_dev" class="soft_dev section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">Web Master</h2>
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
@@ -46,15 +46,15 @@
             <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
         </div>
         <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-            <h3>Conception, Réalisation & Maintenance de Sites Web</h3>
+            <h3><?php echo $lang['solutions']['it']['webmaster']['subtitle']; ?></h3>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Créez vous une identité digitale.
+                <?php echo $lang['solutions']['it']['webmaster']['content1']; ?>
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-               Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identité digitale.
+                <?php echo $lang['solutions']['it']['webmaster']['content2']; ?>
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Notre équipe d'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.               
+                <?php echo $lang['solutions']['it']['webmaster']['content3']; ?>
             </p>
         </div>
 
@@ -68,7 +68,7 @@
 <section id="soft_dev_1" class="soft_dev section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">SAAS</h2>
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['saas']['title']; ?></h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
@@ -113,14 +113,14 @@
             <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
-                <h3>Nos Logiciels Metier</h3>
+                <h3><?php echo $lang['solutions']['it']['saas']['subtitle']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.
+                    <?php echo $lang['solutions']['it']['saas']['content1']; ?>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Des logiciels “cle en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>
+                    <?php echo $lang['solutions']['it']['saas']['content2']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous nous occupons de l'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu
+                    <?php echo $lang['solutions']['it']['saas']['content3']; ?>
                 </p>
             </div>
 
@@ -131,7 +131,7 @@
 <section id="digit_trans" class="digit_trans section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">Digital transformation</h2>
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
@@ -144,9 +144,6 @@
                         <li data-target="#carouselExampleCaptions1" data-slide-to="3"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
-
-
-
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -206,14 +203,12 @@
                  <!--<img src="assets/img/services/digit_trans.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>All Online, Automatisation & Intelligence</h3>
+                <h3><?php echo $lang['solutions']['it']['digit_trans']['subtitle']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La transformation digitale, parfois appelée transformation numérique,
-                    désigne le processus qui consiste, pour une organisation, à intégrer pleinement
-                    les technologies digitales dans l’ensemble de ses activités.
+                    <?php echo $lang['solutions']['it']['digit_trans']['content1']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La Locomotive met en place les différentes plateformes pouvant vous rendre plus opérationnel sur le marché.
+                    <?php echo $lang['solutions']['it']['digit_trans']['content2']; ?>
                 </p>
             </div>
 
@@ -245,8 +240,9 @@
                         <div class="carousel-item">
                         <img src="assets/img/services/cloud_computing.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Exporter Vos Données Sur des serveurs distants</h5>
-                            <p>Nous Vous accompagnons, Conseillons.</p>
+                            <h5><?php echo $lang['solutions']['it']['cloud_c']['img2_t']; ?>
+                                </h5>
+                            <p><?php echo $lang['solutions']['it']['cloud_c']['img2_text']; ?></p>
                         </div>
                         </div>
                         <div class="carousel-item">
@@ -270,13 +266,12 @@
             <!--<img src="assets/img/services/cloud_computing.jpg" alt="Image cloud computing" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
-                <h3>Cloud computing</h3>
+                <h3><?php echo $lang['solutions']['it']['cloud_c']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nouvelle forme de stockage de données du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous
-                    la forme de service.
+                    <?php echo $lang['solutions']['it']['cloud_c']['content1']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.
+                    <?php echo $lang['solutions']['it']['cloud_c']['content2']; ?>
                 </p>
 
             </div>
@@ -335,11 +330,9 @@
                 <!--<img src="assets/img/services/entreprise_network.jpg" alt="Image entreprise network" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-5 order-2 order-md-1 aos-init" data-aos="fade-right">
-                <h3>Enterprise networking</h3>
+                <h3><?php echo $lang['solutions']['it']['enter_net']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons à déterminer le type de réseau le mieux adapté à vos besoins.
-                    Nos techniciens vous conseillent sur le choix de votre architecture réseau et des équipements : réseau câblé ou réseau sans fil.
-                    Nous assurons la protection de votre réseau afin de sécuriser vos données.
+                    <?php echo $lang['solutions']['it']['enter_net']['content1']; ?>
                 </p>
             </div>
         </div>
@@ -390,9 +383,9 @@
                <!-- <img src="assets/img/services/business_coaching.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-5 aos-init" data-aos="fade-left">
-                <h3>Business Coach</h3>
+                <h3><?php echo $lang['solutions']['it']['bc']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Notre coaching vous propose un accompagnement personnalisé qui vous aidera à mettre en oeuvre vos projets de transformation et les rendre pérennes.
+                    <?php echo $lang['solutions']['it']['bc']['content1']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                 </p>
@@ -429,10 +422,9 @@
 <!-- <img src="assets/img/services/business_coaching.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">-->
 </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br> <br> <br> <br>
-                <h3>Service à Valeur Ajoutée(SVA)</h3>
+                <h3><?php echo $lang['solutions']['it']['sva']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Après réalisation des différents projets, nous accompagnons nos différents
-                    clients dans l'utilisation des différents supports.
+                    <?php echo $lang['solutions']['it']['sva']['content1']; ?>
                 </p>
             </div>
 
@@ -448,7 +440,7 @@
 <section id="iot" class="iot section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">Internet of thing</h2>
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['iot']; ?></h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
@@ -514,13 +506,12 @@
                 <!--<img src="assets/img/services/RFID2.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>RFID</h3>
+                <h3><?php echo $lang['solutions']['it']['iot_rfid']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                L’identification par radio fréquence est une technologie utilisée pour stocker et récupérer des données à distance en utilisant des balises métalliques, les « Tags RFID » qui permettent egalement d’automatiser certaines procédures, voire, de les simplifier. 
-                Elle est utilisée dans de nombreux secteurs d'activité telles que la gestion des stocks, l’identification des personnes, les contrôles d'accès ou encore la traçabilité logistique.
+                    <?php echo $lang['solutions']['it']['iot_rfid']['content1']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La Locomotive vous aide à implémenter ces différentes solutions.
+                    <?php echo $lang['solutions']['it']['iot_rfid']['content2']; ?>
                 </p>
             </div>
 
@@ -568,13 +559,12 @@
                 <!--<img src="assets/img/services/NFC2.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>NFC</h3>
+                <h3><?php echo $lang['solutions']['it']['iot_nfc']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La technologie NFC – Near Field Communication – permet à un smartphone de se connecter et
-                    d’échanger des données à courte distance avec un autre dispositif (smartphone, produit…) équipé de la même technologie.
+                    <?php echo $lang['solutions']['it']['iot_nfc']['content1']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La Locomotive accompagne les entreprises pour le déployement d'objets connectés en privilégiant la protection des données à caractère personnel.
+                    <?php echo $lang['solutions']['it']['iot_nfc']['content2']; ?>
                 </p>
             </div>
 
@@ -584,16 +574,16 @@
 <section id="ai" class="ai section-bg">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">Artifical Intelligence</h2>
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['ia']; ?></h2>
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
                 <img src="assets/img/services/machine-learning.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">
             </div>
             <div class="col-md-7 pt-1 aos-init" data-aos="fade-left">
-                <h3>Machine learning</h3>
+                <h3><?php echo $lang['solutions']['it']['ia_1']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                La Locomotive developpe des solutions basées sur l'intelligence artificielle fonde sur des approches mathématiques et statistiques qui optimise ainsi votre temps de travail et simplifie votre quotidien.
+                    <?php echo $lang['solutions']['it']['ia_1']['content1']; ?>
                 </p>
             </div>
         </div>
@@ -602,13 +592,12 @@
                 <img src="assets/img/services/Big-Data-2.jpg" alt="Image cloud computing" class="img-fluid img-thumbnail">
             </div>
             <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
-                <h3>Big data analytics solution</h3>
+                <h3><?php echo $lang['solutions']['it']['ia_2']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Les données sont l'élément vital de toute entreprise, quelle que soit leur taille. Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations comprennent cette importance de la collecte de données et le font.
-
+                    <?php echo $lang['solutions']['it']['ia_2']['content1']; ?>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous aidons nos partenaires à mieux gérer leurs données en leur proposant les solutions adéquates de traitement de données.
+                    <?php echo $lang['solutions']['it']['ia_2']['content2']; ?>
                 </p>
 
             </div>
@@ -619,12 +608,9 @@
                 <img src="assets/img/services/correlation.png" alt="Image business_coaching" class="img-fluid img-thumbnail">
             </div>
             <div class="col-md-7 pt-1  aos-init" data-aos="fade-right">
-                <h3>Correlation</h3>
+                <h3><?php echo $lang['solutions']['it']['ia_3']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Au moment des mégadonnées, l'analyse de corrélation a attiré beaucoup d'attention pour
-                    sa grande efficacité dans l'analyse des relations inhérentes aux choses,
-                    et a été appliquée efficacement à de nombreux domaines, y compris le système de recommandation,
-                    l'analyse commerciale, l'administration publique et le diagnostic médical.
+                    <?php echo $lang['solutions']['it']['ia_3']['content1']; ?>
                 </p>
 
             </div>
@@ -635,9 +621,9 @@
                 <img src="assets/img/services/call-center-solution.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">
             </div>
             <div class="col-md-7 pt-1 aos-init" data-aos="fade-left">
-                <h3>Call center solution</h3>
+                <h3><?php echo $lang['solutions']['it']['ia_4']['title']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous déployons des solutions pour call center pour l'automatisation des tâches courantes.
+                    <?php echo $lang['solutions']['it']['ia_4']['content1']; ?>
                 </p>
             </div>
         </div>
@@ -646,7 +632,7 @@
 <section id="security" class="security">
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init">Security</h2>
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['secu']; ?></h2>
         </div>
         <div class="row content">
             <div class="col-md-4 icon-box aos-init">
@@ -655,7 +641,7 @@
                          class="card-img-top" alt="Image cyber-security">
                     <div class="card-body">
                         <p class="card-text">
-                            <h4 class="text-center"><a href="#">Cyber security</a></h4>
+                            <h4 class="text-center"><a href="#"><?php echo $lang['solutions']['it']['secu_1']; ?></a></h4>
                         </p>
                     </div>
                 </div>
@@ -666,7 +652,9 @@
                          class="card-img-top" alt="Image vidéo surveillance">
                     <div class="card-body">
                         <p class="card-text">
-                            <h4 class="text-center"><a href="#">Video surveillance</a></h4>
+                            <h4 class="text-center"><a href="#">
+                                <?php echo $lang['solutions']['it']['secu_2']; ?>
+                                </a></h4>
                         </p>
                     </div>
                 </div>
@@ -677,7 +665,7 @@
                          class="card-img-top" alt="Image tracking">
                     <div class="card-body">
                         <p class="card-text">
-                            <h4 class="text-center"><a href="#">Tracking</a></h4>
+                            <h4 class="text-center"><a href="#"><?php echo $lang['solutions']['it']['secu_3']; ?></a></h4>
                         </p>
                     </div>
                 </div>
@@ -694,12 +682,12 @@
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-primary"
                href="clients_project.php"
-            >Avez-vous un besoin ?</a>
+            ><?php echo $lang['ask_1']; ?></a>
         </div>
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-secondary"
                href="contacts.php"
-            >Contactez - Nous !</a>
+            ><?php echo $lang['ask_2']; ?></a>
         </div>
     </div>
 </div>

@@ -8,17 +8,14 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> 
- 
-
-
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
         
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/img/home/test1.jpg" style="width:73.718vw; height:32.379vw" class="img-responsive d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-md-block">
-                    <h3><span class="kouame" data-elements="NOUS INNOVONS >>> VOUS PERFORMEZ" style="font-weight: bold; font-size: 2.4vw; color:white"></span></h3>
+                    <h3><span class="kouame" data-elements="<?php echo $lang['home']['f1']; ?> >>> <?php echo $lang['home']['f2']; ?>" style="font-weight: bold; font-size: 2.4vw; color:white"></span></h3>
                 </div>
                 
             </div>
@@ -26,7 +23,7 @@
                 <img src="assets/img/home/iot.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="Le Futur c'est Maintenant !"></b> 
+                      <b class="kouame" data-elements="<?php echo $lang['home']['f2']; ?> Le Futur c'est Maintenant !"></b>
                     </h1>
                 </div>
             </div>
@@ -34,7 +31,7 @@
                 <img src="assets/img/home/performance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
                     </h1>
                 </div>
             </div>
@@ -42,7 +39,7 @@
                 <img src="assets/img/home/digital.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
                     </h1>
                 </div>
             </div>
@@ -50,7 +47,7 @@
                 <img src="assets/img/home/blockchain.jpeg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
                     </h1>
                 </div>
             </div>
@@ -58,7 +55,7 @@
                 <img src="assets/img/home/croissance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="Entrez dans un monde de Confiance !"></b> 
+                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
                     </h1>
                 </div>
             </div>
@@ -89,16 +86,16 @@
 <section class="home_pres" >
     <div class="container">
         <div class="section-title">
-            <h2 data-aos="" class="aos-init aos-animate">La locomotive</h2>
+            <h2 data-aos="" class="aos-init aos-animate"><?php echo $lang['home']['cpy_name']; ?></h2>
         </div>
         <div class="row">
             <div class="col-md-12 col-sm-12 canvas-box magin30 text-center wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
                 <div class="container aos-init aos-animate" style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
                     <p class="text-justify interligne" data-aos="fade-in">
-                    Nous fournissons des services intégrés allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée. La Locomotive est formée par un groupe de professionnels dans le domaine des télécommunications, IT, RH, Logistique ayant une expertise reconnue dans ces perimètres d’activités...
+                            <?php echo $lang['home']['f4']; ?>
                     </p>
                     <p class="text-center pt-4">
-                        <a href="about_lce.php" class="btn btn-outline-secondary">En savoir plus</a>    </p>
+                        <a href="about_lce.php" class="btn btn-outline-secondary"><?php echo $lang['home']['f5']; ?></a>    </p>
                 </div>
             </div>
         </div>
@@ -276,9 +273,9 @@
     <div class="container">
 
         <div class="section-title">
-            <h2 data-aos="fade-in" class="aos-init aos-animate">Customers</h2>
+            <h2 data-aos="fade-in" class="aos-init aos-animate"><?php echo $lang['home']['f6']; ?></h2>
             <p data-aos="fade-in" class="aos-init aos-animate">
-                Nos différents clients
+                <?php echo $lang['home']['f7']; ?>
             </p>
         </div>
 
@@ -286,20 +283,20 @@
 
             <div class="col-lg-4 box aos-init aos-animate" data-aos="zoom-in" style="cursor: pointer;">
                 <h3>B2C</h3>
-                <h4><span>Business to Consumer</span></h4>
+                <h4><span><?php echo $lang['home']['c_1']; ?></span></h4>
                 <ul>
-                    <li><i class="bx bx-check"></i> Consumers</li>
-                    <li><i class="bx bx-check"></i> Mass market</li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_3']; ?></li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_4']; ?></li>
                 </ul>
             </div>
 
             <div class="col-lg-4 box aos-init aos-animate" data-aos="zoom-in">
                 <h3>B2B</h3>
-                <h4><span>Business to Business</span></h4>
+                <h4><span><?php echo $lang['home']['c_4']; ?></span></h4>
                 <ul>
-                    <li><i class="bx bx-check"></i> Carrier</li>
-                    <li><i class="bx bx-check"></i> PME</li>
-                    <li><i class="bx bx-check"></i> Secteur tertiaire</li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_5']; ?></li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_6']; ?></li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_7']; ?></li>
                     <li><i class="bx bx-check"></i> ISP</li>
 
                    
@@ -308,12 +305,12 @@
 
             <div class="col-lg-4 box aos-init aos-animate" data-aos="zoom-in">
                 <h3>B2E</h3>
-                <h4><span>Business to Enterprise</span></h4>
+                <h4><span><?php echo $lang['home']['c_8']; ?></span></h4>
                 <ul>
-                    <li><i class="bx bx-check"></i> Public administration</li>
-                    <li><i class="bx bx-check"></i> Embasies</li>
-                    <li><i class="bx bx-check"></i> NGOs</li>
-                    <li><i class="bx bx-check"></i> Mutuelles</li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_9']; ?></li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_10']; ?></li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_11']; ?></li>
+                    <li><i class="bx bx-check"></i> <?php echo $lang['home']['c_12']; ?></li>
                 </ul>
             </div>
 
@@ -329,12 +326,12 @@
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-primary"
                href="clients_project.php"
-            >Avez-vous un besoin ?</a>
+            ><?php echo $lang['ask_1']; ?></a>
         </div>
         <div class="bx-pull-right">
             <a type="button" class="btn btn-outline-primary"
                href="contacts.php"
-            >Contactez - Nous</a>
+            ><?php echo $lang['ask_2']; ?></a>
         </div>
     </div>
 </div>

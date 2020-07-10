@@ -12,7 +12,9 @@
                 <p style="color: #222; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;" data-aos="fade-up">
                 <ul data-aos="fade-up" style="list-style-type: none;">
                     <li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u></u></li> <br>
-                    <p data-aos="fade-up" class="text-left" style="font-size:50px;margin: 0; padding: 20px 0; color: #00539F; text-shadow: 3px 3px 1px black;">En cours de deployement </p>
+                    <p data-aos="fade-up" class="text-left" style="font-size:50px;margin: 0; padding: 20px 0; color: #00539F; text-shadow: 3px 3px 1px black;">
+                    <?php echo $lang['working']; ?>
+                </p>
                      
 
                 </ul>

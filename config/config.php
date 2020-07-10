@@ -14,4 +14,4 @@ if (!isset($_SESSION['lang'])) {
     }
 }
 
-require_once "../language/" . $_SESSION['lang'] . ".php";
+require_once "./language/" . $_SESSION['lang'] . ".php";

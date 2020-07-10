@@ -1,5 +1,5 @@
 <?php
-
+    include_once './config/config.php';
 ?>
     <footer id="footer" style="background-color:#F36400">
         <div class="footer-top">
@@ -18,97 +18,96 @@
         <div class="footer-bottom container">
             <div class="row">
                 <div class="col-lg-3 text-center">
-                    <h5>Accès rapide</h5>
+                    <h5><?php echo $lang['footer']['1']; ?></h5>
                     <ul class="list-inline-item"
                         style="list-style-type: '-';font-size: 20px;text-align: left;
                     ">
                         <li data-aos="fade-up">
-                            <a href="./home.php">Accueil</a>
+                            <a href="./home.php"><?php echo $lang['footer']['1_']['1']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="./services.php"> Nos solutions </a>
+                            <a href="./services.php"><?php echo $lang['footer']['1_']['2']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="./about_us.php"> A propos</a>
+                            <a href="./about_us.php"><?php echo $lang['footer']['1_']['3']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="./contacts.php"> Contacts</a>
+                            <a href="./contacts.php"><?php echo $lang['footer']['1_']['4']; ?></a>
                         </li>
                     </ul>
 
                 </div>
                 <div class="col-lg-3 text-center">
-                    <h5>Client & Partners</h5>
+                    <h5><?php echo $lang['footer']['2']; ?></h5>
                     <ul class="list-inline-item"
                         style=" list-style-type: '-';font-size: 20px; text-align: left;
                     text-decoration: none;">
                         <li data-aos="fade-up">
-                            <a href="partners.php">Solution partners</a>
+                            <a href="partners.php"><?php echo $lang['footer']['2_']['1']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="partners.php">Channel partners</a>
+                            <a href="partners.php"><?php echo $lang['footer']['2_']['2']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="partners.php">Services partners</a>
+                            <a href="partners.php"><?php echo $lang['footer']['2_']['3']; ?></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5><?php echo $lang['footer']['3']; ?></h5>
+                    <ul class="list-inline-item"
+                        style=" list-style-type: '-';font-size: 20px; text-align: left;
+                    text-decoration: none;">
+                        <li data-aos="fade-up">
+                            <a href="#"><?php echo $lang['footer']['3_']['1']; ?></a>
+                        </li>
+                        <li data-aos="fade-up">
+                            <a href="#"><?php echo $lang['footer']['3_']['2']; ?></a>
+                        </li>
+                        <li data-aos="fade-up">
+                            <a href="#"><?php echo $lang['footer']['3_']['3']; ?></a>
+                        </li>
+                        <li data-aos="fade-up">
+                            <a href="#"><?php echo $lang['footer']['3_']['4']; ?></a>
                         </li>
                     </ul>
 
                 </div>
                 <div class="col-lg-2 text-center">
-                    <h5>Support</h5>
-                    <ul class="list-inline-item"
-                        style=" list-style-type: '-';font-size: 20px; text-align: left;
-                    text-decoration: none;">
-                        <li data-aos="fade-up">
-                            <a href="#">B2B support</a>
-                        </li>
-                        <li data-aos="fade-up">
-                            <a href="#">B2C support</a>
-                        </li>
-                        <li data-aos="fade-up">
-                            <a href="#">B2E support</a>
-                        </li>
-                        <li data-aos="fade-up">
-                            <a href="#">Security bulletin</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <div class="col-lg-2 text-center">
-                    <h5>Press & Events</h5>
+                    <h5><?php echo $lang['footer']['4']; ?></h5>
                     <ul class="list-inline-item"
                         style="list-style-type: '-';font-size: 20px; text-align: left;
                     text-decoration: none;">
                         <li data-aos="fade-up">
-                            <a href="#">News</a>
+                            <a href="#"><?php echo $lang['footer']['4_']['1']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Events</a>
+                            <a href="#"><?php echo $lang['footer']['4_']['2']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Top realizations</a>
+                            <a href="#"><?php echo $lang['footer']['4_']['3']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Photo gallery</a>
+                            <a href="#"><?php echo $lang['footer']['4_']['4']; ?></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <h5>Portals</h5>
+                    <h5><?php echo $lang['footer']['5']; ?></h5>
                     <ul class="list-inline-item"
                         style="list-style-type: '-';font-size: 20px; text-align: left;
                     text-decoration: none;">
                         <li data-aos="fade-up">
-                            <a href="#">Careers</a>
+                            <a href="#"><?php echo $lang['footer']['5_']['1']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Developpers</a>
+                            <a href="#"><?php echo $lang['footer']['5_']['2']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Suppliers</a>
+                            <a href="#"><?php echo $lang['footer']['5_']['3']; ?></a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">LCE Blog</a>
+                            <a href="#"><?php echo $lang['footer']['5_']['4']; ?></a>
                         </li>
                     </ul>
 
@@ -120,7 +119,7 @@
         <div class="container">
             <div class="row" >
                 <div class="col-12" >
-                    <center><p class="crp" ><a style="color:white;">© Copyrights 2020 LCE-CI</a></p></center>
+                    <center><p class="crp" ><h5 style="color:white;">© Copyright 2020 LCE-CI</h5></p></center>
                 </div>
             </div>
         </div>

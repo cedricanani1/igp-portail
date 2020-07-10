@@ -1,7 +1,6 @@
 <?php
-
+    include_once './config/config.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,47 +64,46 @@
 
       <div class="logo mr-auto">
         <a href="./index.php"><img src="./assets/img/logo.png" alt=""></a>
-        
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-            <li class=""><a href="home.php"><b>Accueil</b></a></li>
-            <li class="drop-down"><a href="solutions.php"><b>Nos Solutions</b></a>
+            <li class=""><a href="home.php"><b><?php echo $lang['header']['h1']; ?></b></a></li>
+            <li class="drop-down"><a href="solutions.php"><b><?php echo $lang['header']['h2']; ?></b></a>
                 <ul>
-                    <li class="drop-down"><a href="">IT</a>
+                    <li class="drop-down"><a href=""><?php echo $lang['header']['h2_']['1']; ?></a>
                         <ul>
-                            <li><a href="solutions.php#digit_trans">Web Master</a></li>
-                            <li><a href="solutions.php#digit_trans">Digital transformation</a></li>
+                            <li><a href="solutions.php#digit_trans"><?php echo $lang['header']['h2_']['1_']['1']; ?></a></li>
+                            <li><a href="solutions.php#digit_trans"><?php echo $lang['header']['h2_']['1_']['2']; ?></a></li>
                 
-                            <li><a href="solutions.php#soft_dev">SAAS</a></li>
-                            <li><a href="solutions.php#services_">Cloud computing</a></li>
-                            <li><a href="solutions.php#services_">Enterprise networking</a></li>
-                            <li><a href="solutions.php#services_">Business Intelligence</a></li>           
-                            <li><a href="solutions.php#security">Cyber Security</a></li>
-                            <li><a href="solutions.php#iot">IoT / AI</a></li>
-                            <li><a href="solutions.php#ai">Vitual Reality</a></li>
+                            <li><a href="solutions.php#soft_dev"><?php echo $lang['header']['h2_']['1_']['3']; ?></a></li>
+                            <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['4']; ?></a></li>
+                            <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['5']; ?></a></li>
+                            <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['6']; ?></a></li>
+                            <li><a href="solutions.php#security"><?php echo $lang['header']['h2_']['1_']['7']; ?></a></li>
+                            <li><a href="solutions.php#iot"><?php echo $lang['header']['h2_']['1_']['8']; ?></a></li>
+                            <li><a href="solutions.php#ai"><?php echo $lang['header']['h2_']['1_']['9']; ?></a></li>
                             <!--<li><a href="solutions.php#consumptiom">Consumption</a>-->
                         </ul>
                     </li>
-                    <li class="drop-down"><a href="">Télécom</a>
+                    <li class="drop-down"><a href=""><?php echo $lang['header']['h2_']['2']; ?></a>
                         <ul>
-                            <li class=""><a href="telecoms.php#thinks">Think</a></li>
-                            <li class=""><a href="telecoms.php#build">Build</a></li>
-                            <li><a href="telecoms.php#operate">Operate</a></li>
-                            <li><a href="telecoms.php#support">Support</a></li>
-                            <li><a href="telecoms.php#support">Develop</a></li>
+                            <li class=""><a href="telecoms.php#thinks"><?php echo $lang['header']['h2_']['2_']['1']; ?></a></li>
+                            <li class=""><a href="telecoms.php#build"><?php echo $lang['header']['h2_']['2_']['2']; ?></a></li>
+                            <li><a href="telecoms.php#operate"><?php echo $lang['header']['h2_']['2_']['3']; ?></a></li>
+                            <li><a href="telecoms.php#support"><?php echo $lang['header']['h2_']['2_']['4']; ?></a></li>
+                            <!--<li><a href="telecoms.php#support"><?php /*echo $lang['header']['h2_']['2_']['5']; */?></a></li>-->
                         </ul>
                     </li>
-                    <li><a href="404.php">Logistique</a></li>
-                    <li><a href="404.php">BTP</a></li>
-                    <li><a href="404.php">Formations</a></li>
+                    <li><a href="404.php"><?php echo $lang['header']['h2_']['3']; ?></a></li>
+                    <li><a href="404.php"><?php echo $lang['header']['h2_']['4']; ?></a></li>
+                    <li><a href="404.php"><?php echo $lang['header']['h2_']['5']; ?></a></li>
                 </ul>
             </li>
-            <li class=""><a href="404.php"><b>Boutique</b></a></li>
-            <li class="drop-down"><a href="#"><b>About us</b></a>
+            <li class=""><a href="404.php"><b><?php echo $lang['header']['h3']; ?></b></a></li>
+            <li class="drop-down"><a href="#"><b><?php echo $lang['header']['h4']; ?></b></a>
                 <ul>
-                    <li><a href="about_lce.php">About LCE</a></li>
+                    <li><a href="about_lce.php"><?php echo $lang['header']['h4_']['1']; ?></a></li>
                     <!--<li class="drop-down"><a href="#">About LCE</a>
                         <ul>
                             <li><a href="#">Corporate information</a></li>
@@ -116,7 +114,7 @@
                             <li><a href="#">Trust</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="partners.php">Partners</a></li>
+                    <li><a href="partners.php"><?php echo $lang['header']['h4_']['2']; ?></a></li>
                    <!-- <li><a href="#">Top realizations</a></li>-->
                     <!--<li class="drop-down"><a href="#">Partners</a>
                         <ul>
@@ -125,9 +123,9 @@
                             <li><a href="#">Partner programs</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="portals.php">Carrière</a></li>
+                    <li><a href="portals.php"><?php echo $lang['header']['h4_']['3']; ?></a></li>
 
-                    <li><a href="404.php">Gallery</a>
+                    <li><a href="404.php"><?php echo $lang['header']['h4_']['4']; ?></a>
                     <!--<li class="drop-down"><a href="#">Press & Events</a>
                         <ul>
                             <li><a href="press_events.php#news">News</a></li>
@@ -144,14 +142,14 @@
                             <li><a href="#">LCE Blog</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="contacts.php">Contactez-nous</a></li>
+                    <li><a href="contacts.php"><?php echo $lang['header']['h4_']['5']; ?></a></li>
                 </ul>
             </li>
 
             <li class="ml-auto ml-2 mt-2" style="right:-32px">
                 <select class="form-control form-control-sm right">
-                    <option style="cursor: pointer;">Fr</option>
-                    <option style="cursor: pointer;">En</option>
+                    <option style="cursor: pointer;"><a href="<?php echo $_SESSION['page'].'php?lang=fr' ?>">Fr</a></option>
+                    <option style="cursor: pointer;"><a href="<?php echo $_SESSION['page'].'php?lang=en' ?>">En</a></option>
                 </select>
             </li>
         </ul>

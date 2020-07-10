@@ -1,13 +1,13 @@
-<?php include_once('include/header.php'); ?>
+<?php include_once('include/header.php');  ?>
 
 <main id="main">
     <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2 data-aos="fade-in">Contacts</h2>
+          <h2 data-aos="fade-in"><?php echo $lang['about']['contact']['f1']; ?></h2>
           <p data-aos="fade-in">
-            Soumettez nous votre besoin, notre équipe se chargera de traiter votre demande dans un bref delai.
+              <?php echo $lang['about']['contact']['f2']; ?>
           </p>
         </div>
 
@@ -20,7 +20,7 @@
                 <div class="info-box" data-aos="fade-up">
                   <i class="bx bx-map"></i>
                   <h3>Adresse</h3>
-                  <p>Non loin du CHU d'Angré</p>
+                  <p><?php echo $lang['about']['contact']['f3']; ?></p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -33,7 +33,7 @@
               <div class="col-md-6">
                 <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-phone-call"></i>
-                  <h3>Téléphone</h3>
+                  <h3><?php echo $lang['about']['contact']['f6']; ?></h3>
                   <p>+225 46 66 77 66 / +225 07 96 96 72</p>
                 </div>
               </div>
@@ -45,37 +45,37 @@
             <form action="functions/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Entrer votre nom" 
+                  <input type="text" name="name" class="form-control" id="name" placeholder="<?php echo $lang['about']['contact']['f4']; ?>"
                         data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
                   <input type="email" class="form-control" name="email" id="email" 
-                        placeholder="Entrer votre email" data-rule="email" data-msg="Please enter a valid email" />
+                        placeholder="<?php echo $lang['about']['contact']['f5']; ?>" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
                 <div class="form-group">
                     <input type="text" class="form-control" name="phone" id="phone"
-                           placeholder="Téléphone" data-rule="minlen:8" data-msg="Please enter at least 8 chars of subject" />
+                           placeholder="<?php echo $lang['about']['contact']['f6']; ?>" data-rule="minlen:8" data-msg="Please enter at least 8 chars of subject" />
                     <div class="validate"></div>
                 </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" 
-                        placeholder="Objet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        placeholder="<?php echo $lang['about']['contact']['f7']; ?>" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" 
-                    data-msg="Please write something for us" placeholder="Entrer votre message"></textarea>
+                    data-msg="Please write something for us" placeholder="<?php echo $lang['about']['contact']['f8']; ?>"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Votre message a été envoyé avec succès !</div>
+                <div class="sent-message"><?php echo $lang['about']['contact']['sms_v']; ?></div>
               </div>
-              <div class="text-center"><button type="submit">Envoyer</button></div>
+              <div class="text-center"><button type="submit"><?php echo $lang['about']['contact']['btn']; ?></button></div>
             </form>
           </div>
 
