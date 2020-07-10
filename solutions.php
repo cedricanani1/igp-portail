@@ -18,21 +18,18 @@
                             <img src="assets/img/services/site-internet-responsif.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>Développement de site web attrayant</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                             <img src="assets/img/services/site-internet.jpeg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>Sites Responsifs</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/img/services/SAAS1.jpg" class="d-block w-100" height="300px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
-                            <p>Toujours à votre écoute </p>
                         </div>
                     </div>
                 </div>
@@ -51,13 +48,13 @@
         <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
             <h3>Conception, Réalisation & Maintenance de Sites Web</h3>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Créer vous une identité digitale.
+                Créez vous une identité digitale.
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-               Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identé digitale.
+               Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identité digitale.
             </p>
             <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Notre équipe d'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, nous vous accompagnons et vous conseillons. Contectez-nous <a href="clients_project.php">ici</a>.               
+                Notre équipe d'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.               
             </p>
         </div>
 
@@ -119,12 +116,11 @@
                 <h3>Nos Logiciels Metier</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                 Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                Des logiciels “cle en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Des logiciels de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>
-                </p>
-                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                Nous nous occupons de l'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu.
+                Nous nous occupons de l'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu
                 </p>
             </div>
 
@@ -210,14 +206,14 @@
                  <!--<img src="assets/img/services/digit_trans.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>Business admin, process digitalization and All digitalization</h3>
+                <h3>All Online, Automatisation & Intelligence</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     La transformation digitale, parfois appelée transformation numérique,
                     désigne le processus qui consiste, pour une organisation, à intégrer pleinement
                     les technologies digitales dans l’ensemble de ses activités.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons à mettre en place les différentes plateformes pouvant vous rendre plus opérationnel sur le marché.
+                    La Locomotive met en place les différentes plateformes pouvant vous rendre plus opérationnel sur le marché.
                 </p>
             </div>
 
@@ -237,28 +233,30 @@
                         <li data-target="#carouselExampleCaptions2" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions2" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions2" data-slide-to="2"></li>
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/Cloud_computing.png" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/Cloud_computing.png" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/cloud_computing.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/cloud_computing.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Exporter Vos Données Sur des serveurs distants</h5>
                             <p>Nous Vous accompagnons, Conseillons.</p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/Cloud-computing.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/Cloud-computing.jpg" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
-                        </div>
+                       
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions2" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -274,12 +272,11 @@
             <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
                 <h3>Cloud computing</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Le Cloud Computing est la nouvelle forme de stockage de données du 21ème siècle.
-                    Cette technologie permet aux entreprises d’acheter des ressources informatiques sous
+                    Nouvelle forme de stockage de données du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous
                     la forme de service.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.
+                    Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.
                 </p>
 
             </div>
@@ -293,28 +290,37 @@
                         <li data-target="#carouselExampleCaptions3" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions3" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions3" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions3" data-slide-to="3"></li>
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/entreprise_network.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/entreprise_network.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/enterprise-networking.jpeg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/enterprise-networking1.jpeg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/entreprise_network.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/Enterprise-Networking.jpg" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/operate.png" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions3" role="button" data-slide="prev">
@@ -333,7 +339,7 @@
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Nous vous aidons à déterminer le type de réseau le mieux adapté à vos besoins.
                     Nos techniciens vous conseillent sur le choix de votre architecture réseau et des équipements : réseau câblé ou réseau sans fil.
-                    Nous mettons en place une protection de votre réseau afin de sécuriser vos données.
+                    Nous assurons la protection de votre réseau afin de sécuriser vos données.
                 </p>
             </div>
         </div>
@@ -347,28 +353,30 @@
                         <li data-target="#carouselExampleCaptions4" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions4" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner"> <br> <br>
                         <div class="carousel-item active">
-                        <img src="assets/img/services/business_coaching.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                        </div>
-                        <div class="carousel-item">
-                        <img src="assets/img/services/business_coaching.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
+                            <img src="assets/img/services/business-coaching.jpg" style="height: 330px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/business_coaching.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/business-coach.png" style="height: 330px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/business_coaching.jpg" style="height: 330px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                     
+                       
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions4" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -384,31 +392,56 @@
             <div class="col-md-7 pt-5 aos-init" data-aos="fade-left">
                 <h3>Business Coach</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Le coaching ou accompagnement est un accompagnement personnalisé cherchant à améliorer les compétences
-                    et la performance d'un individu, d'un groupe ou d'une organisation, grâce à l'amélioration des connaissances,
-                    l'optimisation des processus et des méthodes d'organisation et de contrôle.
+                Notre coaching vous propose un accompagnement personnalisé qui vous aidera à mettre en oeuvre vos projets de transformation et les rendre pérennes.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons les personnes à mieux gérer les business à travers un coaching.
                 </p>
             </div>
         </div>
     </div>
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-6 pt-6 aos-init" data-aos="fade-left">
-                <h3>VAS</h3>
+        <div class="col-md-5 aos-init" data-aos="fade-right">
+
+<div id="carouselExampleCaptions14" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions14" data-slide-to="0" class="active"></li>
+     
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="assets/img/services/sav.png" style="height: 300px;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+        </div>
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions14" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions14" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+<!-- <img src="assets/img/services/business_coaching.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">-->
+</div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br> <br> <br> <br>
+                <h3>Service à Valeur Ajoutée(SVA)</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Après réalisation des différents projets, nous accompagnons nos différents
-                    clients à l'utilisation des différents supports que nous leur avons fournit.
+                    clients dans l'utilisation des différents supports.
                 </p>
             </div>
-            <div class="col-md-6 pt-6 aos-init" data-aos="fade-left">
+
+           <!-- <div class="col-md-6 pt-6 aos-init" data-aos="fade-left">
                 <h3>Learning Services</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons nos clients à s'adapter au nouvelles technologies.
+                    La Locomotive accompagne ces clients à s'adapter aux nouvelles technologies.
                 </p>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
@@ -426,28 +459,46 @@
                         <li data-target="#carouselExampleCaptions5" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions5" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions5" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions5" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions5" data-slide-to="4"></li>
+
+
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/RFID2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/rfid.png" style="height: 300px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/RFID2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
+                            <img src="assets/img/services/RFID2.jpg" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/RFID2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
+                            <img src="assets/img/services/RFID3.png"  style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/RFID4.png" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/RFID5.png" style="height: 300px;" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions5" role="button" data-slide="prev">
@@ -465,14 +516,11 @@
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
                 <h3>RFID</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    La radio-identification, le plus souvent désignée par le sigle RFID, est une méthode pour
-                    mémoriser et récupérer des données à distance en utilisant des marqueurs appelés « radio-étiquettes »
-                    La Radio Frequency Identification est utilisée dans de nombreux secteurs d'activité et s'applique
-                    à bon nombre de situations telles que la gestion des stocks,
-                    le contrôle d'accès ou encore l'identification automatique d'équipements industriels.
+                L’identification par radio fréquence est une technologie utilisée pour stocker et récupérer des données à distance en utilisant des balises métalliques, les « Tags RFID » qui permettent egalement d’automatiser certaines procédures, voire, de les simplifier. 
+                Elle est utilisée dans de nombreux secteurs d'activité telles que la gestion des stocks, l’identification des personnes, les contrôles d'accès ou encore la traçabilité logistique.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous vous aidons à implémenter ces différentes solutions.
+                La Locomotive vous  aide à implémenter ces différentes solutions qui amelioreront les performances de votre entreprise.
                 </p>
             </div>
 
@@ -487,21 +535,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="assets/img/services/NFC2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/NFC2.jpg" style="height: 250px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/NFC2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/NFC3.png" style="height: 250px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
                         </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="assets/img/services/NFC2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/services/NFC4.png" style="height: 250px;" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5></h5>
                             <p></p>
@@ -526,7 +574,7 @@
                     d’échanger des données à courte distance avec un autre dispositif (smartphone, produit…) équipé de la même technologie.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons les entreprises à déployer des objets connectés en privilégiant la protection des données à caractère personnel.
+                    La Locomotive accompagne les entreprises pour le déployement d'objets connectés en privilégiant la protection des données à caractère personnel.
                 </p>
             </div>
 
@@ -545,9 +593,7 @@
             <div class="col-md-7 pt-1 aos-init" data-aos="fade-left">
                 <h3>Machine learning</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    L'apprentissage automatique, apprentissage artificiel ou apprentissage statistique est un
-                    champ d'étude de l'intelligence artificielle qui se fonde sur des approches mathématiques et statistiques.
-                    Nous proposons divers solutions dans ces différents domaines.
+                La Locomotive developpe des solutions basées sur l'intelligence artificielle fonde sur des approches mathématiques et statistiques qui optimise ainsi votre temps de travail et simplifie votre quotidien.
                 </p>
             </div>
         </div>
@@ -558,20 +604,21 @@
             <div class="col-md-7 pt-1 aos-init aos-animate" data-aos="fade-left">
                 <h3>Big data analytics solution</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Les données sont l'élément vital de toute entreprise, quelle que soit leur taille.
-                    Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers
-                    de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations
-                    comprennent cette importance de la collecte de données et le font.
+                Les données sont l'élément vital de toute entreprise, quelle que soit leur taille. Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations comprennent cette importance de la collecte de données et le font.
+
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    Nous aidons nos partenaires à mieux gérer leur données en leur proposant les solutions adéquates de gestion de données.
+                Nous aidons nos partenaires à mieux gérer leurs données en leur proposant les solutions adéquates de traitement de données.
                 </p>
 
             </div>
         </div>
 
         <div class="row mb-4 content">
-            <div class="col-md-12 pt-5 order-2 order-md-1 aos-init" data-aos="fade-right">
+        <div class="col-md-5 aos-init" data-aos="fade-right">
+                <img src="assets/img/services/correlation.png" alt="Image business_coaching" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-7 pt-1  aos-init" data-aos="fade-right">
                 <h3>Correlation</h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     Au moment des mégadonnées, l'analyse de corrélation a attiré beaucoup d'attention pour

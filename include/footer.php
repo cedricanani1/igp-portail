@@ -1,7 +1,7 @@
 <?php
 
 ?>
-    <footer id="footer">
+    <footer id="footer" style="background-color:#F36400">
         <div class="footer-top">
 
             <div class="container aos-init aos-animate" data-aos="fade-up">
@@ -13,7 +13,6 @@
                     <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
-
             </div>
         </div>
         <div class="footer-bottom container">
@@ -90,7 +89,7 @@
                             <a href="#">Top realizations</a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Photo galley</a>
+                            <a href="#">Photo gallery</a>
                         </li>
                     </ul>
                 </div>

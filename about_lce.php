@@ -6,7 +6,7 @@
             <div class="col-md-12 col-sm-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInDown;">
                 <h2 class="text-left" style=" color: white;font-size: 44px;" data-aos="fade-up">Qui sommes nous ?</h2>
                 <p data-aos="fade-up" style=" color: white; font-size: 21px;text-align: justify;line-height: 35px;margin: 0 0 10px;">
-                    La Locomotive Sarl est une entreprise de services. Créée en septembre 2018, Elle accompagne les entreprises à accroitre leurs productivité, rentabilité et compétitivité en mettant à disposition des solutions et produits innovants. Notre équipe expérimentée se tient a votre écoute, analyse et propose des solutions sur mesure pour satisfaire aux besoins de nos clients et/ou partenaires.
+                    La Locomotive Sarl est une entreprise de services. Créée en 2018, Elle accompagne les entreprises à accroitre leurs productivité, rentabilité et compétitivité en mettant à disposition des solutions et produits innovants. Notre équipe expérimentée se tient à votre écoute, analyse et propose des solutions sur mesure pour satisfaire aux besoins de nos clients et/ou partenaires.
                 </p>
             </div>
         </div>
@@ -46,7 +46,7 @@
                         satisfaction</span> à nos clients et partenaires et leur
                     permettent de <span style=" font-weight: bold">toucher leur cible</span>
                     sur toute la planète en
-                    un click.
+                    un clic.
 
                 </p>
             </div>
