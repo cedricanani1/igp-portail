@@ -520,7 +520,7 @@
                 Elle est utilisée dans de nombreux secteurs d'activité telles que la gestion des stocks, l’identification des personnes, les contrôles d'accès ou encore la traçabilité logistique.
                 </p>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                La Locomotive vous  aide à implémenter ces différentes solutions qui amelioreront les performances de votre entreprise.
+                    La Locomotive vous aide à implémenter ces différentes solutions.
                 </p>
             </div>
 
