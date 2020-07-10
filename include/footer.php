@@ -90,7 +90,7 @@
                             <a href="#">Top realizations</a>
                         </li>
                         <li data-aos="fade-up">
-                            <a href="#">Photo galley</a>
+                            <a href="#">Photo gallery</a>
                         </li>
                     </ul>
                 </div>
