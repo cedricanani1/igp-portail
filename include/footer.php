@@ -116,11 +116,16 @@
                 </div>
             </div>
         </div>
-        <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; <strong><span>Lce-ci</span></strong>. 2020
+        
+        <div class="footer_bottom">
+        <div class="container">
+            <div class="row" >
+                <div class="col-12" >
+                    <center><p class="crp" ><a style="color:white;">© Copyrights 2020 Lce-ci.com</a></p></center>
+                </div>
             </div>
         </div>
+    </div>
 
         <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
     </footer>
