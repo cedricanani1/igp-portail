@@ -97,12 +97,12 @@
                             <li><a href="telecoms.php#support">Develop</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Logistique</a></li>
-                    <li><a href="">BTP</a></li>
-                    <li><a href="">Formations</a></li>
+                    <li><a href="404.php">Logistique</a></li>
+                    <li><a href="404.php">BTP</a></li>
+                    <li><a href="404.php">Formations</a></li>
                 </ul>
             </li>
-            <li class=""><a href="#"><b>Boutique</b></a></li>
+            <li class=""><a href="404.php"><b>Boutique</b></a></li>
             <li class="drop-down"><a href="#"><b>About us</b></a>
                 <ul>
                     <li><a href="about_lce.php">About LCE</a></li>
@@ -127,7 +127,7 @@
                     </li>-->
                     <li><a href="portals.php">Carrière</a></li>
 
-                    <li><a href="#">Gallery</a>
+                    <li><a href="404.php">Gallery</a>
                     <!--<li class="drop-down"><a href="#">Press & Events</a>
                         <ul>
                             <li><a href="press_events.php#news">News</a></li>

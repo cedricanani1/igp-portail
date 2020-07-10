@@ -16,7 +16,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/home/test1" style="width:73.718vw; height:32.379vw" class="img-responsive d-block w-100" alt="Slide 1">
+                <img src="assets/img/home/test1.jpg" style="width:73.718vw; height:32.379vw" class="img-responsive d-block w-100" alt="Slide 1">
                 <div class="carousel-caption d-md-block">
                     <h3><span class="kouame" data-elements="NOUS INNOVONS >>> VOUS PERFORMEZ" style="font-weight: bold; font-size: 2.4vw; color:white"></span></h3>
                 </div>
