@@ -1,7 +1,7 @@
 <?php
 
 ?>
-    <footer id="footer">
+    <footer id="footer" style="background-color:#F36400">
         <div class="footer-top">
 
             <div class="container aos-init aos-animate" data-aos="fade-up">
