@@ -197,15 +197,15 @@ class sendContact {
         $this->mailSend->FromName = $this->nameClient;
         $this->mailSend->addReplyTo($this->emailClient, $this->getNameClient());
         //L'email qui reçoit
-        /*$this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
+        $this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
         $this->mailSend->addAddress('assitadiall@gmail.com', 'ASSITA SOW');
         $this->mailSend->addAddress('assitabercy@gmail.com', 'ASSITA SOW');
         $this->mailSend->addAddress('assita.sow@lce-ci.com', 'ASSITA SOW');
         $this->mailSend->addAddress('lonan.coulibaly@lce-ci.com', 'LONAN COULIBALY');
         $this->mailSend->addAddress('olivier.traore@lce-ci.com', 'TRAORE OLIVIER');
         $this->mailSend->addAddress('gnouwietchatr@gmail.com', 'TRAORE OLIVIER');
-        $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');*/
-        $this->mailSend->addAddress('soumdiakite182@gmail.com', 'DIAKITE SOUMAILA');
+        $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');
+        //$this->mailSend->addAddress('soumdiakite182@gmail.com', 'DIAKITE SOUMAILA');
         $this->mailSend->isHTML(true);
         $this->mailSend->Subject = "Demande de service";
         $this->constructHtmlLCE();
