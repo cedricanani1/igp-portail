@@ -148,8 +148,8 @@
 
             <li class="ml-auto ml-2 mt-2" style="right:-32px">
                 <select class="form-control form-control-sm right">
-                    <option style="cursor: pointer;"><a href="<?php echo $_SESSION['page'].'php?lang=fr' ?>">Fr</a></option>
-                    <option style="cursor: pointer;"><a href="<?php echo $_SESSION['page'].'php?lang=en' ?>">En</a></option>
+                    <option style="cursor: pointer;"><a href="<?php echo 'index.php?lang=fr';?>">Fr</a></option>
+                    <option style="cursor: pointer;"><a href="<?php echo 'index.php?lang=en';?>">En</a></option>
                 </select>
             </li>
         </ul>

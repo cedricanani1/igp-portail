@@ -151,6 +151,22 @@
                             backDelay: 3500 // pause before backspacing
                             });
                         });
+      /*  $("#lang").bind('change', function(){
+            switch($(this).val()){
+                case "1":
+                    alert("Bonjour");
+                    location.href = "contacts.php?lang=fr"
+                    break;
+
+                case "2":
+                    alert("Bonjour");
+                    location.href = "contacts.php?lang=en"
+                    break;
+            }
+        });*/
+      function helloWorld() {
+        alert("Hello world !!!!");
+      }
     </script>
 </body>
 </html>

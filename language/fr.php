@@ -287,5 +287,10 @@ $lang = array(
             "sms_v" => "Votre message a été envoyé avec succès !"
         ),
     ),
-    "working" => "En cours de déploiement"
+    "working" => "En cours de déploiement",
+    "mail_cont_t1" => "Monsieur (Madame) ",
+    "mail_cont_t2" => "Nous vous remercions de l’intérêt que vous portez à notre société. Un numero de ticket vous sera attribute dans les 30 minutes suivant la reception de votre demande que vous pourrez utiliser pour suivre l’evolution du traitement de votre requete. Un de nos experts vous contactera dans les 24 heures pour le traitement.",
+    "mail_cont_t3" => "Si vous disposez d’autres questions, nous vous repondrons avec antousiasme",
+    "mail_cont_t4" => "Restant a votre entierre disposition.",
+    "mail_cont_t5" => "Nous innovons, vous performez"
 );

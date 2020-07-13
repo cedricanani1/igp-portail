@@ -219,7 +219,7 @@ $lang = array(
     "about" => array(
         "lce" =>  array(
             "f1_t" => "About us",
-            "f1" => "La Locomotive Sarl is a service company. Created in 2018, It supports companies to increase their productivity, profitability and competitiveness by providing innovative solutions and products. Our experienced team is at your disposal, analyzes and offers tailor-made solutions to meet the needs of our customers and / or partners.",
+            "f1" => "The Locomotive Sarl is a service company. Created in 2018, It supports companies to increase their productivity, profitability and competitiveness by providing innovative solutions and products. Our experienced team is at your disposal, analyzes and offers tailor-made solutions to meet the needs of our customers and / or partners.",
             "f2_t" => "Our mission",
             "f2" => '<span style = "font-weight: bold"> Innovate </span> the service area for
                     <span style = "font-weight: bold"> less effort </span>, a
