@@ -75,6 +75,8 @@ $lang = array(
             "4" => "Blog LCE"
         ),
     ),
+    "fr" => "Français",
+    "en" => "Anglais",
     "ask_1" => "Avez-vous un besoin ?",
     "ask_2" => "Contacter nous",
     "home" => array(
@@ -186,13 +188,13 @@ $lang = array(
                 "title" => "THINK",
                 "subtitle" => "Ingénierie de conception",
                 "content1" => "Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide et, une planification compétente, stratégique et minutieuse est nécessaire pour prendre aujourd'hui les décisions qui amélioreront la fiabilité, l'efficacité et la pérénnité des services. C'est pourquoi, notre équipe d'experts se charge d'élaborer des plans, innovants, créatifs et adaptés aux besoins pour la satisfaction de nos clients.",
-                "content2" => "Pour tous travaux de Design de Plan Réseaux, Contactez nous ici."
+                "content2" => 'Pour tous travaux de <b>Design</b> de Plan Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
             ),
             "build" => array(
                 "title" => "BUILD",
                 "subtitle" => "Déploiement / mise à niveau / rétrogradation",
                 "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Mais comme les entreprises investissent massivement pour créer une densité de réseau plus élevée, ajouter du spectre et mettre à niveau l'équipement actif, elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
-                "content2" => "Nous vous aiderons non seulement à concevoir votre avenir, mais nous le construirons également avec vous de manière tangible et pratique."
+                "content2" => 'Nous vous aiderons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.</p>'
             ),
             "operate" => array(
                 "title" => "OPERATE",
@@ -203,7 +205,7 @@ $lang = array(
                 "title" => "SUPPORT",
                 "subtitle" => "À distance / sur site / audit",
                 "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Mais comme les entreprises investissent massivement pour créer une densité de réseau plus élevée, ajouter du spectre et mettre à niveau l'équipement actif, elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
-                "content2" => "Nous vous aiderons non seulement à concevoir votre avenir, mais nous le construirons également avec vous de manière tangible et pratique."
+                "content2" => 'Nous vous aiderons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.'
             ),
         ),
         "logistique" => "",
@@ -288,6 +290,7 @@ $lang = array(
         ),
     ),
     "working" => "En cours de déploiement",
+    "mail_cont_ob" => "Demande de service Lce-ci",
     "mail_cont_t1" => "Monsieur (Madame) ",
     "mail_cont_t2" => "Nous vous remercions de l’intérêt que vous portez à notre société. Un numero de ticket vous sera attribute dans les 30 minutes suivant la reception de votre demande que vous pourrez utiliser pour suivre l’evolution du traitement de votre requete. Un de nos experts vous contactera dans les 24 heures pour le traitement.",
     "mail_cont_t3" => "Si vous disposez d’autres questions, nous vous repondrons avec antousiasme",

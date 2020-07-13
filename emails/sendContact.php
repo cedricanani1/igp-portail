@@ -4,7 +4,6 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require_once "../vendor/autoload.php";
-include_once './config/config.php';
 
 class sendContact {
 
@@ -16,6 +15,7 @@ class sendContact {
     private $messageClient;
     private $mailSend;
     private $clientMailSend;
+    private $responseForClient;
     private $mailHeaders;
 
     /**
@@ -26,13 +26,15 @@ class sendContact {
      * @param $subjectClient
      * @param $messageClient
      */
-    public function __construct($nameClient, $emailClient, $telephoneClient, $subjectClient, $messageClient)
+    public function __construct($nameClient, $emailClient, $telephoneClient, $subjectClient, $messageClient, $responseForClient)
     {
         $this->nameClient = $nameClient;
         $this->emailClient = $emailClient;
         $this->telephoneClient = $telephoneClient;
         $this->subjectClient = $subjectClient;
         $this->messageClient = $messageClient;
+        $this->responseForClient = $responseForClient;
+
         $this->mailHeaders = "From: " . $this->nameClient . "<". $this->emailClient .">\r\n";
 
         $this->mailSend = new PHPMailer(true);
@@ -92,6 +94,22 @@ class sendContact {
         $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/Welcome_Email.png', 'welcome');
         $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/white_down.png', 'white');
         $this->clientMailSend->addEmbeddedImage('../assets/img/images_mails/youtube2x.png', 'youtube');
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getResponseForClient()
+    {
+        return $this->responseForClient;
+    }
+
+    /**
+     * @param mixed $responseForClient
+     */
+    public function setResponseForClient($responseForClient)
+    {
+        $this->responseForClient = $responseForClient;
     }
 
     /**
@@ -179,15 +197,15 @@ class sendContact {
         $this->mailSend->FromName = $this->nameClient;
         $this->mailSend->addReplyTo($this->emailClient, $this->getNameClient());
         //L'email qui reçoit
-        $this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
+        /*$this->mailSend->addAddress('hotline@lce-ci.com', 'HOTLINE LCE-CI');
         $this->mailSend->addAddress('assitadiall@gmail.com', 'ASSITA SOW');
         $this->mailSend->addAddress('assitabercy@gmail.com', 'ASSITA SOW');
         $this->mailSend->addAddress('assita.sow@lce-ci.com', 'ASSITA SOW');
         $this->mailSend->addAddress('lonan.coulibaly@lce-ci.com', 'LONAN COULIBALY');
         $this->mailSend->addAddress('olivier.traore@lce-ci.com', 'TRAORE OLIVIER');
         $this->mailSend->addAddress('gnouwietchatr@gmail.com', 'TRAORE OLIVIER');
-        $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');
-        //$this->mailSend->addAddress('diakite.soumaila@lce-ci.com', 'DIAKITE SOUMAILA');
+        $this->mailSend->addAddress('Lonan.coulibaly@gmail.com', 'LONAN COULIBALY');*/
+        $this->mailSend->addAddress('soumdiakite182@gmail.com', 'DIAKITE SOUMAILA');
         $this->mailSend->isHTML(true);
         $this->mailSend->Subject = "Demande de service";
         $this->constructHtmlLCE();
@@ -1000,13 +1018,14 @@ class sendContact {
 <div style=\"line-height: 1.2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14px;\">
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">".$lang['mail_cont_t1']." ,</span></p>
+<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">Monsieur (Madame) ,</span></p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">".$lang['mail_cont_t2']."</span></p>
+<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">
+Nous vous remercions de l’intérêt que vous portez à notre société. Un numero de ticket vous sera attribute dans les 30 minutes suivant la reception de votre demande que vous pourrez utiliser pour suivre l’evolution du traitement de votre requete. Un de nos experts vous contactera dans les 24 heures pour le traitement.</span></p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">".$lang['mail_cont_t3'].".</span></p>
+<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">Si vous disposez d’autres questions, nous vous repondrons avec antousiasme.</span></p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
-<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">".$lang['mail_cont_t4']."</span></p>
+<p style=\"line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;\"><span style=\"font-size: 15px;\">Restant a votre entierre disposition.</span></p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
 <p style=\"line-height: 1.2; word-break: break-word; mso-line-height-alt: NaNpx; margin: 0;\"> </p>
@@ -1050,7 +1069,7 @@ class sendContact {
 <!--[if mso]><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr><td style=\"padding-right: 40px; padding-left: 40px; padding-top: 0px; padding-bottom: 10px; font-family: Tahoma, sans-serif\"><![endif]-->
 <div style=\"color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:2;padding-top:0px;padding-right:40px;padding-bottom:10px;padding-left:40px;\">
 <div style=\"line-height: 2; font-size: 12px; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 24px;\">
-<p style=\"font-size: 14px; line-height: 2; word-break: break-word; text-align: center; mso-line-height-alt: 28px; margin: 0;\"><strong>".$lang['mail_cont_t5']."</strong></p>
+<p style=\"font-size: 14px; line-height: 2; word-break: break-word; text-align: center; mso-line-height-alt: 28px; margin: 0;\"><strong>Nous innovons, vous performez</strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->

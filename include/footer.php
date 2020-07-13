@@ -3,9 +3,7 @@
 ?>
     <footer id="footer" style="background-color:#F36400">
         <div class="footer-top">
-
             <div class="container aos-init aos-animate" data-aos="fade-up">
-
                 <div class="social-links">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -119,7 +117,12 @@
         <div class="container">
             <div class="row" >
                 <div class="col-12" >
-                    <center><p class="crp" ><h5 style="color:white;">© Copyright 2020 LCE-CI</h5></p></center>
+                    <center>
+                        <p class="crp" >
+                            <h5 style="color:white;">© Copyright 2020 LCE-CI</h5>
+                        </p>
+                    </center>
+
                 </div>
             </div>
         </div>

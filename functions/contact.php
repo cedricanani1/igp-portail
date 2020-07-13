@@ -9,8 +9,18 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) 
     $messageClient = $_POST['message'];
 
     include_once '../emails/sendContact.php';
+  /*  include_once '../config/config.php';
 
-    $sendEmailClient = new sendContact($nameClient, $emailClient, $telephoneClient, $subjectClient, $messageClient);
+    $responseForCustomer = [
+        $lang['mail_cont_ob'],
+        $lang['mail_cont_t1'],
+        $lang['mail_cont_t2'],
+        $lang['mail_cont_t3'],
+        $lang['mail_cont_t4'],
+        $lang['mail_cont_t5']
+    ];*/
+
+    $sendEmailClient = new sendContact($nameClient, $emailClient, $telephoneClient, $subjectClient, $messageClient, []);
     $sendEmailClient->sendMailCustomer();
     $sendEmailClient->sendMailLce();
 

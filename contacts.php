@@ -54,6 +54,7 @@ include_once './config/config.php';
                                     <a href="mailto:hotline@lce-ci.com" style="color:white;"><b>hotline@lce-ci.com</b></a>
                                 </div>
                             </li>
+
                         </ul>
                     </div>
                 </div>
@@ -151,29 +152,25 @@ include_once './config/config.php';
                 <li class="ml-auto mt-1" style="right:-32px">
                     <a href="./contacts.php?lang=fr" class="badge badge-light">Fr</a>
                 </li>-->
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="./contacts.php?lang=en" >En</a></li>
-                <li><a href="./contacts.php?lang=fr" >Fr</a></li>
+
             </ul>
         </nav>
-
+        <div class="ml-auto ml-5 mt-2"  style="right:-32px;margin-bottom: auto; ">
+            <span>Fr</span>
+            <a href="./contacts.php?lang=fr"><img src="./assets/img/lang/fr.png"
+                                                  width="26" height="26" alt=""
+                                                  title="<?php echo $lang['fr'];  ?>"
+                ></a>
+            <span>En</span>
+            <a href="./contacts.php?lang=en"><img src="./assets/img/lang/en.png"
+                                                  width="26" height="26" alt=""
+                                                  title="<?php echo $lang['en'];  ?>"
+                ></a>
+        </div>
     </div>
     <!-- <hr style="width:100%;text-align:center"> -->
 </header>
 <!-- END MENU -->
-<nav class="nav-menu d-none d-lg-block">
-    <ul>
-        <li class="ml-auto ml-2 mt-1"  style="right:-32px">
-            <a href="./contacts.php?lang=en" class="badge badge-light">En</a>
-        </li>
-        <li class="ml-auto mt-1" style="right:-32px">
-            <a href="./contacts.php?lang=fr" class="badge badge-light">Fr</a>
-        </li>
-    </ul>
-</nav>
-
-
 <main id="main">
     <section id="contact" class="contact section-bg">
       <div class="container">

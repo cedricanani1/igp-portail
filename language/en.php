@@ -75,6 +75,8 @@ $lang = array(
             "4" => "Blog LCE"
         ),
     ),
+    "fr" => "French",
+    "en" => "English",
     "ask_1" => "Do you have a need?",
     "ask_2" => "Contact us",
     "home" => array(
@@ -186,13 +188,13 @@ $lang = array(
                 "title" => "THINK",
                 "subtitle" => "Design/Engineering",
                 "content1" => "The data and telecommunications landscape continues to evolve at a rapid pace, and competent, strategic and careful planning is necessary to make decisions today that will improve the reliability, efficiency and sustainability of services. This is why our team of experts is responsible for developing plans, innovative, creative and tailored to the needs for the satisfaction of our customers.",
-                "content2" => "For all Network Plan Design work, Contact us here."
+                "content2" => 'For all <b> Design </b> of Network Plan, Contact us <a href="contacts.php"> here </a>.'
             ),
             "build" => array(
                 "title" => "BUILD",
                 "subtitle" => "Rollout/Upgrade/downgrade",
                 "content1" => "The advent of 5G brings massive new opportunities for the telecommunications industry. But as companies invest heavily to create higher network density, add spectrum, and upgrade active equipment, they need to think carefully about the capabilities they should invest in to succeed in the long term.",
-                "content2" => "We will not only help you design your future, but we will also build it with you in a tangible and practical way."
+                "content2" => 'We will not only help you design your future, but we will <b> build it </b> also with you in a tangible and practical way. </p>'
             ),
             "operate" => array(
                 "title" => "OPERATE",
@@ -203,7 +205,7 @@ $lang = array(
                 "title" => "SUPPORT",
                 "subtitle" => "Remote / On site / Audit",
                 "content1" => "The advent of 5G brings massive new opportunities for the telecommunications industry. But as companies invest heavily to create higher network density, add spectrum, and upgrade active equipment, they need to think carefully about the capabilities they should invest in to succeed in the long term.",
-                "content2" => "We will not only help you design your future, but we will also build it with you in a tangible and practical way."
+                "content2" => 'We will not only help you design your future, but we will <b> build it </b> also with you in a tangible and practical way.'
             ),
         ),
         "logistique" => "",
@@ -286,5 +288,11 @@ $lang = array(
             "sms_v" => "Your message has been sent successfully!"
         ),
     ),
-    "working" => "During deployment"
+    "working" => "During deployment",
+    "mail_cont_ob" => "Service request here",
+    "mail_cont_t1" => "Monsieur (Madame)",
+    "mail_cont_t2" => "Thank you for your interest in our company. A ticket number will be assigned to you within 30 minutes of receiving your request, which you can use to monitor the progress of your processing. One of our experts will contact you within 24 hours for processing. ",
+    "mail_cont_t3" => "If you have any further questions, we will answer you with anti-climax",
+    "mail_cont_t4" => "Remaining at your entire disposal.",
+    "mail_cont_t5" => "We innovate, you perform"
 );

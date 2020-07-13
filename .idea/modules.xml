@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file:///media/misterprog-dev/D8E6D295E6D272EC/__PROGRAMMING/LARAVEL/blog/.idea/blog.iml" filepath="/media/misterprog-dev/D8E6D295E6D272EC/__PROGRAMMING/LARAVEL/blog/.idea/blog.iml" />
+      <module fileurl="file:///media/misterprog-dev/D8E6D295E6D272EC/__PROGRAMMING/LARAVEL/easy-tv/.idea/easy-tv.iml" filepath="/media/misterprog-dev/D8E6D295E6D272EC/__PROGRAMMING/LARAVEL/easy-tv/.idea/easy-tv.iml" />
       <module fileurl="file://$PROJECT_DIR$/emails/.idea/emails.iml" filepath="$PROJECT_DIR$/emails/.idea/emails.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lce.iml" filepath="$PROJECT_DIR$/.idea/lce.iml" />
       <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
