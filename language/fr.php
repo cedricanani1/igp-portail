@@ -109,22 +109,24 @@ $lang = array(
                 "subtitle" => "Conception, Réalisation & Maintenance de Sites Web",
                 "content1" => "Créez vous une identité digitale.",
                 "content2" => "Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identité digitale.",
-                "content3" => 'Notre équipe d\'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.',
+                "content3" => 'Notre équipe d\'experts se charge de la gestion de vos sites; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.',
             ),
             "digit_trans" => array(
                 "title" => "transformation digitale",
                 "subtitle" => "Tout en ligne, automatisation et intelligence",
-                "content1" => " La transformation digitale, parfois appelée transformation numérique,
-                    désigne le processus qui consiste, pour une organisation, à intégrer pleinement
-                    les technologies digitales dans l’ensemble de ses activités.",
-                "content2" => "La Locomotive met en place les différentes plateformes pouvant vous rendre plus opérationnel sur le marché.",
+                "content1" => " 
+                    La capacité des organisations à <b> prospérer dans une économie forte </b> et <b> à rester résilientes dans un environnement en évolution rapide </b> dépend de leur
+                possibilité d'exploiter les données pour naviguer dans la transformation. 
+                Nous vous emmenons à une autre dimension de <b> L'AUTOMATISATION OÙ LES DONNÉES PARLENT ET LES HUMAINS AGISSENT</b>.
+                ",
+                "content2" => "",
             ),
             "saas" => array(
                 "title" => "SaaS",
                 "subtitle" => "Nos Logiciels Metier",
                 "content1" => "Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.",
-                "content2" => 'Des logiciels “cle en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc... cliquez<a href=""> ici</a>',
-                "content3" => 'Nous nous occupons de l\'hébergement et la maintenance; choisissez un logiciel <a href="">ici</a>. Faciliter votre travail et augmenter votre revenu',
+                "content2" => 'Des logiciels “cle en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc.',
+                "content3" => 'Nous nous occupons de l\'hébergement et la maintenance; choisissez un logiciel. Faciliter votre travail et augmenter votre revenu',
             ),
             "cloud_c" => array(
                 "img2_t" => "Exporter Vos Données Sur des serveurs distants",
@@ -136,13 +138,14 @@ $lang = array(
             ),
             "enter_net" => array(
                 "title" => "Enterprise networking",
-                "content1" => "Nous vous aidons à déterminer le type de réseau le mieux adapté à vos besoins.
-                    Nos techniciens vous conseillent sur le choix de votre architecture réseau et des équipements : réseau câblé ou réseau sans fil.
-                    Nous assurons la protection de votre réseau afin de sécuriser vos données.",
+                "content1" => "La Locomotive fournit un service E2E de la conception à la maintenance en passant par la mise en œuvre et l'administration.
+                    Les données sont l'atout le plus précieux d'une entreprise. par conséquent, les protéger devient une priorité. Nous offrons une technologie de pointe pour sécuriser
+                    votre business."
             ),
             "bc" => array(
                 "title" => "Business Coach",
-                "content1" => "Notre coaching vous propose un accompagnement personnalisé qui vous aidera à mettre en oeuvre vos projets de transformation et les rendre pérennes.",
+                "content1" => "La Locomotive offre un accompagnement personnalisé qui vous aidera à mettre en œuvre vos projets de transformation.
+                Notre service va du simple support en ligne à une assistance sur site et à la conduite du changement.",
             ),
             "sva" => array(
                 "title" => "Service à Valeur Ajoutée (SVA)",
@@ -152,13 +155,14 @@ $lang = array(
             "iot" => "Internet des objets",
             "iot_rfid" => array(
                 "title" => "RFID",
-                "content1" => "L’identification par radio fréquence est une technologie utilisée pour stocker et récupérer des données à distance en utilisant des balises métalliques, les « Tags RFID » qui permettent egalement d’automatiser certaines procédures, voire, de les simplifier. Elle est utilisée dans de nombreux secteurs d'activité telles que la gestion des stocks, l’identification des personnes, les contrôles d'accès ou encore la traçabilité logistique.",
-                "content2" => "La Locomotive vous aide à implémenter ces différentes solutions."
+                "content1" => "L'identification par radiofréquence est une technologie utilisée pour stocker et récupérer des données à distance via des balises.
+                 La Locomotive propose cette solution pour la gestion des stocks, l'identification des personnes, les contrôles d'accès ou la traçabilité logistique. ",
+                "content2" => ""
             ),
             "iot_nfc" => array(
                 "title" => "NFC",
                 "content1" => "La technologie NFC – Near Field Communication – permet à un smartphone de se connecter et d’échanger des données à courte distance avec un autre dispositif (smartphone, produit…) équipé de la même technologie.",
-                "content2" => "La Locomotive accompagne les entreprises pour le déployement d'objets connectés en privilégiant la protection des données à caractère personnel."
+                "content2" => "La Locomotive propose cette solution pour accompagner les entreprises dans le déploiement d'objets connectés."
             ),
             "ia" => "Intelligence Artificielle",
             "ia_1" => array(
@@ -173,10 +177,11 @@ $lang = array(
             "ia_3" => array(
                 "title" => "Correlation",
                 "content1" => "Au moment des mégadonnées, l'analyse de corrélation a attiré beaucoup d'attention pour sa grande efficacité dans l'analyse des relations inhérentes aux choses, et a été appliquée efficacement à de nombreux domaines, y compris le système de recommandation, l'analyse commerciale, l'administration publique et le diagnostic médical.",
+                "content2" => "La Locomotive supporte ses partenaires avec une solution qui leur permet d'aller droit au but."
             ),
             "ia_4" => array(
                 "title" => "Solution pour call center",
-                "content1" => "Nous déployons des solutions pour call center pour l'automatisation des tâches courantes.",
+                "content1" => "La Locomotive propose des solutions de centre d'appels pour mieux fidéliser vos clients.",
             ),
             "secu" => "Sécurité",
             "secu_1" => "CyberSécurité",
@@ -187,14 +192,14 @@ $lang = array(
             "think" =>  array(
                 "title" => "THINK",
                 "subtitle" => "Ingénierie de conception",
-                "content1" => "Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide et, une planification compétente, stratégique et minutieuse est nécessaire pour prendre aujourd'hui les décisions qui amélioreront la fiabilité, l'efficacité et la pérénnité des services. C'est pourquoi, notre équipe d'experts se charge d'élaborer des plans, innovants, créatifs et adaptés aux besoins pour la satisfaction de nos clients.",
-                "content2" => 'Pour tous travaux de <b>Design</b> de Plan Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
+                "content1" => "Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide. Une planification compétente, stratégique et minutieuse est nécessaire pour prendre les décisions qui amélioreront la fiabilité, l'efficacité et la pérénnité des services. Ainsi, notre équipe d'experts se charge d'élaborer des architectures innovantes, créatives et adaptées aux besoins pour la satisfaction de nos clients.",
+                "content2" => 'Pour tous travaux de <b>Design</b> Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
             ),
             "build" => array(
                 "title" => "BUILD",
-                "subtitle" => "Déploiement / mise à niveau / rétrogradation",
-                "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Mais comme les entreprises investissent massivement pour créer une densité de réseau plus élevée, ajouter du spectre et mettre à niveau l'équipement actif, elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
-                "content2" => 'Nous vous aiderons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.</p>'
+                "subtitle" => "Déploiement / Ajout / régression",
+                "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Les entreprises investissant massivement pour intensifier leurs maillages,  elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
+                "content2" => 'Nous vous supporterons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.</p>'
             ),
             "operate" => array(
                 "title" => "OPERATE",

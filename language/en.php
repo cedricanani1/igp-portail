@@ -83,11 +83,11 @@ $lang = array(
         "f1" => "WE INNOVATE",
         "f2" => "YOU PERFORM",
         "f3" => "Enter a world of Trust !",
-        "f4" => "We provide integrated services ranging from the simple idea of ​​a client to its materialization to become added value. The Locomotive is formed by a group of professionals in the field of telecommunications, IT, HR, Logistics with recognized expertise in these areas of activity ...",
+        "f4" => "We provide integrated services ranging from the simple idea of ​​a client to its materialization to become added value. La Locomotive is formed by a group of professionals in the field of telecommunications, IT, HR, Logistics with proven expertise in these fields of action ...",
         "f5" => "Find out more",
         "f6" => "Clients",
         "f7" => "Our different clients",
-        "cpy_name" => "The Locomotive",
+        "cpy_name" => "La Locomotive",
         "c_1" => "Business to Consumer",
         "c_2" => "Consumers",
         "c_3" => "Mass market",
@@ -106,25 +106,26 @@ $lang = array(
         "it" => array(
             "webmaster" => array(
                 "title" => "WEB Development",
-                "subtitle" => "Website Design, Production & Maintenance",
+                "subtitle" => "Website Design, Administration & Maintenance",
                 "content1" => "Create a digital identity.",
-                "content2" => "Your Customers, Partners and / or Investors will judge you as premium on board through your digital identity.",
-                "content3" => 'Our team of experts is responsible for the management of your websites and internet pages; from its design to its maintenance, La Locomotive supports and advises you. Contact us <a href="clients_project.php">here</a>.',
+                "content2" => "Your Customers, Partners and Investors will judge you as premium on board through your digital identity.",
+                "content3" => 'Our team of experts is responsible for the management of your websites; from its design to its maintenance, La Locomotive supports and advises you. Contact us <a href="clients_project.php">here</a>.',
             ),
             "digit_trans" => array(
                 "title" => "Digital transformation",
                 "subtitle" => "All Online, Automatisation & Intelligence",
-                "content1" => "Digital transformation, sometimes called digital transformation,
-                    refers to the process for an organization to fully integrate
-                    digital technologies in all of its activities.",
-                "content2" => "The Locomotive implements the various platforms that can make you more operational on the market.",
+                "content1" => "
+                The ability for organizations to <b>thrive in a strong economy</b> and <b>stay resilient in rapidly-changing environment</b> depends on their
+                ability to leverage data to navigate the transformation. We take you to the <b>ANALYTIC AUTOMATION THAT LETS DATA SPEAK AND PEOPLE THINK</b>.
+                ",
+                "content2" => "",
             ),
             "saas" => array(
                 "title" => "SaaS",
-                "subtitle" => "Nos Logiciels Metier",
-                "content1" => "We provide you with SaaS software to support you and facilitate your business.",
-                "content2" => 'Turnkey software for <b> call center management </b>, <b> stock management </b>, <b> human resources management </b>, <b> accounting management </b>, etc. click <a href=""> here </a>',
-                "content3" => 'We take care of accommodation and maintenance; choose software <a href=""> here </a>. Make your work easier and increase your income',
+                "subtitle" => "Our Applications and softwares",
+                "content1" => "We provide software in SaaS model to support your business efficiency.",
+                "content2" => '<b> call center management </b>, <b> stock management </b>, <b> human resources management </b>, <b> accounting management </b>, etc.',
+                "content3" => 'We provide E2E solutions from hosting to maintenance. We take care of your pain point, you enjoy your business.',
             ),
             "cloud_c" => array(
                 "img2_t" => "Export Your Data To Remote Servers",
@@ -132,51 +133,54 @@ $lang = array(
                 "title" => "Cloud computing",
                 "content1" => "New form of data storage for the 21st century, Cloud Computing allows companies to buy IT resources under
                     the form of service.",
-                "content2" => "We support our partners in choosing the right cloud provider according to their needs.",
+                "content2" => "La Locomotive supports its partners in choosing the right solution and the right cloud provider according to their needs.",
             ),
             "enter_net" => array(
                 "title" => "Enterprise networking",
-                "content1" => "We help you determine the type of network that best suits your needs.
-                    Our technicians advise you on the choice of your network architecture and equipment: wired network or wireless network.
-                    We protect your network in order to secure your data.",
+                "content1" => "La Locomotive provides E2E service from design to maintenance through implementation and administration.
+                    Data is the most valuable asset of a company. therefore, protecting it become a priority. We offer cutting edge technology to secure
+                    your business.",
             ),
             "bc" => array(
                 "title" => "Business Coach",
-                "content1" => "Our coaching offers personalized support that will help you implement your transformation projects and make them sustainable.",
+                "content1" => "Our coaching offers personalized support that will help you implement your transformation projects and make them sustainable.
+                Our service goes from simple online support to on job training and change management.",
             ),
             "sva" => array(
-                "title" => "Value Added Service (VAD)",
+                "title" => "Value Added Service (VAS)",
                 "content1" => "After completion of the various projects, we support our various
                     customers in the use of different media.",
             ),
             "iot" => "Internet of things",
             "iot_rfid" => array(
                 "title" => "RFID",
-                "content1" => "Radio frequency identification is a technology used to store and retrieve data remotely using metal tags, the \"RFID Tags\" which also automate certain procedures, or even simplify them. It is used in many business sectors such as inventory management, identification of people, access controls or logistical traceability.",
-                "content2" => "The Locomotive helps you to implement these different solutions."
+                "content1" => "Radio frequency identification is a technology used to store and retrieve data remotely through tags.
+                 La Locomotive offers this solution for inventory management, identification of people, access controls or logistical traceability.",
+                "content2" => ""
             ),
             "iot_nfc" => array(
                 "title" => "NFC",
                 "content1" => "NFC - Near Field Communication - technology allows a smartphone to connect and exchange data at a short distance with another device (smartphone, product, etc.) equipped with the same technology.",
-                "content2" => "The Locomotive supports companies for the deployment of connected objects by prioritizing the protection of personal data."
+                "content2" => "La Locomotive offers this solution to support companies for the deployment of connected objects."
             ),
             "ia" => "Artificial intelligence",
             "ia_1" => array(
                 "title" => "Machine learning",
-                "content1" => "The Locomotive develops solutions based on artificial intelligence based on mathematical and statistical approaches which thus optimize your working time and simplify your daily life.",
+                "content1" => "La Locomotive offers solutions based on industry standard.",
             ),
             "ia_2" => array(
                 "title" => "Big data analytics solution",
                 "content1" => "Data is the lifeblood of any business, no matter how small. It has the greatest potential to unlock new opportunities, evolve to new heights and discover the hidden challenges to come. Most organizations understand and do this importance of data collection.",
-                "content2" => "We help our partners to better manage their data by offering them the appropriate data processing solutions."
+                "content2" => "La Locomotive supports its partners to better manage their data by offering them the appropriate data processing solutions."
             ),
             "ia_3" => array(
                 "title" => "Correlation",
                 "content1" => "At the time of big data, correlation analysis has attracted a lot of attention for its high efficiency in the analysis of inherent relationships, and has been applied effectively to many areas, including the recommendation system, analysis commercial, public administration and medical diagnosis.",
+                "content2" => "La Locomotive supports its partners to go straight to the point."
             ),
             "ia_4" => array(
                 "title" => "Call center solution",
-                "content1" => "We deploy call center solutions for the automation of everyday tasks.",
+                "content1" => "La Locomotive offers call center solutions to better retain your customers.",
             ),
             "secu" => "security",
             "secu_1" => "Cybersecurity",
@@ -187,8 +191,8 @@ $lang = array(
             "think" =>  array(
                 "title" => "THINK",
                 "subtitle" => "Design/Engineering",
-                "content1" => "The data and telecommunications landscape continues to evolve at a rapid pace, and competent, strategic and careful planning is necessary to make decisions today that will improve the reliability, efficiency and sustainability of services. This is why our team of experts is responsible for developing plans, innovative, creative and tailored to the needs for the satisfaction of our customers.",
-                "content2" => 'For all <b> Design </b> of Network Plan, Contact us <a href="contacts.php"> here </a>.'
+                "content1" => "The data and telecommunications landscape continues to evolve at a rapid pace. Competent, strategic and careful planning is necessary to make decisions that will improve the reliability, efficiency and sustainability of services. Our team of experts develops innovative, creative architectures that are tailored made to meet customer needs. ",
+                "content2" => 'For all <b> Networks Design </b> work, Contact us <a href="contacts.php"> here </a>.'
             ),
             "build" => array(
                 "title" => "BUILD",
@@ -221,30 +225,31 @@ $lang = array(
     "about" => array(
         "lce" =>  array(
             "f1_t" => "About us",
-            "f1" => "The Locomotive Sarl is a service company. Created in 2018, It supports companies to increase their productivity, profitability and competitiveness by providing innovative solutions and products. Our experienced team is at your disposal, analyzes and offers tailor-made solutions to meet the needs of our customers and / or partners.",
+            "f1" => "La Locomotive Sarl is a service company. Created in 2018, We work together with our customers and partners to boost their productivity, profitability and competitiveness by providing innovative solutions and products. Our experienced team is at your disposal, ready to analyze and offer tailor-made solutions to meet the needs of our customers and partners.",
             "f2_t" => "Our mission",
             "f2" => '<span style = "font-weight: bold"> Innovate </span> the service area for
-                    <span style = "font-weight: bold"> less effort </span>, a
+                    <span style = "font-weight: bold"> less effort </span>, 
                     <span style = "font-weight: bold"> better productivity </span> and <span style = "font-weight: bold"> more profitability </span>.',
             "f3_t" => "Our vision",
             "f3" => '<span style = "font-weight: bold"> Remain a leader </span> in the field of services in Africa by
                     providing <span style = "font-weight: bold"> solutions </span>
                     which guarantee an entire <span style = "font-weight: bold">
-                        satisfaction </span> to our customers and partners and their
-                    allow <span style = "font-weight: bold"> to hit their target </span>
+                        satisfaction </span> to our customers and partners which
+                    allow them <span style = "font-weight: bold"> to hit their target </span>
                     all over the planet in
                     a click.',
             "f4_t" => "Our values",
-            "f4_s1" => '<li data-aos = "fade-up" class = "text-left" style = "font-size: 28px;" > <u> Customer-oriented approach </u> </li> <br>
-                    <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> We respect the uniqueness of each client, whatever their size, needs and budget. So we bring him tailor-made solutions. </p>
+            "f4_s1" => '<li data-aos = "fade-up" class = "text-left" style = "font-size: 28px;" > <u> Customer-centric </u> </li> <br>
+                    <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> We respect the uniqueness of each client, whatever their size, needs and budget. We bring tailor-made solutions to our customers and partners. </p>
                     <li data-aos = "fade-up" class = "text-left" style = "font-size: 28px;" > <u> Agility & Innovation </u> </li>
-                    <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> Think and get out of the box while fixing your free spirit. We are also looking for undisclosed possibilities, hidden in feedback and suggestions from customers and co-workers to make products that identify with any actor in the value chain. </p>
+                    <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> Think and get out of the box while fixing your free spirit. We are also looking for undisclosed possibilities, hidden in feedback and suggestions from customers and co-workers to make products that fit with any actor in the value chain. </p>
 
-                    <li data-aos = "fade-up" class = "text-left" style = "font-size: 28px;" > <u> Transparent working culture </u> </li>
+                    <li data-aos = "fade-up" class = "text-left" style = "font-size: 28px;" > <u> Transparency culture </u> </li>
                     <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> Our words and actions always go hand in hand. We firmly maintain transparency to be correct from an ethical, legal and social point of view. </p>
 
                     <li data-aos = "fade-up" class = "text-left" style = "font-size: 28px;" > <u> Result oriented </u> </li>
-                    <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> By setting clear objectives, defining priorities, organizing resources and rigorously monitoring the evolution of each project. </p>',
+                    <p data-aos = "fade-up" class = "text-left" style = "font-size: 24px"> By setting clear objectives, defining priorities, organizing resources and rigorously monitoring the evolution of each project. 
+                    and make sure we meet expected output. </p>',
         ),
         "partners" =>  array(
             "f1_t" => "Find partners", // Find a partner

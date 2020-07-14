@@ -784,6 +784,9 @@ include_once './config/config.php';
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     <?php echo $lang['solutions']['it']['ia_3']['content1']; ?>
                 </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    <?php echo $lang['solutions']['it']['ia_3']['content2']; ?>
+                </p>
 
             </div>
         </div>

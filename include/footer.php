@@ -150,8 +150,8 @@
                             var $this = $(this);
                             $this.typed({
                             strings: $this.attr('data-elements').split(','),
-                            typeSpeed: 250, // typing speed
-                            backDelay: 3500 // pause before backspacing
+                            typeSpeed: 90, // typing speed
+                            backDelay: 1000 // pause before backspacing
                             });
                         });
       /*  $("#lang").bind('change', function(){

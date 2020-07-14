@@ -155,14 +155,14 @@ include_once './config/config.php';
 
             </ul>
         </nav>
-        <div class="ml-auto ml-5 mt-2"  style="right:-32px">
+        <div class="ml-auto ml-5 mt-2"  style="right:-32px;">
             <span>Fr</span>
             <a href="./home.php?lang=fr"><img src="./assets/img/lang/fr.png"
                                                   width="26" height="26" alt=""
                                                   title="<?php echo $lang['fr'];  ?>"
                 ></a>
             <span>En</span>
-            <a href="./home.php?lang=en"><img src="./assets/img/lang/en.png"
+            <a href="./home.php?lang=en"><img class="img img-fluid" src="./assets/img/lang/en.png"
                                                   width="26" height="26" alt=""
                                                   title="<?php echo $lang['en'];  ?>"
                 ></a>
@@ -178,24 +178,17 @@ include_once './config/config.php';
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <!--    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>-->
         
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/home/test1.jpg" style="width:73.718vw; height:32.379vw" class="img-responsive d-block w-100" alt="Slide 1">
-                <div class="carousel-caption d-md-block">
-                    <h3><span class="kouame" data-elements="<?php echo $lang['home']['f1']; ?> >>> <?php echo $lang['home']['f2']; ?>" style="font-weight: bold; font-size: 2.4vw; color:white"></span></h3>
-                </div>
-                
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/home/iot.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
+                <img src="assets/img/home/digital.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="<?php echo $lang['home']['f2']; ?> Le Futur c'est Maintenant !"></b>
+                        <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
                     </h1>
                 </div>
             </div>
@@ -203,15 +196,21 @@ include_once './config/config.php';
                 <img src="assets/img/home/performance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
+                        <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
                     </h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/home/digital.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
+                <img src="assets/img/home/test1.jpg" style="width:73.718vw; height:32.379vw" class="img-responsive d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-md-block">
+                    <h3><span class="kouame" data-elements="<?php echo $lang['home']['f1']; ?> >>> <?php echo $lang['home']['f2']; ?>" style="font-weight: bold; font-size: 2.4vw; color:white"></span></h3>
+                </div>
+            </div>
+       <!--     <div class="carousel-item">
+                <img src="assets/img/home/iot.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
+                      <b class="kouame" data-elements="<?php /*echo $lang['home']['f2']; */?> Le Futur c'est Maintenant !"></b>
                     </h1>
                 </div>
             </div>
@@ -219,7 +218,7 @@ include_once './config/config.php';
                 <img src="assets/img/home/blockchain.jpeg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
+                      <b class="kouame" data-elements="<?php /*echo $lang['home']['f3']; */?>"></b>
                     </h1>
                 </div>
             </div>
@@ -227,10 +226,10 @@ include_once './config/config.php';
                 <img src="assets/img/home/croissance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                      <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
+                      <b class="kouame" data-elements="<?php /*echo $lang['home']['f3']; */?>"></b>
                     </h1>
                 </div>
-            </div>
+            </div>-->
           <!--  <div class="carousel-item">
                 <img src="assets/img/home/img4.jpg" width="1366" height="600" class="d-block w-100" alt="Slide 3">
                 <div class="carousel-caption d-none d-md-block" style="font-weight: bold;">
