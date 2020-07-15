@@ -83,15 +83,16 @@ $lang = array(
         "f1" => "NOUS INNOVONS",
         "f2" => "VOUS PERFORMEZ",
         "f3" => "Entrez dans un monde de Confiance !",
+        "f3_" => "Booster votre efficacité !",
         "f4" => "Nous fournissons des services intégrés allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée. La Locomotive est formée par un groupe de professionnels dans le domaine des télécommunications, IT, RH, Logistique ayant une expertise reconnue dans ces perimètres d’activités...",
         "f5" => "En savoir plus",
-        "f6" => "Clients",
+        "f6" => "Nos Clients",
         "f7" => "Nos différents clients",
         "cpy_name" => "La locomotive",
         "c_1" => "D'entreprise à consommateur",
         "c_2" => "Les consommateurs",
         "c_3" => "Marché de masse",
-        "c_4" => "Business to Business",
+        "c_4" => "Entreprise à entreprise",
         "c_5" => "Carrier",
         "c_6" => "PME",
         "c_7" => "Secteur tertiaire",
@@ -148,9 +149,13 @@ $lang = array(
                 Notre service va du simple support en ligne à une assistance sur site et à la conduite du changement.",
             ),
             "sva" => array(
-                "title" => "Service à Valeur Ajoutée (SVA)",
-                "content1" => "Après réalisation des différents projets, nous accompagnons nos différents
-                    clients dans l'utilisation des différents supports.",
+                "title" => "Des services à valeur ajoutée (VAS) pour la loyauté de nos clients",
+                "content1" => "<ul>
+                                <li> Solutions de services à valeur ajoutée sur une plateforme unifiée.
+                                </li>
+                                <li> Offre une modularité et une évolutivité élevées, pour une intégration facile dans n'importe quelle topographie de réseau. </li>
+                                <li> Peut fonctionner sous Linux ou Windows OS et peut être installé dans le cloud, sur une machine virtuelle ou sur site </li>
+                            </ul>",
             ),
             "iot" => "Internet des objets",
             "iot_rfid" => array(
@@ -203,14 +208,22 @@ $lang = array(
             ),
             "operate" => array(
                 "title" => "OPERATE",
-                "subtitle" => "NOC/FLM/NPM",
-                "content1" => "La gestion de l'expertise technique en interne peut être difficile, en particulier lorsque l'information réside dans de multiples outils de surveillance. Chez la LCE, nous vous aidons à centraliser toutes vos performances, la configuration et l'état de santé de tous les actifs informatiques tout en identifiant en permanence les opportunités d'optimisation.",
+                "subtitle" => "NOC/FLM/NPM/SPMS/SPHS/QA-EHS",
+                "content1" => "
+                    Notre connaissance poussée du domaine nous permet d’offrir les meilleures performances en terme d’exploitation et de maintenance des réseaux télécoms des plus simples aux plus complexes. 
+                    Les méthodes et outils mis en oeuvre pour l'exploitation, l'administration, la maintenance  vous donneront une très nette visibilité pour planifier l'évolution des réseaux
+                     en respectant les contraintes de coût, de qualité et de matériel. 
+                     Nos services comprennent <b>l’assistance</b>, <b>le mode agent</b> et <b>l’externalisation</b> couvrant les domaines 
+                     <b>Front Office, Back Office, Field Maintenance, l’optimisation, la qualite de service, la gestion des spares et bien sûr la gestion de projets</b>. 
+                     Tout ceci a travers le <b>Digital</b> qui est concu par nos soins pour vous apporter la performance.
+                ",
             ),
             "support" => array(
                 "title" => "SUPPORT",
-                "subtitle" => "À distance / sur site / audit",
-                "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Mais comme les entreprises investissent massivement pour créer une densité de réseau plus élevée, ajouter du spectre et mettre à niveau l'équipement actif, elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
-                "content2" => 'Nous vous aiderons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.'
+                "subtitle" => "À distance / sur site / audit et conseils / Consultance",
+                "content1" => "La Locomotive offre des services supports pour permettre à votre business de rester connecté en plein temps. 
+                                Notre assistance se fait en ligne et sur site. Nos solutions supports couvrent 
+                            le Call Center, le TAC (Technical Assistance Center), l’Audit et conseil, l’aide à la réalisation et la Consultance."
             ),
         ),
         "logistique" => "",
@@ -254,11 +267,15 @@ $lang = array(
         ),
         "partners" =>  array(
             "f1_t" => "Trouver des partenaires", //Find a partner
-            "f1" => "Notre stratégie consiste à déployer une équipe qui effectuera des enquêtes dans différents domaines d'activité en Côte d'Ivoire dans le but de les organiser en pool sur notre plateforme.",
+            "f1" => "Notre stratégie consiste à créer de la visibilité sur les secteurs d'activités génératrices
+             de revenue mais qui peinent à décoller pour être restés méconnues des potentiels clients.",
             "f2_t" => "Devenir partenaire", // Become a partner
-            "f2" => "A travers notre plateforme, nous élaborons des spécifiques pour nos partners en fonction de leurs domaines, afin de faire la promotion de leurs images.",
+            "f2" => "A travers notre plateforme, nous regroupons nos partenaires par famille
+               d'activité et ressortons les inter-dépendances pour leur permettre d'établir des rélations
+                d'affaire.",
             "f3_t" => "Programmes partenaires", //Partner programs
-            "f3" => "Notre objectif consiste à créer une fusion avec nos parténaires afin de les aider à mieux s'orienter dans le domaine des services, en répondant à toute les questions qu'il faut au bon moment.",
+            "f3" => "Vous recherchez un partenaire ou vous voulez devenir un partenaire, nous nous
+              chargeons de vous connecter. Des experts vous attendent pour vous apporter toutes assistances.",
         ),
         "carreers" =>  array(
             "title_f" => "CARRIÈRE",
@@ -266,8 +283,8 @@ $lang = array(
             "f2" => "Sélectionner le poste",
             "f3" => "Votre nom",
             "f4" => "Votre téléphone",
-            "f4" => "CV",
-            "f5" => "Lettre de motivation",
+            "f5" => "CV",
+            "f6" => "Lettre de motivation",
             "btn" => "Envoyer"
         ),
         "gallery" =>  array(
@@ -293,6 +310,17 @@ $lang = array(
             "btn" => "Envoyer",
             "sms_v" => "Votre message a été envoyé avec succès !"
         ),
+    ),
+    "proj" =>  array(
+        "f1" => "Vous avez une demande ou un besoin, nos experts sont à votre écoute.",
+        "f2" => "Entrer votre nom",
+        "f3" => "Entrer votre prénom",
+        "f4" => "Entrer votre email",
+        "f5" => "Entrer votre téléphone",
+        "f6" => "Sujet",
+        "f7" => "Quels détails sur votre demande",
+        "btn" => "Soumettre",
+        "sms_v" => "Votre message a été envoyé avec succès !"
     ),
     "working" => "En cours de déploiement",
     "mail_cont_ob" => "Demande de service Lce-ci",

@@ -155,19 +155,21 @@ include_once './config/config.php';
 
             </ul>
         </nav>
-        <div class="ml-auto ml-5 mt-2"  style="right:-32px">
-            <span>Fr</span>
-            <a href="./solutions.php?lang=fr"><img src="./assets/img/lang/fr.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['fr'];  ?>"
-                ></a>
-            <span>En</span>
-            <a href="./solutions.php?lang=en"><img src="./assets/img/lang/en.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['en'];  ?>"
-                ></a>
+        <div id="lang" class="ml-auto ml-5 mt-2"  style="right:-32px">
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">Fr <a href="./solutions.php?lang=fr">
+                    <img src="./assets/img/lang/fr.png" width="26" height="26" alt=""
+                         title="<?php echo $lang['fr'];  ?>"
+                    ></a>
+            </span>
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">
+                 En<a href="./solutions.php?lang=en"><img src="./assets/img/lang/en.png"
+                                                         width="26" height="26" alt=""
+                                                         title="<?php echo $lang['en'];  ?>"
+                    ></a>
+            </span>
         </div>
     </div>
+
     <!-- <hr style="width:100%;text-align:center"> -->
 </header>
 <!-- END MENU -->
@@ -570,17 +572,20 @@ include_once './config/config.php';
 
 <div id="carouselExampleCaptions14" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions14" data-slide-to="0" class="active"></li>
-     
+        <li data-target="#carouselVas" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselVas" data-slide-to="1"></li>
+        <li data-target="#carouselVas" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="assets/img/services/sav.png" style="height: 300px;" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p></p>
+            <img src="assets/img/services/VAS1.jpg" style="height: 300px;" class="d-block w-100" alt="...">
         </div>
-    </div>
+        <div class="carousel-item">
+            <img src="assets/img/services/VAS2.jpg" style="height: 300px;" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/img/services/VAS3.png" style="height: 300px;" class="d-block w-100" alt="...">
+        </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleCaptions14" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -155,19 +155,21 @@ include_once './config/config.php';
 
             </ul>
         </nav>
-        <div class="ml-auto ml-5 mt-2"  style="right:-32px;">
-            <span>Fr</span>
-            <a href="./home.php?lang=fr"><img src="./assets/img/lang/fr.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['fr'];  ?>"
-                ></a>
-            <span>En</span>
-            <a href="./home.php?lang=en"><img class="img img-fluid" src="./assets/img/lang/en.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['en'];  ?>"
-                ></a>
+        <div id="lang" class="ml-auto ml-5 mt-2"  style="right:-32px">
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">Fr <a href="./home.php?lang=fr">
+                    <img src="./assets/img/lang/fr.png" width="26" height="26" alt=""
+                         title="<?php echo $lang['fr'];  ?>"
+                    ></a>
+            </span>
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">
+                 En<a href="./home.php?lang=en"><img src="./assets/img/lang/en.png"
+                                                         width="26" height="26" alt=""
+                                                         title="<?php echo $lang['en'];  ?>"
+                    ></a>
+            </span>
         </div>
     </div>
+
     <!-- <hr style="width:100%;text-align:center"> -->
 </header>
 <!-- END MENU -->
@@ -177,7 +179,7 @@ include_once './config/config.php';
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <!--    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>-->
@@ -196,7 +198,7 @@ include_once './config/config.php';
                 <img src="assets/img/home/performance.jpg" style="width:73.718vw; height:32.379vw" class="d-block w-100" alt="Slide 2">
                 <div class="carousel-caption d-md-block" style="font-weight: bold;">
                     <h1 style="font-size: 2.4vw;">
-                        <b class="kouame" data-elements="<?php echo $lang['home']['f3']; ?>"></b>
+                        <b class="kouame" data-elements="<?php echo $lang['home']['f3_']; ?>"></b>
                     </h1>
                 </div>
             </div>
@@ -279,7 +281,7 @@ include_once './config/config.php';
     </div>
     <div class="row content">
         <div class="col-md-4 icon-box aos-init">
-            <a href="solutions#soft_dev">
+            <a href="#">
                 <div class="card">
                     <img src="assets/img/home/DevOps.jpg" width="420" height="281"
                         class="card-img-top" alt="Image cyber-security">
@@ -292,7 +294,7 @@ include_once './config/config.php';
             </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <a href="solutions#security">
+            <a href="#">
                 <div class="card">
                     <img src="assets/img/services/cyber_secu.jpg" width="420" height="281"
                         class="card-img-top" alt="Image cyber-security">
@@ -305,7 +307,7 @@ include_once './config/config.php';
             </a>
         </div>
         <div class="col-md-4 icon-box aos-init">
-            <a href="solutions#security">
+            <a href="#">
                 <div class="card">
                     <img src="assets/img/services/VIDEOSURVEILLANCE.jpg" width="420" height="281"
                         class="card-img-top" alt="Image vidéo surveillance">
@@ -445,9 +447,6 @@ include_once './config/config.php';
 
         <div class="section-title">
             <h2 data-aos="fade-in" class="aos-init aos-animate"><?php echo $lang['home']['f6']; ?></h2>
-            <p data-aos="fade-in" class="aos-init aos-animate">
-                <?php echo $lang['home']['f7']; ?>
-            </p>
         </div>
 
         <div class="row no-gutters">

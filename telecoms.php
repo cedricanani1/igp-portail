@@ -155,19 +155,21 @@ include_once './config/config.php';
 
             </ul>
         </nav>
-        <div class="ml-auto ml-5 mt-2"  style="right:-32px">
-            <span>Fr</span>
-            <a href="./telecoms.php?lang=fr"><img src="./assets/img/lang/fr.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['fr'];  ?>"
-                ></a>
-            <span>En</span>
-            <a href="./telecoms.php?lang=en"><img src="./assets/img/lang/en.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['en'];  ?>"
-                ></a>
+        <div id="lang" class="ml-auto ml-5 mt-2"  style="right:-32px">
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">Fr <a href="./telecoms.php?lang=fr">
+                    <img src="./assets/img/lang/fr.png" width="26" height="26" alt=""
+                           title="<?php echo $lang['fr'];  ?>"
+                    ></a>
+            </span>
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">
+                 En<a href="./telecoms.php?lang=en"><img src="./assets/img/lang/en.png"
+                                                       width="26" height="26" alt=""
+                                                       title="<?php echo $lang['en'];  ?>"
+                     ></a>
+            </span>
         </div>
     </div>
+
     <!-- <hr style="width:100%;text-align:center"> -->
 </header>
 <!-- END MENU -->
@@ -204,7 +206,44 @@ include_once './config/config.php';
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
-                <img src="assets/img/telecoms/build.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">
+                <div id="carouselBuild" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselBuild" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselBuild" data-slide-to="1"></li>
+                        <li data-target="#carouselBuild" data-slide-to="2"></li>
+                        <li data-target="#carouselBuild" data-slide-to="3"></li>
+                        <li data-target="#carouselBuild" data-slide-to="4"></li>
+                        <li data-target="#carouselBuild" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/telecoms/Build2.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Build5.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Build1.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Build3.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Build4.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Build6.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselBuild" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselBuild" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
                 <h3><?php echo $lang['solutions']['telecoms']['build']['subtitle']; ?></h3>
@@ -225,10 +264,43 @@ include_once './config/config.php';
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
-                <img src="assets/img/telecoms/build.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">
+                <div id="carouselOperate" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselOperate" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselOperate" data-slide-to="1"></li>
+                        <li data-target="#carouselOperate" data-slide-to="2"></li>
+                        <li data-target="#carouselOperate" data-slide-to="3"></li>
+                        <li data-target="#carouselOperate" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/telecoms/operate5.jpeg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/operate4.png" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/operate2.png" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/operate1.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/operate3.png" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselOperate" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselOperate" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>NOC/FLM/NPM</h3>
+                <h3> <?php echo $lang['solutions']['telecoms']['operate']['subtitle']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     <?php echo $lang['solutions']['telecoms']['operate']['content1']; ?>
                 </p>
@@ -244,15 +316,45 @@ include_once './config/config.php';
         </div>
         <div class="row content" id="">
             <div class="col-md-5 aos-init" data-aos="fade-right">
-                <img src="assets/img/telecoms/build.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">
+                <div id="carouselSupport" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselSupport" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselSupport" data-slide-to="1"></li>
+                        <li data-target="#carouselSupport" data-slide-to="2"></li>
+                        <li data-target="#carouselSupport" data-slide-to="3"></li>
+                        <li data-target="#carouselSupport" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/telecoms/Support2.gif" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Support5.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Support4.png" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Support3.png" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/telecoms/Support1.jpg" style="height: 330px;" class="d-block w-100 img-fluid img-thumbnail" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselSupport" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselSupport" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
-                <h3>Remote/On site/Audit</h3>
+                <h3> <?php echo $lang['solutions']['telecoms']['support']['subtitle']; ?></h3>
                 <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
                     <?php echo $lang['solutions']['telecoms']['support']['content1']; ?>
-                </p>
-                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
-                    <?php echo $lang['solutions']['telecoms']['support']['content2']; ?>
                 </p>
             </div>
 

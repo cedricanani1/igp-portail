@@ -155,19 +155,21 @@ include_once './config/config.php';
 
             </ul>
         </nav>
-        <div class="ml-auto ml-5 mt-2"  style="right:-32px">
-            <span>Fr</span>
-            <a href="./confirm_contacts.php?lang=fr"><img src="./assets/img/lang/fr.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['fr'];  ?>"
-                ></a>
-            <span>En</span>
-            <a href="./confirm_contacts.php?lang=en"><img src="./assets/img/lang/en.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['en'];  ?>"
-                ></a>
+        <div id="lang" class="ml-auto ml-5 mt-2"  style="right:-32px">
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">Fr <a href="./confirm_contacts.php?lang=fr">
+                    <img src="./assets/img/lang/fr.png" width="26" height="26" alt=""
+                         title="<?php echo $lang['fr'];  ?>"
+                    ></a>
+            </span>
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">
+                 En<a href="./confirm_contacts.php?lang=en"><img src="./assets/img/lang/en.png"
+                                                         width="26" height="26" alt=""
+                                                         title="<?php echo $lang['en'];  ?>"
+                    ></a>
+            </span>
         </div>
     </div>
+
     <!-- <hr style="width:100%;text-align:center"> -->
 </header>
 <!-- END MENU -->

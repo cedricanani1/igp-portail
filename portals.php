@@ -155,19 +155,21 @@ include_once './config/config.php';
 
             </ul>
         </nav>
-        <div class="ml-auto ml-5 mt-2"  style="right:-32px">
-            <span>Fr</span>
-            <a href="./portals.php?lang=fr"><img src="./assets/img/lang/fr.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['fr'];  ?>"
-                ></a>
-            <span>En</span>
-            <a href="./portals.php?lang=en"><img src="./assets/img/lang/en.png"
-                                                  width="26" height="26" alt=""
-                                                  title="<?php echo $lang['en'];  ?>"
-                ></a>
+        <div id="lang" class="ml-auto ml-5 mt-2"  style="right:-32px">
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">Fr <a href="./portals.php?lang=fr">
+                    <img src="./assets/img/lang/fr.png" width="26" height="26" alt=""
+                         title="<?php echo $lang['fr'];  ?>"
+                    ></a>
+            </span>
+            <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">
+                 En<a href="./portals.php?lang=en"><img src="./assets/img/lang/en.png"
+                                                         width="26" height="26" alt=""
+                                                         title="<?php echo $lang['en'];  ?>"
+                    ></a>
+            </span>
         </div>
     </div>
+
     <!-- <hr style="width:100%;text-align:center"> -->
 </header>
 <!-- END MENU -->
@@ -191,7 +193,7 @@ include_once './config/config.php';
                         >
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
-                                    <label for="poste"><?php echo $lang['about']['carreers']['f1']; ?></label>
+                                    <label for="poste"><?php echo $lang['about']['carreers']['f2']; ?></label>
                                     <select class="form-control form-control" name="poste" id="poste" required>
                                         <option value="Développeur">Développeur</option>
                                         <option value="Comptable">Comptable</option>
@@ -202,7 +204,7 @@ include_once './config/config.php';
 
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
-                                    <label for="name"><?php echo $lang['about']['carreers']['f2']; ?></label>
+                                    <label for="name"><?php echo $lang['about']['carreers']['f3']; ?></label>
                                     <input type="text" name="name" class="form-control" id="name" data-rule="required"
                                            data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                     <div class="validate"></div>
@@ -210,7 +212,7 @@ include_once './config/config.php';
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
-                                    <label for="phone"><?php echo $lang['about']['carreers']['f3']; ?></label>
+                                    <label for="phone"><?php echo $lang['about']['carreers']['f4']; ?></label>
                                     <input type="text" name="phone" class="form-control" id="phone" data-rule="required"
                                            data-rule="minlen:8" data-msg="Please enter at least 8 chars" />
                                     <div class="validate"></div>
@@ -218,7 +220,7 @@ include_once './config/config.php';
                             </div>
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
-                                    <label for="cv"><?php echo $lang['about']['carreers']['f4']; ?></label>
+                                    <label for="cv"><?php echo $lang['about']['carreers']['f5']; ?></label>
                                     <input type="hidden" name="MAX_FILE_SIZE_CV" value="1000000" />
                                     <input type="file" name="cvfile"/>
                                     <div class="validate"></div>
@@ -227,7 +229,7 @@ include_once './config/config.php';
                             <div class="form-row">
                                 <div class="col-md-12 form-group">
                                     <input type="hidden" name="MAX_FILE_SIZE_LM" value="1000000" />
-                                    <label for="lm"><?php echo $lang['about']['carreers']['f5']; ?></label>
+                                    <label for="lm"><?php echo $lang['about']['carreers']['f6']; ?></label>
                                     <input type="file" id="lm" class="form-control-file" name="lmfile">
                                     <div class="validate"></div>
                                 </div>

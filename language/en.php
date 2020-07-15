@@ -83,9 +83,10 @@ $lang = array(
         "f1" => "WE INNOVATE",
         "f2" => "YOU PERFORM",
         "f3" => "Enter a world of Trust !",
+        "f3_" => "Boost your efficiency!",
         "f4" => "We provide integrated services ranging from the simple idea of ​​a client to its materialization to become added value. La Locomotive is formed by a group of professionals in the field of telecommunications, IT, HR, Logistics with proven expertise in these fields of action ...",
         "f5" => "Find out more",
-        "f6" => "Clients",
+        "f6" => "Our Clients",
         "f7" => "Our different clients",
         "cpy_name" => "La Locomotive",
         "c_1" => "Business to Consumer",
@@ -147,9 +148,13 @@ $lang = array(
                 Our service goes from simple online support to on job training and change management.",
             ),
             "sva" => array(
-                "title" => "Value Added Service (VAS)",
-                "content1" => "After completion of the various projects, we support our various
-                    customers in the use of different media.",
+                "title" => "Building Loyalty with Value-Added Services",
+                "content1" => "<ul>
+    <li>Value Added Services solutions over a single platform.
+    </li>
+    <li>Offers high modularity and scalability, for easy integration into any network topography.</li>
+    <li> Can run on Linux or Windows OS and can be installed in the Cloud, on a virtual Machine or on-premises</li>
+</ul> ",
             ),
             "iot" => "Internet of things",
             "iot_rfid" => array(
@@ -202,15 +207,21 @@ $lang = array(
             ),
             "operate" => array(
                 "title" => "OPERATE",
-                "subtitle" => "NOC/FLM/NPM",
-                "content1" => "Managing technical expertise internally can be difficult, particularly when the information resides in multiple monitoring tools. At LCE, we help you centralize all your performance, configuration and health status of all IT assets while constantly identifying opportunities for optimization.",
+                "subtitle" => "NOC/FLM/NPM/SPMS/SPHS/QA-EHS",
+                "content1" => "
+                    Our in-depth knowledge of the field allows us to offer the best performance in terms of operation and maintenance of telecom networks from the simplest to the most complex. The methods and tools used for operation, administration, maintenance will give you a very clear visibility to plan the evolution of the networks while respecting the constraints of cost, quality and material.
+                    Our services include <b> support </b>, <b> agent mode </b> and <b> outsourcing </b> covering areas of
+                     <b> Front Office, Back Office, Field Maintenance, optimization, quality of service, spare parts management</b> and of course <b>project management </b>.
+                     All this through <b> Digital tools </b> which are designed by <b>La Locomotive </b>to bring you value creation.
+                ",
             ),
             "support" => array(
                 "title" => "SUPPORT",
-                "subtitle" => "Remote / On site / Audit",
-                "content1" => "The advent of 5G brings massive new opportunities for the telecommunications industry. But as companies invest heavily to create higher network density, add spectrum, and upgrade active equipment, they need to think carefully about the capabilities they should invest in to succeed in the long term.",
-                "content2" => 'We will not only help you design your future, but we will <b> build it </b> also with you in a tangible and practical way.'
-            ),
+                "subtitle" => "Remote / On site / Audit / Consulting",
+                "content1" => "La Locomotive offers support services to allow your business to stay connected full time.
+                                Our assistance is done online and on site. Our support solutions cover
+                            Call Center, TAC (Technical Assistance Center), Audit and Consulting, Implementation Assistance and Consultancy."
+                ),
         ),
         "logistique" => "",
         "btp" => "",
@@ -253,20 +264,26 @@ $lang = array(
         ),
         "partners" =>  array(
             "f1_t" => "Find partners", // Find a partner
-            "f1" => "Our strategy is to deploy a team that will carry out surveys in different areas of activity in Côte d'Ivoire in order to organize them into a pool on our platform.",
+            "f1" => "
+            Our strategy consists in creating visibility on the sectors creating value
+              but struggling to take off for remaining unknown to potential customers.
+            ",
             "f2_t" => "Become a partner", // Become a partner
-            "f2" => "Through our platform, we develop specifics for our partners according to their fields, in order to promote their images.",
+            "f2" => "Through our platform, we group our partners by family
+               of activity and bring out the dependencies to allow them to establish business relationships
+             .",
             "f3_t" => "Partner programs", // Partner programs
-            "f3" => "Our goal is to create a merger with our partners in order to help them better orient themselves in the field of services, by answering all the questions we need at the right time."
+            "f3" => "You are in a need of a partner or you want to become a partner, we take care of connecting you. 
+                    Our experts are ready to provide you with all assistances."
         ),
         "carreers" =>  array(
             "title_f" => "CAREER",
             "f1" => "Join us",
-            "f2" => "Select station",
+            "f2" => "Your profile",
             "f3" => "Your name",
             "f4" => "Your phone",
-            "f4" => "CV",
-            "f5" => "Cover letter",
+            "f5" => "CV",
+            "f6" => "Cover letter",
             "btn" => "Send"
         ),
         "gallery" =>  array(
@@ -293,7 +310,18 @@ $lang = array(
             "sms_v" => "Your message has been sent successfully!"
         ),
     ),
-    "working" => "During deployment",
+    "proj" => array (
+        "f1" => "You have a request or a need, our experts are at your disposal.",
+        "f2" => "Enter your name",
+        "f3" => "Enter your first name",
+        "f4" => "Enter your email",
+        "f5" => "Enter your phone",
+        "f6" => "Subject",
+        "f7" => "Your request",
+        "btn" => "Submit",
+        "sms_v" => "Your message has been sent successfully!"
+    ),
+    "working" => "Building",
     "mail_cont_ob" => "Service request here",
     "mail_cont_t1" => "Monsieur (Madame)",
     "mail_cont_t2" => "Thank you for your interest in our company. A ticket number will be assigned to you within 30 minutes of receiving your request, which you can use to monitor the progress of your processing. One of our experts will contact you within 24 hours for processing. ",
