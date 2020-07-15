@@ -74,17 +74,18 @@ include_once './config/config.php';
                     <ul>
                         <li class="drop-down"><a href=""><?php echo $lang['header']['h2_']['1']; ?></a>
                             <ul>
-                                <li><a href="solutions.php#digit_trans"><?php echo $lang['header']['h2_']['1_']['1']; ?></a></li>
+                                <li><a href="solutions.php#soft_dev"><?php echo $lang['header']['h2_']['1_']['1']; ?></a></li>
                                 <li><a href="solutions.php#digit_trans"><?php echo $lang['header']['h2_']['1_']['2']; ?></a></li>
 
-                                <li><a href="solutions.php#soft_dev"><?php echo $lang['header']['h2_']['1_']['3']; ?></a></li>
+                                <li><a href="solutions.php#soft_dev_1"><?php echo $lang['header']['h2_']['1_']['3']; ?></a></li>
                                 <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['4']; ?></a></li>
                                 <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['5']; ?></a></li>
-                                <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['6']; ?></a></li>
+                                <!--            <li><a href="solutions.php#services_"><?php /*echo $lang['header']['h2_']['1_']['6']; */?></a></li>-->
                                 <li><a href="solutions.php#security"><?php echo $lang['header']['h2_']['1_']['7']; ?></a></li>
                                 <li><a href="solutions.php#iot"><?php echo $lang['header']['h2_']['1_']['8']; ?></a></li>
+                                <!--
                                 <li><a href="solutions.php#ai"><?php echo $lang['header']['h2_']['1_']['9']; ?></a></li>
-                                <!--<li><a href="solutions.php#consumptiom">Consumption</a>-->
+                                <li><a href="solutions.php#consumptiom">Consumption</a>-->
                             </ul>
                         </li>
                         <li class="drop-down"><a href=""><?php echo $lang['header']['h2_']['2']; ?></a>
@@ -163,8 +164,8 @@ include_once './config/config.php';
             </span>
             <span style="background-color:transparent; font-size: 17px;" class="badge badge-light">
                  En<a href="./clients_project.php?lang=en"><img src="./assets/img/lang/en.png"
-                                                         width="26" height="26" alt=""
-                                                         title="<?php echo $lang['en'];  ?>"
+                                                          width="26" height="26" alt=""
+                                                          title="<?php echo $lang['en'];  ?>"
                     ></a>
             </span>
         </div>

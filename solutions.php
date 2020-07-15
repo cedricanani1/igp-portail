@@ -74,17 +74,18 @@ include_once './config/config.php';
                     <ul>
                         <li class="drop-down"><a href=""><?php echo $lang['header']['h2_']['1']; ?></a>
                             <ul>
-                                <li><a href="solutions.php#digit_trans"><?php echo $lang['header']['h2_']['1_']['1']; ?></a></li>
+                                <li><a href="solutions.php#soft_dev"><?php echo $lang['header']['h2_']['1_']['1']; ?></a></li>
                                 <li><a href="solutions.php#digit_trans"><?php echo $lang['header']['h2_']['1_']['2']; ?></a></li>
 
-                                <li><a href="solutions.php#soft_dev"><?php echo $lang['header']['h2_']['1_']['3']; ?></a></li>
+                                <li><a href="solutions.php#soft_dev_1"><?php echo $lang['header']['h2_']['1_']['3']; ?></a></li>
                                 <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['4']; ?></a></li>
                                 <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['5']; ?></a></li>
-                                <li><a href="solutions.php#services_"><?php echo $lang['header']['h2_']['1_']['6']; ?></a></li>
+                    <!--            <li><a href="solutions.php#services_"><?php /*echo $lang['header']['h2_']['1_']['6']; */?></a></li>-->
                                 <li><a href="solutions.php#security"><?php echo $lang['header']['h2_']['1_']['7']; ?></a></li>
                                 <li><a href="solutions.php#iot"><?php echo $lang['header']['h2_']['1_']['8']; ?></a></li>
+                                <!--
                                 <li><a href="solutions.php#ai"><?php echo $lang['header']['h2_']['1_']['9']; ?></a></li>
-                                <!--<li><a href="solutions.php#consumptiom">Consumption</a>-->
+                                <li><a href="solutions.php#consumptiom">Consumption</a>-->
                             </ul>
                         </li>
                         <li class="drop-down"><a href=""><?php echo $lang['header']['h2_']['2']; ?></a>
@@ -598,9 +599,9 @@ include_once './config/config.php';
     </div>
 <!-- <img src="assets/img/services/business_coaching.jpg" alt="Image business_coaching" class="img-fluid img-thumbnail">-->
 </div>
-            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br> <br> <br> <br>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left">
                 <h3><?php echo $lang['solutions']['it']['sva']['title']; ?></h3>
-                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                <p>
                     <?php echo $lang['solutions']['it']['sva']['content1']; ?>
                 </p>
             </div>

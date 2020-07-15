@@ -149,12 +149,12 @@ $lang = array(
             ),
             "sva" => array(
                 "title" => "Building Loyalty with Value-Added Services",
-                "content1" => "<ul>
-    <li>Value Added Services solutions over a single platform.
-    </li>
-    <li>Offers high modularity and scalability, for easy integration into any network topography.</li>
-    <li> Can run on Linux or Windows OS and can be installed in the Cloud, on a virtual Machine or on-premises</li>
-</ul> ",
+                "content1" => "<ul style=\"color: black; font-size: 18px;text-align: justify;line-height: 35px;\">
+                            <li>Value Added Services solutions over a single platform.
+                            </li>
+                            <li>Offers high modularity and scalability, for easy integration into any network topography.</li>
+                            <li> Can run on Linux or Windows OS and can be installed in the Cloud, on a virtual Machine or on-premises</li>
+                        </ul> ",
             ),
             "iot" => "Internet of things",
             "iot_rfid" => array(

@@ -150,7 +150,7 @@ $lang = array(
             ),
             "sva" => array(
                 "title" => "Des services à valeur ajoutée (VAS) pour la loyauté de nos clients",
-                "content1" => "<ul>
+                "content1" => "<ul style=\"color: black; font-size: 18px;text-align: justify;line-height: 35px;\">
                                 <li> Solutions de services à valeur ajoutée sur une plateforme unifiée.
                                 </li>
                                 <li> Offre une modularité et une évolutivité élevées, pour une intégration facile dans n'importe quelle topographie de réseau. </li>
