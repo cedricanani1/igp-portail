@@ -126,22 +126,23 @@ $lang = array(
                 "title" => "SaaS",
                 "subtitle" => "Nos Logiciels Metier",
                 "content1" => "Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.",
-                "content2" => 'Des logiciels “cle en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc.',
-                "content3" => 'Nous nous occupons de l\'hébergement et la maintenance; choisissez un logiciel. Faciliter votre travail et augmenter votre revenu',
+                "content2" => 'Des logiciels “clé en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc.',
+                "content3" => 'Faites votre demande et nous nous occupons de l\'hébergement, l\'administration et la maintenance pour 
+                            faciliter votre travail et augmenter votre revenu.',
             ),
             "cloud_c" => array(
                 "img2_t" => "Exporter Vos Données Sur des serveurs distants",
                 "img2_text" => "Nous Vous accompagnons, Conseillons.",
                 "title" => "Cloud computing",
-                "content1" => "Nouvelle forme de stockage de données du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous
+                "content1" => "Nouvelle vision IT du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous
                     la forme de service.",
                 "content2" => "Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.",
             ),
             "enter_net" => array(
                 "title" => "Enterprise networking",
                 "content1" => "La Locomotive fournit un service E2E de la conception à la maintenance en passant par la mise en œuvre et l'administration.
-                    Les données sont l'atout le plus précieux d'une entreprise. par conséquent, les protéger devient une priorité. Nous offrons une technologie de pointe pour sécuriser
-                    votre business."
+                    Les données sont l'atout le plus précieux d'une entreprise. Par conséquent, les protéger devient une priorité. Nous offrons des technologies de dernière génération pour la sécurité de
+                  	votre business."
             ),
             "bc" => array(
                 "title" => "Business Coach",
@@ -149,12 +150,12 @@ $lang = array(
                 Notre service va du simple support en ligne à une assistance sur site et à la conduite du changement.",
             ),
             "sva" => array(
-                "title" => "Des services à valeur ajoutée (VAS) pour la loyauté de nos clients",
+                "title" => "Des services à valeur ajoutée <b>(VAS)</b> pour la loyauté de vos clients",
                 "content1" => "<ul style=\"color: black; font-size: 18px;text-align: justify;line-height: 35px;\">
                                 <li> Solutions de services à valeur ajoutée sur une plateforme unifiée.
                                 </li>
                                 <li> Offre une modularité et une évolutivité élevées, pour une intégration facile dans n'importe quelle topographie de réseau. </li>
-                                <li> Peut fonctionner sous Linux ou Windows OS et peut être installé dans le cloud, sur une machine virtuelle ou sur site </li>
+                                <li> Peut fonctionner sous Linux ou Windows OS et peut être installé dans le cloud, sur une machine virtuelle ou sur une workstation en local. </li>
                             </ul>",
             ),
             "iot" => "Internet des objets",
@@ -172,12 +173,13 @@ $lang = array(
             "ia" => "Intelligence Artificielle",
             "ia_1" => array(
                 "title" => "Machine learning",
-                "content1" => "La Locomotive développe des solutions basées sur l'intelligence artificielle fonde sur des approches mathématiques et statistiques qui optimise ainsi votre temps de travail et simplifie votre quotidien.",
+                "content1" => "La Locomotive développe des solutions basées sur l'intelligence artificielle fondée sur des approches mathématiques et statistiques qui optimisent ainsi votre temps de travail et simplifient votre quotidien.",
             ),
             "ia_2" => array(
                 "title" => "Big data analytics solution",
-                "content1" => "Les données sont l'élément vital de toute entreprise, quelle que soit leur taille. Il détient le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations comprennent cette importance de la collecte de données et le font.",
-                "content2" => "Nous aidons nos partenaires à mieux gérer leurs données en leur proposant les solutions adéquates de traitement de données."
+                "content1" => "Les données sont l'élément vital de toute entreprise, quelle que soit leur taille.
+                    Elles détiennent le plus grand potentiel pour débloquer de nouvelles opportunités, évoluer vers de nouveaux sommets et découvrir les défis cachés à venir. La plupart des organisations comprennent cette importance de la collecte de données et le font.",
+                "content2" => "La Locomotive supporte ses partenaires à mieux gérer leurs données en leur proposant les solutions adéquates de traitement de données."
             ),
             "ia_3" => array(
                 "title" => "Correlation",
@@ -195,27 +197,27 @@ $lang = array(
         ),
         "telecoms" =>  array(
             "think" =>  array(
-                "title" => "THINK",
+                "title" => "CONCEPTION",
                 "subtitle" => "Ingénierie de conception",
                 "content1" => "Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide. Une planification compétente, stratégique et minutieuse est nécessaire pour prendre les décisions qui amélioreront la fiabilité, l'efficacité et la pérénnité des services. Ainsi, notre équipe d'experts se charge d'élaborer des architectures innovantes, créatives et adaptées aux besoins pour la satisfaction de nos clients.",
                 "content2" => 'Pour tous travaux de <b>Design</b> Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
             ),
             "build" => array(
-                "title" => "BUILD",
+                "title" => "REALISATION",
                 "subtitle" => "Déploiement / Ajout / régression",
                 "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Les entreprises investissant massivement pour intensifier leurs maillages,  elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
-                "content2" => 'Nous vous supporterons non seulement à concevoir votre avenir, mais nous le <b>construirons</b> également avec vous de manière tangible et pratique.</p>'
+                "content2" => 'Nous vous supportons non seulement à concevoir votre avenir, mais nous le <b>construisons</b> également avec vous de manière tangible et pratique.</p>'
             ),
             "operate" => array(
-                "title" => "OPERATE",
+                "title" => "EXPLOITATION ET MAINTENANCE",
                 "subtitle" => "NOC/FLM/NPM/SPMS/SPHS/QA-EHS",
                 "content1" => "
-                    Notre connaissance poussée du domaine nous permet d’offrir les meilleures performances en terme d’exploitation et de maintenance des réseaux télécoms des plus simples aux plus complexes. 
+                    Notre connaissance poussée du domaine du managed services nous permet d’offrir les meilleures performances en terme d’exploitation et de maintenance des réseaux télécoms des plus simples aux plus complexes. 
                     Les méthodes et outils mis en oeuvre pour l'exploitation, l'administration, la maintenance  vous donneront une très nette visibilité pour planifier l'évolution des réseaux
                      en respectant les contraintes de coût, de qualité et de matériel. 
                      Nos services comprennent <b>l’assistance</b>, <b>le mode agent</b> et <b>l’externalisation</b> couvrant les domaines 
-                     <b>Front Office, Back Office, Field Maintenance, l’optimisation, la qualite de service, la gestion des spares et bien sûr la gestion de projets</b>. 
-                     Tout ceci a travers le <b>Digital</b> qui est concu par nos soins pour vous apporter la performance.
+                     <b>Front Office, Back Office, Field Maintenance, l’optimisation, le drive test, la qualite de service, la gestion des spares et bien sûr la gestion de projets</b>. 
+                     Tout ceci a travers le <b>Digital</b> qui est conçu par nos soins pour vous apporter la performance.
                 ",
             ),
             "support" => array(
@@ -254,7 +256,7 @@ $lang = array(
                     un clic.',
             "f4_t" => "Nos Valeurs",
             "f4_s1" => '<li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>Approche orientée client</u></li> <br>
-                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Nous respectons le caractère unique de chaque client quel que soit sa taille, ses besoins et son budget.  Ainsi nous lui apportons des solutions sur mesure.</p>
+                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Nous respectons le caractère unique de chaque client quelque soit sa taille, ses besoins et son budget.  Ainsi nous lui apportons des solutions sur mesure.</p>
                     <li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>Agilite & Innovation </u>  </li>
                     <p data-aos="fade-up" class="text-left" style="font-size:24px"> Penser et  faire sortir de la boîte en fixant l\'esprit libre. Nous cherchons également des possibilités non révélées, cachées dans des réactions et des suggestions des clients et des collègues de travail pour en faire des produits qui s’identifient a tout acteur de la chaine des valeurs.</p>
 
@@ -301,7 +303,7 @@ $lang = array(
         "contact" =>  array(
             "f1" => "CONTACTS",
             "f2" => "Soumettez nous votre besoin, notre équipe se chargera de traiter votre demande dans un bref delai.",
-            "f3" => "Non loin du CHU d'Angré",
+            "f3" => "Côte d'Ivoire, Cocody nouveau CHU Angré, Résidence Bissié 1er Etage Appt D",
             "f4" => "Entrer votre nom",
             "f5" => "Entrer votre email",
             "f6" => "Téléphone",

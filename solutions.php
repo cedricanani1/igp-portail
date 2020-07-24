@@ -44,7 +44,14 @@ include_once './config/config.php';
                                     <i class="fa fa-phone" style="color:rgb(92, 63, 63);"></i>
                                     <a href="#" style="color:rgb(255, 255, 255);">
                                         <b>+225 07 96 96 72</b>
-                                        <b> </b>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="phone">
+                                    <i class="fa fa-phone" style="color:rgb(92, 63, 63);"></i>
+                                    <a href="#" style="color:rgb(255, 255, 255);">
+                                        <b>+225 46 66 77 66 </b>
                                     </a>
                                 </div>
                             </li>
@@ -313,22 +320,14 @@ include_once './config/config.php';
                 
                 <div id="carouselExampleCaptions1" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions1" data-slide-to="0"  class="active"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="2"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="3"></li>
                         <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
-                        <li data-target="#carouselExampleCaptions1" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/img/services/digital-transformation.png" height="300px" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
                             <img src="assets/img/services/transformation-digitale.jpg" height="300px" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5></h5>

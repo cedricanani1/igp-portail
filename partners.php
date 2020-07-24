@@ -44,7 +44,14 @@ include_once './config/config.php';
                                     <i class="fa fa-phone" style="color:rgb(92, 63, 63);"></i>
                                     <a href="#" style="color:rgb(255, 255, 255);">
                                         <b>+225 07 96 96 72</b>
-                                        <b> </b>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="phone">
+                                    <i class="fa fa-phone" style="color:rgb(92, 63, 63);"></i>
+                                    <a href="#" style="color:rgb(255, 255, 255);">
+                                        <b>+225 46 66 77 66 </b>
                                     </a>
                                 </div>
                             </li>
