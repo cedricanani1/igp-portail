@@ -204,7 +204,7 @@ include_once './config/config.php';
                                     <label for="poste"><?php echo $lang['about']['carreers']['f2']; ?></label>
                                     <select class="form-control form-control" name="poste" id="poste" required>
                                         <option value="Développeur">Développeur</option>
-                                        <option value="Comptable">Comptable</option>
+                                        <option value="Autre poste">Autre poste</option>
                                     </select>
                                     <div class="validate"></div>
                                 </div>
