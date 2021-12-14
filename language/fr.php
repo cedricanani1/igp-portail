@@ -3,34 +3,36 @@
 $lang = array(
     "header" => array(
         "h1" => "Accueil",
-        "h2" => "Nos solutions",
+        "h2" => "Nos services",
         "h2_" => array(
             "1" => "IT",
             "1_" => array(
-                "1" => "Web master",
-                "2" => "transformation digitale",
-                "3" => "SaaS",
-                "4" => "Cloud computing",
-                "5" => "réseautage d'entreprise",
-                "6" => "Business intelligence",
-                "7" => "Cyber sécurité",
-                "8" => "IOT/IA",
-                "9" => "Réalité Virtuelle",
+                "1" => "",
+                "2" => "",
+                "3" => "",
+                "4" => "",
+                "5" => "",
+                "6" => "",
+                "7" => "",
+                "8" => "",
+                "9" => "",
             ),
             "2" =>  "Télécom",
             "2_" => array(
-                "1" => "think",
-                "2" => "build",
-                "3" => "operate",
-                "4" => "support",
-                "5" => "develop"
+                "1" => "",
+                "2" => "",
+                "3" => "",
+                "4" => "",
+                "5" => ""
             ),
-            "3" => "Logistique",
-            "4" => "BTP",
-            "5" => "Formations",
+            "3" => "",
+            "4" => "",
+            "5" => "",
         ),
-        "h3" => "Boutique",
-        "h4" => "A propos",
+        "h3" => "Nos réalisations",
+        "h4" => "A propos nous",
+        
+   
         "h4_" => array(
             "1" => "LCE",
             "2" => "Partenaires",
@@ -38,6 +40,7 @@ $lang = array(
             "4" => "Galerie",
             "5" => "Contacter nous"
         ),
+        "h5" => "Nous contacter",
     ),
     "footer" => array(
         "1" => "Accès rapide",
@@ -84,11 +87,11 @@ $lang = array(
         "f2" => "VOUS PERFORMEZ",
         "f3" => "Entrez dans un monde de Confiance !",
         "f3_" => "Booster votre efficacité !",
-        "f4" => "Nous fournissons des services intégrés allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée. La Locomotive est formée par un groupe de professionnels dans le domaine des télécommunications, IT, RH, Logistique ayant une expertise reconnue dans ces perimètres d’activités...",
-        "f5" => "En savoir plus",
+        "f4" => "la description de l'entreprise",
+        "f5" => "En savoir plus sur Industrie Metallurgie",
         "f6" => "Nos Clients",
         "f7" => "Nos différents clients",
-        "cpy_name" => "La locomotive",
+        "cpy_name" => "INDUSTRIE METALLURGIE",
         "c_1" => "D'entreprise à consommateur",
         "c_2" => "Les consommateurs",
         "c_3" => "Marché de masse",
@@ -105,58 +108,66 @@ $lang = array(
     ),
     "solutions" => array(
         "it" => array(
-            "webmaster" => array(
-                "title" => "WEB MASTER",
+            "orange" => array(
+                "title" => "ORANGE CI",
                 "subtitle" => "Conception, Réalisation & Maintenance de Sites Web",
-                "content1" => "Créez vous une identité digitale.",
-                "content2" => "Vos Clients, Partenaires et/ou Investisseurs, vous jugeront de prime à bord à travers votre identité digitale.",
-                "content3" => 'Notre équipe d\'experts se charge de la gestion de vos sites; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.',
+                "content1" => "Diffusion de spots publicitaire (Radio & Griots).",
+                "content2" => "Mise à disposition Logistique.",
+                "content3" => 'Mise à disposition RH.', 
+                "content4" => 'Action de campagnes & sensibilisations.',
+                "content5" => 'Action de promotion produits & services.',
             ),
-            "digit_trans" => array(
-                "title" => "transformation digitale",
+            "nsia" => array(
+                "title" => "Nsia Assurance",
                 "subtitle" => "Tout en ligne, automatisation et intelligence",
-                "content1" => " 
-                    La capacité des organisations à <b> prospérer dans une économie forte </b> et <b> à rester résilientes dans un environnement en évolution rapide </b> dépend de leur
-                possibilité d'exploiter les données pour naviguer dans la transformation. 
-                Nous vous emmenons à une autre dimension de <b> L'AUTOMATISATION OÙ LES DONNÉES PARLENT ET LES HUMAINS AGISSENT</b>.
-                ",
-                "content2" => "",
+                "content1" => "Mise à disposition Logistique  ",
+                "content2" => "Action de campagnes & sensibilisations",
             ),
-            "saas" => array(
-                "title" => "SaaS",
+            "sib" => array(
+                "title" => "SIB",
                 "subtitle" => "Nos Logiciels Metier",
-                "content1" => "Nous mettons à votre disposition des logiciels SaaS pour vous accompagner et faciliter votre metier.",
-                "content2" => 'Des logiciels “clé en main” de <b>gestion de call-center</b>, <b>gestion de stock</b>, <b>gestion des ressources humaines</b>, <b>gestion de comptabilité</b>, etc.',
-                "content3" => 'Faites votre demande et nous nous occupons de l\'hébergement, l\'administration et la maintenance pour 
-                            faciliter votre travail et augmenter votre revenu.',
+                "content1" => "Dispositif Supplémentaire d'accueil.",
+                "content2" => 'Campagne Outdoor ',
+                "content3" => 'Mise à disposition logistique',
+                "content4" => 'Mise à disposition matériel phytosanitaire',
             ),
-            "cloud_c" => array(
+            "oneci" => array(
                 "img2_t" => "Exporter Vos Données Sur des serveurs distants",
                 "img2_text" => "Nous Vous accompagnons, Conseillons.",
-                "title" => "Cloud computing",
-                "content1" => "Nouvelle vision IT du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous
-                    la forme de service.",
-                "content2" => "Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.",
+                "title" => "ONECI",
+                "content1" => "Action de campagnes & sensibilisations",
+                "content2" => "Formation cadre et Comité de direction.",
+                "content3" => "Mise à disposition logistique.",  
+                "content4" => "Mise à disposition RH.",
             ),
-            "enter_net" => array(
-                "title" => "Enterprise networking",
-                "content1" => "La Locomotive fournit un service E2E de la conception à la maintenance en passant par la mise en œuvre et l'administration.
-                    Les données sont l'atout le plus précieux d'une entreprise. Par conséquent, les protéger devient une priorité. Nous offrons des technologies de dernière génération pour la sécurité de
-                  	votre business."
+            "sodeci" => array(
+                "title" => "SODECI",
+                "content1" => "Déploiement Logistique",
+                "content2" => "Mise à disposition dispositif sanitaire"
             ),
-            "bc" => array(
-                "title" => "Business Coach",
-                "content1" => "La Locomotive offre un accompagnement personnalisé qui vous aidera à mettre en œuvre vos projets de transformation.
-                Notre service va du simple support en ligne à une assistance sur site et à la conduite du changement.",
+            "cnps" => array(
+                "title" => "CNPS",
+                "content1" => "Confection de Flyers.",
+                "content2" => "Mise à disposition Logistique.",
             ),
-            "sva" => array(
-                "title" => "Des services à valeur ajoutée <b>(VAS)</b> pour la loyauté de vos clients",
-                "content1" => "<ul style=\"color: black; font-size: 18px;text-align: justify;line-height: 35px;\">
-                                <li> Solutions de services à valeur ajoutée sur une plateforme unifiée.
-                                </li>
-                                <li> Offre une modularité et une évolutivité élevées, pour une intégration facile dans n'importe quelle topographie de réseau. </li>
-                                <li> Peut fonctionner sous Linux ou Windows OS et peut être installé dans le cloud, sur une machine virtuelle ou sur une workstation en local. </li>
-                            </ul>",
+            "cie" => array(
+                "title" => "CIE",
+                "content1" => "Action de campagnes & sensibilisations",
+                "content2" => "Mise à disposition logistique",
+                "content3" => "Mise à disposition RH",
+            ),
+            "jumia" => array(
+                "title" => "JUMIA",
+                "content1" => "Mise à disposition panneaux publicitaire",
+            ),
+            "mtn" => array(
+                "title" => "MTN",
+                "content1" => "Mise à disposition panneaux publicitaire",
+            ),
+            "boa" => array(
+                "title" => "BOA",
+                "content1" => "Diffusion de spots publicitaire (Radio & Griots)",
+                "content2" => "Formation cadre et Comité de direction",
             ),
             "iot" => "Internet des objets",
             "iot_rfid" => array(
@@ -242,30 +253,19 @@ $lang = array(
         "lce" =>  array(
             "f1_t" => "Qui sommes nous ?",
             "f1" => "La Locomotive Sarl est une entreprise de services. Créée en 2018, Elle accompagne les entreprises à accroitre leurs productivité, rentabilité et compétitivité en mettant à disposition des solutions et produits innovants. Notre équipe expérimentée se tient à votre écoute, analyse et propose des solutions sur mesure pour satisfaire aux besoins de nos clients et/ou partenaires.",
-            "f2_t" => "Notre Mission",
-            "f2" => '<span style=" font-weight: bold">Innover</span> le domaine du service pour
-                    <span style=" font-weight: bold">moins d’efforts</span>, une
-                    <span style=" font-weight: bold">meilleure productivité</span> et <span style=" font-weight: bold">plus de rentabilité</span>.',
-            "f3_t" => "Notre Vision",
-            "f3" => '<span style=" font-weight: bold">Rester leader</span> dans le domaine des services en Afrique en
-                    apportant des <span style=" font-weight: bold">solutions</span>
-                    qui garantissent une <span style=" font-weight: bold">entière
-                        satisfaction</span> à nos clients et partenaires et leur
-                    permettent de <span style=" font-weight: bold">toucher leur cible</span>
-                    sur toute la planète en
-                    un clic.',
-            "f4_t" => "Nos Valeurs",
-            "f4_s1" => '<li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>Approche orientée client</u></li> <br>
-                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Nous respectons le caractère unique de chaque client quelque soit sa taille, ses besoins et son budget.  Ainsi nous lui apportons des solutions sur mesure.</p>
-                    <li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>Agilite & Innovation </u>  </li>
-                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Penser et  faire sortir de la boîte en fixant l\'esprit libre. Nous cherchons également des possibilités non révélées, cachées dans des réactions et des suggestions des clients et des collègues de travail pour en faire des produits qui s’identifient a tout acteur de la chaine des valeurs.</p>
-
-                    <li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>Culture de travail dans la transparence </u>  </li>
-                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> Nos paroles et nos actions vont toujours main dans la main. Nous préservons fermement  la transparence pour être correcte du point de vue éthique, juridique et social.</p>
-
-                    <li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>Orienté résultat </u>   </li>
-                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> En fixant des objectifs clairs, définir les priorités, organiser les ressources et le suivi rigoureux de l’évolution de chaque projet.</p>
-',
+            "f2_t" => "Esprit d’équipe ",
+            "f2" => '<span style=" font-weight: bold">’’Tous ensemble, on y arrive assurément’’ </span>
+                    Cette valeur se traduit à IGP par la générosité dans le savoir-faire et le savoir-être.; 
+                    mettre les performances individuelles au service du collectif pour délivrer de la valeur pour nos partenaires.
+                    ',
+            "f3_t" => "Discipline",
+            "f3" => '<span style=" font-weight: bold">’’Être sérieux sans se prendre au sérieux’’ </span>
+                        La Discipline consiste pour nous en une rigueur exceptionnelle dans l’exécution de nos missions et
+                        au respect de nos engagements vis-à-vis des partenaires et des collaborateurs.
+                    ',
+            "f4_t" => "Performance",
+            "f4_s1" => '<li data-aos="fade-up" class="text-left" style="font-size: 28px;" > <u>’’Créer durablement de la valeur pour nos partenaires et notre équipe’’</u></li> <br>
+                    <p data-aos="fade-up" class="text-left" style="font-size:24px"> La Performance exprime notre engagement à satisfaire toutes les attentes des partenaires. Elle se fonde sur l’effet multiplicateur de nos Activités et de Compétences de notre Equipe</p>',
         ),
         "partners" =>  array(
             "f1_t" => "Trouver des partenaires", //Find a partner

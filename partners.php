@@ -13,8 +13,8 @@ include_once './config/config.php';
     <meta content="" name="keywords">
     <meta charset="utf-8">
     <!-- Favicons -->
-    <link href="./assets/img/fac.ico" rel="icon">
-    <link href="./assets/img/fac.ico" rel="apple-touch-icon">
+    <link href="igpicon.jpg" rel="icon">
+    <link href="igpicon.jpg" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">

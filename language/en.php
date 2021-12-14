@@ -9,7 +9,7 @@ $lang = array(
             "1_" => array(
                 "1" => "Web development",
                 "2" => "digital transformation",
-                "3" => "SaaS",
+                "3" => "sib",
                 "4" => "Cloud computing",
                 "5" => "Enterprise networking",
                 "6" => "Business intelligence",
@@ -105,14 +105,14 @@ $lang = array(
     ),
     "solutions" => array(
         "it" => array(
-            "webmaster" => array(
+            "orange" => array(
                 "title" => "WEB Development",
                 "subtitle" => "Website Design, Administration & Maintenance",
                 "content1" => "Create a digital identity.",
                 "content2" => "Your Customers, Partners and Investors will judge you as premium on board through your digital identity.",
                 "content3" => 'Our team of experts is responsible for the management of your websites; from its design to its maintenance, La Locomotive supports and advises you. Contact us <a href="clients_project.php">here</a>.',
             ),
-            "digit_trans" => array(
+            "nsia" => array(
                 "title" => "Digital transformation",
                 "subtitle" => "All Online, Automatisation & Intelligence",
                 "content1" => "
@@ -121,14 +121,14 @@ $lang = array(
                 ",
                 "content2" => "",
             ),
-            "saas" => array(
-                "title" => "SaaS",
+            "sib" => array(
+                "title" => "sib",
                 "subtitle" => "Our Applications and softwares",
-                "content1" => "We provide software in SaaS model to support your business efficiency.",
+                "content1" => "We provide software in sib model to support your business efficiency.",
                 "content2" => '<b> call center management </b>, <b> stock management </b>, <b> human resources management </b>, <b> accounting management </b>, etc.',
                 "content3" => 'We provide E2E solutions from hosting to maintenance. We take care of your pain point, you enjoy your business.',
             ),
-            "cloud_c" => array(
+            "oneci" => array(
                 "img2_t" => "Export Your Data To Remote Servers",
                 "img2_text" => "We support You, We advise.",
                 "title" => "Cloud computing",
@@ -136,7 +136,7 @@ $lang = array(
                     the form of service.",
                 "content2" => "La Locomotive supports its partners in choosing the right solution and the right cloud provider according to their needs.",
             ),
-            "enter_net" => array(
+            "sodeci" => array(
                 "title" => "Enterprise networking",
                 "content1" => "La Locomotive provides E2E service from design to maintenance through implementation and administration.
                     Data is the most valuable asset of a company. therefore, protecting it become a priority. We offer cutting edge technology to secure
@@ -147,7 +147,7 @@ $lang = array(
                 "content1" => "Our coaching offers personalized support that will help you implement your transformation projects and make them sustainable.
                 Our service goes from simple online support to on job training and change management.",
             ),
-            "sva" => array(
+            "jumia" => array(
                 "title" => "Building Loyalty with Value-Added Services",
                 "content1" => "<ul style=\"color: black; font-size: 18px;text-align: justify;line-height: 35px;\">
                             <li>Value Added Services solutions over a single platform.
